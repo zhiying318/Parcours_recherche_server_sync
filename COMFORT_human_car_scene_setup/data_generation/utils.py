@@ -596,11 +596,19 @@ def render_human_cardinal_scene_config(
     bpy.ops.wm.open_mainfile(filepath=BASE_SCENE)
 
     # see what objects in the scene after loading the base scene, for debugging
+    # for obj in bpy.data.objects:
+    #     print(f"Object in scene: {obj.name} | type: {obj.type}", file=sys.stderr)
     for obj in bpy.data.objects:
-        print(f"Object in scene: {obj.name} | type: {obj.type}", file=sys.stderr)
+        # print(f"LIGHT: {obj.name}, type={obj.data.type}, location={obj.location}, energy={obj.data.energy}", file=sys.stderr)
+        if obj.type == 'LIGHT' and obj.data.type == 'SUN': # remove the 侧面光
+            bpy.data.objects.remove(obj, do_unlink=True)
+            continue
+        if obj.type =="LIGHT" and obj.name == 'Lamp_Back':
+            # print(f"LIGHT: {obj.name}, type={obj.data.type}, location={obj.location}, energy={obj.data.energy}", file=sys.stderr)
+            bpy.data.objects[obj.name].data.energy = 50.0 # initially set to 39.27, increase a bit for better lighting; (Keylight ;s energy is 78.54)
 
     # replace "Ground": build my own infinity cove to have better control over the background and shadows; 
-    create_infinity_cove(size=25.0, wall_height=15.0, curve_radius=4.0, base_color=(0.6, 0.6, 0.6, 1.0))
+    create_infinity_cove(size=30.0, wall_height=20.0, curve_radius=5.0, segments=32, base_color=(0.5, 0.5, 0.5, 1.0))
 
     # OBJECTS_TO_DELETE = ["Ground"]  
     # for name in OBJECTS_TO_DELETE:
@@ -615,11 +623,11 @@ def render_human_cardinal_scene_config(
     #         if mat and mat.use_nodes:
     #             for node in mat.node_tree.nodes:
     #                 if node.type == 'BSDF_PRINCIPLED':
-    #                     node.inputs["Base Color"].default_value = (0.6, 0.6, 0.6, 1.0)
+    #                     node.inputs["Base Color"].default_value = (0.5, 0.5, 0.5, 1.0)
     #                 elif node.type == 'BSDF_DIFFUSE':
-    #                     node.inputs["Color"].default_value = (0.6, 0.6, 0.6, 1.0)
+    #                     node.inputs["Color"].default_value = (0.5, 0.5, 0.5, 1.0)
     #                 elif node.type == 'EMISSION':
-    #                     node.inputs["Color"].default_value = (0.6, 0.6, 0.6, 1.0)
+    #                     node.inputs["Color"].default_value = (0.5, 0.5, 0.5, 1.0)
 
 
     # Set world background color the same:
@@ -627,7 +635,7 @@ def render_human_cardinal_scene_config(
     world.use_nodes = True
     bg_node = world.node_tree.nodes.get("Background")
     if bg_node:
-        bg_node.inputs[0].default_value = (0.6, 0.6, 0.6, 1.0)  # RGBA
+        bg_node.inputs[0].default_value = (0.5, 0.5, 0.5, 1.0)  # RGBA
         bg_node.inputs[1].default_value = 1.0  # strength
 
 
@@ -702,7 +710,7 @@ def render_human_cardinal_scene_config(
     bpy.context.view_layer.objects.active = ref_obj
     ref_obj.location = final_position
     
-    base_rotation = list(ref_rotation)
+    base_rotation = list(ref_rotation) # randomize yaw, the orientation of object.
     if sampled_ref_yaw_deg is not None:
         base_rotation[2] = sampled_ref_yaw_deg # change yaw randomly, which is the rotation around z-axis
 

@@ -64,11 +64,11 @@ if __name__ == "__main__":
         for obj_config in object_configs:
             for relation, relation_config in relations.items():
                 distractors = []
-                shared_yaw = random.uniform(0.0, 360.0)
+                shared_yaw = random.uniform(0.0, 360.0) # randomize the yaw of the object, 
 
                 for cam_config in cameras:
                     config = {**default_config, **obj_config, **relation_config, **cam_config}
-                    config["sampled_ref_yaw_deg"] = shared_yaw
+                    config["sampled_ref_yaw_deg"] = shared_yaw # pass the same yaw to all variations of the same object + relation, so that we can analyze the effect of camera view with the same randomized object orientation.
                     config["variation"] = f"{obj_config['object_name']}__{relation}__{cam_config['view_name']}"
 
                     print(f"Variation: {config['variation']} | Relation: {relation} | shared_yaw: {shared_yaw}", file=sys.stderr)

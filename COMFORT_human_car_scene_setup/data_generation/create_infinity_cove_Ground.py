@@ -5,15 +5,6 @@ import sys
 
 
 def create_infinity_cove(size=30.0, wall_height=20.0, curve_radius=5.0, segments=20, base_color=(0.6, 0.6, 0.6, 1.0)):
-    """
-    创建一个四面无缝的 infinity cove 背景
-    size:         地面半径（从中心到墙根的距离）
-    wall_height:  墙的总高度
-    curve_radius: 地面到墙的过渡曲线半径，值越大过渡越平滑
-    segments:     曲线段数，越大越平滑
-    base_color:   背景颜色 RGBA
-    """
-    # 删除原有背景物体
     for name in ["Ground", "Backdrop", "Wall", "InfinityCove"]:
         if name in bpy.data.objects:
             bpy.data.objects.remove(bpy.data.objects[name], do_unlink=True)
@@ -24,147 +15,99 @@ def create_infinity_cove(size=30.0, wall_height=20.0, curve_radius=5.0, segments
 
     bm = bmesh.new()
 
-    floor_size = size - curve_radius  # 地面平坦区域的半径
-    steps = 12  # 地面网格细分数
+    floor_size = size - curve_radius
+    num_phi = 256       # 水平方向切片数（必须是4的倍数）
+    num_r   = 32        # 径向方向切片数（地面平坦区）
+    # segments 用于曲线过渡段
+
+    # def box_radius(phi):
+    #     """正方形边界在 phi 方向的距离"""
+    #     cos_p = abs(math.cos(phi))
+    #     sin_p = abs(math.sin(phi))
+    #     eps = 1e-9
+    #     tx = floor_size / (cos_p + eps)
+    #     ty = floor_size / (sin_p + eps)
+    #     return min(tx, ty)
+    def box_radius(phi, p=2.0): # p=2 is close to a circle, p=6 is more square-like;
+        cos_p = abs(math.cos(phi))
+        sin_p = abs(math.sin(phi))
+        eps = 1e-9
+        return 1.0 / (((cos_p / (floor_size + eps)) ** p) + ((sin_p / (floor_size + eps)) ** p) + eps) ** (1.0 / p)
 
     # --------------------------------------------------
-    # 1. 地面（水平平面）
+    # 整个cove用一套 (ri, phi_i) 参数统一描述：
+    #
+    # ri = 0              : 中心点 (0,0,0)
+    # ri = 1..num_r       : 地面平坦区，r 从 0 线性增加到 box_radius(phi)
+    # ri = num_r+1..
+    #      num_r+segments : 曲线过渡区，从地面弯曲到竖直
+    # ri = num_r+segments+1: 墙顶
+    #
+    # 所有顶点在同一网格内，无需拼接
     # --------------------------------------------------
-    floor_verts = []
-    for i in range(steps + 1):
-        row = []
-        for j in range(steps + 1):
-            x = -floor_size + 2 * floor_size * i / steps
-            y = -floor_size + 2 * floor_size * j / steps
-            row.append(bm.verts.new((x, y, 0.0)))
-        floor_verts.append(row)
 
-    for i in range(steps):
-        for j in range(steps):
-            bm.faces.new([
-                floor_verts[i][j],
-                floor_verts[i+1][j],
-                floor_verts[i+1][j+1],
-                floor_verts[i][j+1],
-            ])
+    total_rings = num_r + segments + 2  # 包含中心圈和墙顶圈
 
-    # --------------------------------------------------
-    # 2. 四面弯曲墙
-    # 每面墙由两部分组成：
-    #   A) 从地面弯曲过渡到竖直的曲面（curve_radius 高度范围内）
-    #   B) 曲面顶端到 wall_height 的竖直平面
-    # --------------------------------------------------
-    def add_curved_wall(axis, positive):
-        """
-        axis=0: 沿 X 轴方向的墙（+X 或 -X）
-        axis=1: 沿 Y 轴方向的墙（+Y 或 -Y）
-        positive: True = 正方向，False = 负方向
-        """
-        sign = 1.0 if positive else -1.0
+    # 构建所有顶点：verts[ri][phi_i]
+    # ri=0 是中心点（所有 phi 共用一个点，用 num_phi 个重合顶点表示以便建面）
+    verts = []
 
-        # perp_coords: 垂直于墙面方向的坐标列表（steps+1 个点）
-        perp_coords = [-floor_size + 2 * floor_size * k / steps for k in range(steps + 1)]
+    for ri in range(total_rings + 1):
+        ring = []
+        for pi in range(num_phi):
+            phi = 2 * math.pi * pi / num_phi
+            cos_p = math.cos(phi)
+            sin_p = math.sin(phi)
+            r_box = box_radius(phi)
+            # r_box = floor_size # try to get a perfect circle to compare, ca va not very perfect.
 
-        # 构建所有行的顶点：行 = along 方向上的切片
-        # 行 0..segments: 曲面过渡段
-        # 行 segments+1:  曲线顶端（与竖直段底部共用）
-        # 行 segments+2:  墙顶
+            if ri == 0:
+                # 中心
+                x, y, z = 0.0, 0.0, 0.0
 
-        all_rows = []  # all_rows[row_idx] = list of (steps+1) verts
+            elif ri <= num_r:
+                # 地面平坦区：r 从 0 线性到 r_box
+                t = ri / num_r
+                r = t * r_box
+                x, y, z = r * cos_p, r * sin_p, 0.0
 
-        # --- 曲面段 ---
-        for si in range(segments + 1):
-            angle = (math.pi / 2.0) * si / segments  # 0 → π/2
-            # 沿地面方向（水平）走了多少：从 floor_size 开始往外延伸
-            along = floor_size + curve_radius * math.sin(angle)
-            # 高度
-            up = curve_radius * (1.0 - math.cos(angle))
+            elif ri <= num_r + segments:
+                # 曲线过渡区
+                si = ri - num_r  # 1..segments
+                angle = (math.pi / 2.0) * si / segments
+                r = r_box + curve_radius * math.sin(angle)
+                z = curve_radius * (1.0 - math.cos(angle))
+                x, y = r * cos_p, r * sin_p
 
-            row = []
-            for perp in perp_coords:
-                if axis == 0:
-                    v = bm.verts.new((sign * along, perp, up))
-                else:
-                    v = bm.verts.new((perp, sign * along, up))
-                row.append(v)
-            all_rows.append(row)
-
-        # --- 竖直段顶部（wall_height） ---
-        # all_rows[-1] 已经是曲线顶端（along = floor_size + curve_radius, up = curve_radius）
-        # 只需再加一行在 wall_height 处
-        wall_along = floor_size + curve_radius
-        top_row = []
-        for perp in perp_coords:
-            if axis == 0:
-                v = bm.verts.new((sign * wall_along, perp, wall_height))
             else:
-                v = bm.verts.new((perp, sign * wall_along, wall_height))
-            top_row.append(v)
-        all_rows.append(top_row)
+                # 墙顶
+                r = r_box + curve_radius
+                x, y, z = r * cos_p, r * sin_p, wall_height
 
-        # --- 建面 ---
-        for i in range(len(all_rows) - 1):
-            for j in range(steps):
-                bm.faces.new([
-                    all_rows[i][j],
-                    all_rows[i][j+1],
-                    all_rows[i+1][j+1],
-                    all_rows[i+1][j],
-                ])
-
-    add_curved_wall(axis=0, positive=True)   # +X 墙
-    add_curved_wall(axis=0, positive=False)  # -X 墙
-    add_curved_wall(axis=1, positive=True)   # +Y 墙
-    add_curved_wall(axis=1, positive=False)  # -Y 墙
+            ring.append(bm.verts.new((x, y, z)))
+        verts.append(ring)
 
     # --------------------------------------------------
-    # 3. 四个角落的填充（避免角落出现缝隙）
+    # 建面：每相邻两圈之间建四边形（phi 方向环绕）
     # --------------------------------------------------
-    def add_corner(sx, sy):
-        """填充一个 45° 角落区域"""
-        corner_rows = []
-        for si in range(segments + 1):
-            angle = (math.pi / 2.0) * si / segments
-            along = floor_size + curve_radius * math.sin(angle)
-            up = curve_radius * (1.0 - math.cos(angle))
-            row = []
-            for sj in range(segments + 1):
-                angle2 = (math.pi / 2.0) * sj / segments
-                along2 = floor_size + curve_radius * math.sin(angle2)
-                v = bm.verts.new((sx * along2, sy * along, up))
-                row.append(v)
-            corner_rows.append(row)
-
-        # 顶部一行
-        top_row = []
-        wall_along = floor_size + curve_radius
-        for sj in range(segments + 1):
-            angle2 = (math.pi / 2.0) * sj / segments
-            along2 = floor_size + curve_radius * math.sin(angle2)
-            v = bm.verts.new((sx * along2, sy * wall_along, wall_height))
-            top_row.append(v)
-        corner_rows.append(top_row)
-
-        for i in range(len(corner_rows) - 1):
-            for j in range(segments):
-                bm.faces.new([
-                    corner_rows[i][j],
-                    corner_rows[i][j+1],
-                    corner_rows[i+1][j+1],
-                    corner_rows[i+1][j],
-                ])
-
-    add_corner(sx=1, sy=1)
-    add_corner(sx=1, sy=-1)
-    add_corner(sx=-1, sy=1)
-    add_corner(sx=-1, sy=-1)
+    for ri in range(total_rings):
+        for pi in range(num_phi):
+            pi_next = (pi + 1) % num_phi
+            v00 = verts[ri][pi]
+            v01 = verts[ri][pi_next]
+            v10 = verts[ri + 1][pi]
+            v11 = verts[ri + 1][pi_next]
+            try:
+                bm.faces.new([v00, v01, v11, v10])
+            except Exception:
+                pass  # 跳过重复面（中心点可能重合）
 
     bm.to_mesh(mesh)
     bm.free()
     mesh.update()
 
     # --------------------------------------------------
-    # 4. 材质
+    # 材质
     # --------------------------------------------------
     mat = bpy.data.materials.new(name="CoveMaterial")
     mat.use_nodes = True
@@ -174,5 +117,9 @@ def create_infinity_cove(size=30.0, wall_height=20.0, curve_radius=5.0, segments
         bsdf.inputs["Roughness"].default_value = 1.0
     obj.data.materials.append(mat)
 
-    print(f"InfinityCove created: size={size}, wall_height={wall_height}, curve_radius={curve_radius}", file=sys.stderr)
+    print(f"InfinityCove (unified radial): size={size}, wall_height={wall_height}, curve_radius={curve_radius}", file=sys.stderr)
+
+    for poly in obj.data.polygons:
+        poly.use_smooth = True
+
     return obj

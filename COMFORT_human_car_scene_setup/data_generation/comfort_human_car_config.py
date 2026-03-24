@@ -67,17 +67,17 @@ ALL_CAMERAS = [
 OBJECT_CAR = {
     "object_name": "car",
     "ref_shape": CAR_SEDAN,
-    "ref_color": CAR_RED,
+    "ref_color": WHITE,
     "ref_size": 4.0, # change the size of the car to make it 'proportionate' to the human in the scene; 
     # 这是“物体在原点附近时”的 base pose；后面会加 cardinal_offset
-    "ref_position": (0.0, -0.1, 0.4), # the car's position
+    "ref_position": (0.0, -0.1, 0.45), # the car's position
     "ref_rotation": (90, 0, 180),
 }
 
 OBJECT_BICYCLE = {
     "object_name": "bicycle",
     "ref_shape": BICYCLE_MOUNTAIN,
-    "ref_color": DARK_GRAY,
+    "ref_color": RED,
     "ref_size": 2.6,
     "ref_position": (0.05, 0.0, 0.65),
     "ref_rotation": (90, 0, 270),
@@ -87,8 +87,8 @@ OBJECT_DOG = {
     "object_name": "dog",
     "ref_shape": DOG,
     "ref_color": "",
-    "ref_size": 0.5,
-    "ref_position": (0.0, -0.6, 0.7),
+    "ref_size": 0.1,
+    "ref_position": (0.0, -0.6, 0.0),
     "ref_rotation": (0, 0, 0),
 }
 
@@ -97,7 +97,7 @@ OBJECT_SOFA = {
     "ref_shape": COUCH,
     "ref_color": "",
     "ref_size": 1.8,
-    "ref_position": (0.0, 0.0, 0.25),
+    "ref_position": (0.0, 0.0, 0.0),
     "ref_rotation": (0, 0, 360),
 }
 
@@ -123,7 +123,7 @@ OBJECT_CHAIR = {
     "object_name": "chair",
     "ref_shape": CHAIR,
     "ref_color": "",
-    "ref_size": 2.5,
+    "ref_size": 2.0,
     "ref_position": (0.0, 0.0, 0.0),
     "ref_rotation": (0, 0, 0),
 }
@@ -150,7 +150,7 @@ OBJECT_LAPTOP = {
     "object_name": "laptop",
     "ref_shape": LAPTOP,
     "ref_color": "",
-    "ref_size": 3.6,
+    "ref_size": 3.0, #3.6有点大
     "ref_position": (0.0, 0.0, 0.0),
     "ref_rotation": (0, 0, 0),
 }
@@ -159,7 +159,7 @@ OBJECT_BASKETBALL = {
     "object_name": "basketball",
     "ref_shape": BASKETBALL,
     "ref_color": "",
-    "ref_size": 3.6,
+    "ref_size": 2.0, #3.6太大, 2.5有点大
     "ref_position": (0.0, 0.0, 0.0),
     "ref_rotation": (0, 0, 0),
 }
@@ -173,7 +173,7 @@ ALL_OBJECTS = [
     OBJECT_BENCH,
     OBJECT_CHAIR,
     OBJECT_DUCK,
-    OBJECT_HORSE,
+    # OBJECT_HORSE,
     OBJECT_LAPTOP,
     OBJECT_BASKETBALL,
 ]
@@ -199,12 +199,12 @@ COMFORT_HUMAN_CAR_RELATIONS = {
     LEFT: {
         "relation": LEFT,
         "path_type": "cardinal_static",
-        "cardinal_offset": (-CARDINAL_DISTANCE, 0.0, 0.0),
+        "cardinal_offset": (CARDINAL_DISTANCE, 0.0, 0.0),
     },
     RIGHT: {
         "relation": RIGHT,
         "path_type": "cardinal_static",
-        "cardinal_offset": (CARDINAL_DISTANCE, 0.0, 0.0),
+        "cardinal_offset": (-CARDINAL_DISTANCE, 0.0, 0.0),
     },
     FRONT: {
         "relation": FRONT,
