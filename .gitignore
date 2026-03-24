@@ -1,0 +1,9 @@
+.*
+!.gitignore
+!.git/
+miniconda3/
+ComfyUI/
+COMFORT/data/
+COMFORT/
+WhatsUp_dataset/
+Miniconda3-latest-Linux-x86_64.sh

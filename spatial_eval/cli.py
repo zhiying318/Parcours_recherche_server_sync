@@ -1,0 +1,119 @@
+# spatial_eval/cli.py
+import os
+import json
+import argparse
+from .utils import get_dtype
+from .backends.factory import build_backend
+from .eval_runner import run_eval
+from .prompts.YesNo import YNAsker
+from .prompts.MCQ import MCQAsker
+
+"""
+python -m spatial_eval.cli \
+  --backend qwen3vl \
+  --model_id Qwen/Qwen3-VL-8B-Instruct \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_long_qwen3vl.csv \
+  --ask_mode mcq \
+  --mcq_seed 123 \
+  --cuda_visible_devices 0
+
+python -m spatial_eval.cli   --backend internvl   --model_id OpenGVLab/InternVL3_5-8B-HF  --image_json valide_image_paths.json \
+    --out_csv eval_output/mcq_long_internvl.csv   --ask_mode mcq   --mcq_seed 123   --cuda_visible_devices 1
+
+python -m spatial_eval.cli   --backend qwen   --model_id Qwen/Qwen2.5-VL-7B-Instruct   --image_json valide_image_paths.json \
+    --out_csv eval_output/mcq_long_qwen2.5vl.csv   --ask_mode mcq   --mcq_seed 123   --cuda_visible_devices 1
+
+CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+  --backend qwen3-vl-thinking \
+  --model_id Qwen/Qwen3-VL-8B-Thinking \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_short_qwen3vl_thinking.csv \
+  --ask_mode mcq \
+  --max_new_tokens_mcq 2048
+
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  --backend gemma3 \
+  --model_id google/gemma-3-12b-it \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_short_gemma3.csv \
+  --ask_mode mcq 
+
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  --backend qwen3.5vl \
+  --model_id Qwen/Qwen3.5-9B \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_middle_qwen3.5.csv \
+  --ask_mode mcq 
+
+
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  --backend qwen3vl-logits \
+  --model_id Qwen/Qwen3-VL-8B-Instruct \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_long_qwen3vl_logits.csv \
+  --ask_mode mcq 
+
+
+CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+  --backend qwen3-vl-thinking \
+  --model_id Qwen/Qwen3.5-9B \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_middle_qwen3_5vl_thinking.csv \
+  --ask_mode mcq \
+  --max_new_tokens_mcq 2048
+
+"""
+
+def main():
+    parser = argparse.ArgumentParser(description="Spatial QA evaluation (modular).")
+    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "qwen3.5vl", "qwen3vl-logits"])
+    parser.add_argument("--model_id", required=True)
+    parser.add_argument("--image_json", required=True)
+    parser.add_argument("--out_csv", required=True)
+    parser.add_argument("--cuda_visible_devices", default=None) # Use CUDA_CISIBLE_DEVICES=0 at the beginning of the command in cli to avoid device_map="auto" to see all GPUs such that we have AttnImplementation Error:RuntimeError(FlashAttention only supports Ampere GPUs or newer.)
+    parser.add_argument("--device_map", default="auto")
+
+    # choose ask mode: yes/no or multiple-choice
+    parser.add_argument("--ask_mode", choices=["yn", "mcq"], default="yn")
+
+    # super parameters
+    parser.add_argument("--max_new_tokens_where", type=int, default=64)
+    parser.add_argument("--max_new_tokens_yn", type=int, default=8)
+    parser.add_argument("--max_new_tokens_mcq", type=int, default=8)
+    parser.add_argument("--mcq_seed", type=int, default=0)
+
+    args = parser.parse_args()
+
+    if args.cuda_visible_devices is not None:
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(args.cuda_visible_devices)
+
+    dtype = get_dtype()
+
+    with open(args.image_json, "r", encoding="utf-8") as f:
+        image_paths = json.load(f)
+
+    backend = build_backend(args.backend, args.model_id, dtype=dtype, device_map=args.device_map)
+
+    if args.ask_mode == "yn":
+        asker = YNAsker(
+            max_new_tokens_where=args.max_new_tokens_where,
+            max_new_tokens_yn=args.max_new_tokens_yn,
+        )
+    else:
+        asker = MCQAsker(
+            seed=args.mcq_seed,
+            max_new_tokens_mcq=args.max_new_tokens_mcq,
+        )
+
+    run_eval(
+        backend=backend,
+        image_paths=image_paths,
+        output_csv=args.out_csv,
+        asker=asker,
+    )
+
+    print(f"Saved: {args.out_csv}")
+
+if __name__ == "__main__":
+    main()

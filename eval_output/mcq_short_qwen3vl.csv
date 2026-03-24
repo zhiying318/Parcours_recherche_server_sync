@@ -1,0 +1,3379 @@
+image_path,second_object,mcq_prompt,correct_relation,correct_letter,opposite_relation,opposite_letter,model_answer,pred_letter
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-CAMERA.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-LEFT.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",behind,D,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-RIGHT.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",front,A,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-RIGHT.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-LEFT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-CAMERA.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-LEFT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-RIGHT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-CAMERA.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",left,A,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-LEFT.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-LEFT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-CAMERA.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_left_of_chair_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-CAMERA.png,hat,"Where is the hat in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",left,C,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-CAMERA.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-CAMERA.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-RIGHT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-CAMERA.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-LEFT.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-CAMERA.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_left_of_chair_FACE-RIGHT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-LEFT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-LEFT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-CAMERA.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_left_of_chair_FACE-RIGHT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-LEFT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-LEFT.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-LEFT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_left_of_chair_FACE-RIGHT.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_left_of_chair_FACE-CAMERA.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-LEFT.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-LEFT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-LEFT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-CAMERA.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-LEFT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-RIGHT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-RIGHT.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",front,A,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-LEFT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-RIGHT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-LEFT.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-RIGHT.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_left_of_chair_FACE-CAMERA.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-CAMERA.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-CAMERA.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-RIGHT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-LEFT.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-LEFT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-RIGHT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-CAMERA.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-RIGHT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-RIGHT.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-LEFT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-RIGHT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-CAMERA.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",right,C,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-RIGHT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-RIGHT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-RIGHT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-RIGHT.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-LEFT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-CAMERA.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_left_of_chair_FACE-CAMERA.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",left,C,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-CAMERA.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-CAMERA.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-RIGHT.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-RIGHT.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-RIGHT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",front,A,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-RIGHT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_left_of_chair_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-RIGHT.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-CAMERA.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-RIGHT.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",front,A,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-CAMERA.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-LEFT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_left_of_chair_FACE-RIGHT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-LEFT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-RIGHT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-LEFT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",front,A,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-RIGHT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_left_of_chair_FACE-CAMERA.png,hat,"Where is the hat in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-CAMERA.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",right,B,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-LEFT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-CAMERA.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-LEFT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-RIGHT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-CAMERA.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-RIGHT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-CAMERA.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-LEFT.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-LEFT.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-RIGHT.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",behind,C,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-RIGHT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-CAMERA.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-LEFT.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_left_of_chair_FACE-RIGHT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-RIGHT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-LEFT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-LEFT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_left_of_chair_FACE-CAMERA.png,toy-cactus,"Where is the toy-cactus in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-RIGHT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-CAMERA.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-CAMERA.png,toy-cactus,"Where is the toy-cactus in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-LEFT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-LEFT.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-RIGHT.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-LEFT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-LEFT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-CAMERA.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",left,A,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-CAMERA.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-CAMERA.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-RIGHT.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-CAMERA.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-RIGHT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-LEFT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-CAMERA.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-RIGHT.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",front,D,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-LEFT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-RIGHT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-LEFT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-CAMERA.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-LEFT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-LEFT.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_left_of_chair_FACE-RIGHT.png,toy-cactus,"Where is the toy-cactus in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-LEFT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-RIGHT.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-RIGHT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-LEFT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-CAMERA.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-RIGHT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-LEFT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-RIGHT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_left_of_chair_FACE-RIGHT.png,hat,"Where is the hat in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-RIGHT.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-RIGHT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-LEFT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-RIGHT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-CAMERA.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",right,B,left,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_left_of_chair_FACE-CAMERA.png,oven-mitt,"Where is the oven-mitt in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-RIGHT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-RIGHT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-CAMERA.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-CAMERA.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-LEFT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-CAMERA.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",right,C,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-LEFT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-LEFT.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-LEFT.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-RIGHT.png,oven-mitt,"Where is the oven-mitt in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-RIGHT.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-CAMERA.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-LEFT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-LEFT.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_left_of_chair_FACE-RIGHT.png,oven-mitt,"Where is the oven-mitt in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-LEFT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-RIGHT.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-LEFT.png,toy-cactus,"Where is the toy-cactus in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-LEFT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",behind,B,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-LEFT.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-CAMERA.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-CAMERA.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-RIGHT.png,bottle-of-mustard,"Where is the bottle-of-mustard in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-CAMERA.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-RIGHT.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-CAMERA.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-LEFT.png,water-filter,"Where is the water-filter in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-CAMERA.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",left,A,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-CAMERA.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-CAMERA.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-CAMERA.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-CAMERA.png,pot,"Where is the pot in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-LEFT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-RIGHT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-RIGHT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-RIGHT.png,shoes,"Where is the shoes in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-CAMERA.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-RIGHT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_left_of_chair_FACE-CAMERA.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-CAMERA.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-RIGHT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-LEFT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-LEFT.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-LEFT.png,hat,"Where is the hat in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-CAMERA.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-CAMERA.png,vase,"Where is the vase in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",left,C,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-LEFT.png,photograph,"Where is the photograph in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-RIGHT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-LEFT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-CAMERA.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_left_of_chair_FACE-CAMERA.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-LEFT.png,oven-mitt,"Where is the oven-mitt in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-LEFT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-LEFT.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-LEFT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-RIGHT.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-CAMERA.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-LEFT.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-CAMERA.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-LEFT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",left,B,right,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-RIGHT.png,hat,"Where is the hat in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-CAMERA.png,oven-mitt,"Where is the oven-mitt in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-RIGHT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-RIGHT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-CAMERA.png,bottle-of-orange-juice,"Where is the bottle-of-orange-juice in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-CAMERA.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-LEFT.png,microphone,"Where is the microphone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-RIGHT.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",front,A,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-LEFT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_left_of_chair_FACE-CAMERA.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_left_of_chair_FACE-RIGHT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-RIGHT.png,toy-cactus,"Where is the toy-cactus in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",front,D,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-LEFT.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-RIGHT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-CAMERA.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-CAMERA.png,box,"Where is the box in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",right,C,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-CAMERA.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-CAMERA.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-CAMERA.png,blanket,"Where is the blanket in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-CAMERA.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_left_of_armchair_FACE-CAMERA.png,tape,"Where is the tape in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-RIGHT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_left_of_armchair_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-RIGHT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-CAMERA.png,notepad,"Where is the notepad in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-RIGHT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_right_of_armchair_FACE-CAMERA.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_left_of_armchair_FACE-RIGHT.png,apple,"Where is the apple in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-LEFT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_left_of_armchair_FACE-RIGHT.png,rose,"Where is the rose in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_right_of_armchair_FACE-LEFT.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-LEFT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-LEFT.png,rose,"Where is the rose in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_left_of_armchair_FACE-RIGHT.png,tape,"Where is the tape in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_left_of_armchair_FACE-RIGHT.png,glove,"Where is the glove in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_left_of_armchair_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_right_of_armchair_FACE-LEFT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",front,C,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-RIGHT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-LEFT.png,notepad,"Where is the notepad in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_left_of_armchair_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_left_of_armchair_FACE-CAMERA.png,notepad,"Where is the notepad in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",right,C,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_left_of_armchair_FACE-CAMERA.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-RIGHT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_right_of_armchair_FACE-LEFT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_left_of_armchair_FACE-RIGHT.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_left_of_armchair_FACE-RIGHT.png,glasses,"Where is the glasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-RIGHT.png,glasses,"Where is the glasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_left_of_armchair_FACE-CAMERA.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-LEFT.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_right_of_armchair_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-CAMERA.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_right_of_armchair_FACE-CAMERA.png,glass,"Where is the glass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-CAMERA.png,glasses,"Where is the glasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-CAMERA.png,glass,"Where is the glass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-CAMERA.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-CAMERA.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_right_of_armchair_FACE-CAMERA.png,remote,"Where is the remote in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_right_of_armchair_FACE-LEFT.png,apple,"Where is the apple in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-LEFT.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-LEFT.png,soda-can,"Where is the soda-can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-LEFT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-LEFT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-CAMERA.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_left_of_armchair_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_right_of_armchair_FACE-LEFT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-LEFT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-LEFT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_left_of_armchair_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-CAMERA.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-LEFT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_left_of_armchair_FACE-RIGHT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-LEFT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-LEFT.png,glass,"Where is the glass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",front,C,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_right_of_armchair_FACE-CAMERA.png,glove,"Where is the glove in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-LEFT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-RIGHT.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",front,A,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-RIGHT.png,soda-can,"Where is the soda-can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_right_of_armchair_FACE-CAMERA.png,apple,"Where is the apple in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_right_of_armchair_FACE-LEFT.png,glove,"Where is the glove in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_left_of_armchair_FACE-CAMERA.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-CAMERA.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-CAMERA.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-RIGHT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-LEFT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-CAMERA.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_right_of_armchair_FACE-LEFT.png,tape,"Where is the tape in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-RIGHT.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-CAMERA.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-CAMERA.png,rose,"Where is the rose in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-CAMERA.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-CAMERA.png,soda-can,"Where is the soda-can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",right,B,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-LEFT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_right_of_armchair_FACE-CAMERA.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",left,B,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_left_of_armchair_FACE-RIGHT.png,pan,"Where is the pan in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-RIGHT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_right_of_armchair_FACE-CAMERA.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_left_of_armchair_FACE-CAMERA.png,apple,"Where is the apple in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-RIGHT.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-RIGHT.png,rose,"Where is the rose in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_right_of_armchair_FACE-CAMERA.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_left_of_armchair_FACE-RIGHT.png,notepad,"Where is the notepad in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-LEFT.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-RIGHT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_right_of_armchair_FACE-RIGHT.png,soda-can,"Where is the soda-can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_left_of_armchair_FACE-RIGHT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_left_of_armchair_FACE-RIGHT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_left_of_armchair_FACE-CAMERA.png,rose,"Where is the rose in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",right,C,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_right_of_armchair_FACE-LEFT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-CAMERA.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_left_of_armchair_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_left_of_armchair_FACE-CAMERA.png,glove,"Where is the glove in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",right,B,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-RIGHT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_left_of_armchair_FACE-CAMERA.png,glasses,"Where is the glasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_left_of_armchair_FACE-CAMERA.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_left_of_armchair_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-CAMERA.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",right,D,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-LEFT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-RIGHT.png,wineglass,"Where is the wineglass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-RIGHT.png,notepad,"Where is the notepad in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_right_of_armchair_FACE-CAMERA.png,tape,"Where is the tape in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-CAMERA.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",front,A,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-RIGHT.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-LEFT.png,can,"Where is the can in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-LEFT.png,laptop,"Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",front,D,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-CAMERA.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-LEFT.png,water-bottle,"Where is the water-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-LEFT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",behind,D,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-CAMERA.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_right_of_armchair_FACE-LEFT.png,headphones,"Where is the headphones in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-RIGHT.png,yarn,"Where is the yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-CAMERA.png,beer-bottle,"Where is the beer-bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",right,B,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-LEFT.png,glasses,"Where is the glasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-LEFT.png,bread,"Where is the bread in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-RIGHT.png,glass,"Where is the glass in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_left_of_table_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-LEFT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-LEFT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-RIGHT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-CAMERA.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",behind,C,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",right,A,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-LEFT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",right,C,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-RIGHT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-LEFT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-LEFT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_left_of_table_FACE-LEFT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-CAMERA.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-CAMERA.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",left,C,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-RIGHT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-RIGHT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-RIGHT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-CAMERA.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-RIGHT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-CAMERA.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_left_of_table_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-LEFT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-LEFT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-LEFT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-LEFT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-LEFT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-RIGHT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-LEFT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-CAMERA.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-CAMERA.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-LEFT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-RIGHT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-LEFT.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",right,A,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-CAMERA.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-RIGHT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-CAMERA.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_right_of_table_FACE-CAMERA.png,dog,"Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-RIGHT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-RIGHT.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",behind,D,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-RIGHT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",front,D,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-RIGHT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-RIGHT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",front,D,behind,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-CAMERA.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-RIGHT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-LEFT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_left_of_table_FACE-RIGHT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-LEFT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-LEFT.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_left_of_table_FACE-RIGHT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-RIGHT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",front,D,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-LEFT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-LEFT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-RIGHT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",left,A,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-LEFT.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-RIGHT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-RIGHT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-CAMERA.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",right,B,left,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-LEFT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-LEFT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-CAMERA.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-RIGHT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/toilet-roll_right_of_table_FACE-RIGHT.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-RIGHT.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-CAMERA.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-CAMERA.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_left_of_table_FACE-LEFT.png,chair,"Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-CAMERA.png,bottle,"Where is the bottle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. behind
+D. right",left,A,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_right_of_table_FACE-LEFT.png,chair,"Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-CAMERA.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",front,C,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-CAMERA.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-LEFT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_left_of_table_FACE-CAMERA.png,chair,"Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-LEFT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-LEFT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",behind,A,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. right
+D. front",front,D,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-CAMERA.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",left,B,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-RIGHT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-CAMERA.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-RIGHT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",behind,A,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_left_of_table_FACE-LEFT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",front,B,behind,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-CAMERA.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",right,A,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-LEFT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-LEFT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-CAMERA.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",right,D,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_right_of_table_FACE-LEFT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",behind,A,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-RIGHT.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_left_of_table_FACE-CAMERA.png,dog,"Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-CAMERA.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-RIGHT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. front
+D. right",front,C,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-CAMERA.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-LEFT.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-CAMERA.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",left,D,right,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_left_of_table_FACE-LEFT.png,ball-of-yarn,"Where is the ball-of-yarn in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",front,B,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-RIGHT.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-RIGHT.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-RIGHT.png,scissors,"Where is the scissors in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-CAMERA.png,plant,"Where is the plant in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. left
+D. right",right,D,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-RIGHT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-LEFT.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",front,A,behind,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_right_of_table_FACE-RIGHT.png,lemon,"Where is the lemon in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/toilet-roll_right_of_table_FACE-CAMERA.png,toilet-roll,"Where is the toilet-roll in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-CAMERA.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. front
+C. right
+D. behind",behind,D,front,B,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-LEFT.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. right
+D. behind",front,A,behind,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-LEFT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",behind,C,front,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-CAMERA.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. left
+C. right
+D. front",right,C,left,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-LEFT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. front
+D. behind",behind,D,front,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-CAMERA.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",right,B,left,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-LEFT.png,helmet,"Where is the helmet in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",front,C,behind,D,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-CAMERA.png,pillow,"Where is the pillow in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",left,D,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-LEFT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. behind
+D. front",behind,C,front,D,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-RIGHT.png,chair2,"Where is the chair2 in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_left_of_table_FACE-RIGHT.png,knife,"Where is the knife in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. left
+D. front",behind,B,front,D,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-CAMERA.png,plate,"Where is the plate in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. behind
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-LEFT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-RIGHT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. left
+D. front",front,D,behind,A,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-LEFT.png,phone,"Where is the phone in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. right
+C. front
+D. behind",behind,D,front,C,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_right_of_table_FACE-LEFT.png,dog,"Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-RIGHT.png,cap,"Where is the cap in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-RIGHT.png,painting,"Where is the painting in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. front
+C. right
+D. left",front,B,behind,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-RIGHT.png,book,"Where is the book in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. behind
+D. left",front,B,behind,C,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-LEFT.png,dragonfruit,"Where is the dragonfruit in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. left
+C. behind
+D. right",behind,C,front,A,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-LEFT.png,mug,"Where is the mug in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",behind,B,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-RIGHT.png,orange,"Where is the orange in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-CAMERA.png,cup,"Where is the cup in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. left
+D. right",left,C,right,D,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-CAMERA.png,banana,"Where is the banana in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. left
+C. behind
+D. front",left,B,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-RIGHT.png,bowl,"Where is the bowl in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",behind,D,front,A,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-CAMERA.png,lamp,"Where is the lamp in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. right
+C. left
+D. behind",right,B,left,C,C,C
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-CAMERA.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. front
+C. left
+D. behind",left,C,right,A,A,A
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-LEFT.png,spatula,"Where is the spatula in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. right
+B. behind
+C. front
+D. left",front,C,behind,B,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-CAMERA.png,scarf,"Where is the scarf in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. behind
+B. right
+C. front
+D. left",left,D,right,B,B,B
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-LEFT.png,kettle,"Where is the kettle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. left
+B. behind
+C. front
+D. right",behind,B,front,C,D,D
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-LEFT.png,sunglasses,"Where is the sunglasses in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. front
+B. behind
+C. right
+D. left",front,A,behind,B,D,D

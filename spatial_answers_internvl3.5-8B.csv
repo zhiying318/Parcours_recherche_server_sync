@@ -1,0 +1,1289 @@
+image_path,second_object,where_answer,front_answer,back_answer,left_answer,right_answer,correct_answer
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-CAMERA.png,bottle-of-orange-juice,The bottle of orange juice is on the floor to the left of the person sitting on the bench.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-LEFT.png,blanket,"In the image, the blanket is located on the floor to the right side of the person sitting on the bench. It is folded neatly and placed parallel to the wall, a few feet away from the bench. The person is sitting with their back to the wall, and if they were to look straight ahead, the blanket",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-RIGHT.png,shoes,"In the image, the shoes are placed on the wooden floor to the right side of the person, near their feet. The person is sitting on a wooden chair with their legs crossed, and the brown shoes are positioned side by side in front of them, slightly to the right. The person appears to have removed the shoes",no,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-RIGHT.png,box,"To determine the location of the box in relation to the person sitting on the chair, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden chair, facing to the right side of the image. They are sitting upright with their hands resting on their thighs",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-LEFT.png,scarf,"In the image, the scarf is on the floor to the left side of the person sitting on the bench. It is positioned near the wall and appears to be placed directly on the wooden floor. The scarf is dark red or maroon in color and has fringe details at the ends. The person seems to be sitting with",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-CAMERA.png,plate,The plate is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-LEFT.png,painting,"In the image, the person is sitting on a wooden chair with their back to the wall. The painting is on the floor in front of them, near their feet. The painting appears to be a geometric design with various colors, including blue, orange, and white. It is positioned on the wooden floor to the left",no,no,no,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-RIGHT.png,spatula,"The spatula is on the floor to the right of the person, near their right foot.",yes,yes,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-CAMERA.png,remote,"In the image, the remote control is on the wooden floor to the right side of the person. It is a short distance away from the person's right foot, lying on the floor. The person is seated on a small wooden stool with their hands resting on their thighs, and the remote is positioned near the bottom right",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-LEFT.png,blanket,"The blanket is on the floor to the left of the person, near their feet.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-LEFT.png,helmet,"To determine the location of the helmet in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is seated on a wooden chair.
+   - He is facing to the right side of the image.
+   - His body",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-CAMERA.png,lamp,"In the image, the lamp is positioned to the right of the person sitting on the bench. Here's a detailed description of its placement:
+
+- The lamp is on the floor, slightly to the right side of the person.
+- It stands on a small, round base.
+- The lampshade is cylindrical and appears to",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_left_of_chair_FACE-CAMERA.png,cap,The cap is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-CAMERA.png,hat,The hat is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-RIGHT.png,scarf,"The scarf is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-CAMERA.png,plate,"In the image, the plate is positioned on the wooden floor to the left side of the person who is sitting on the bench. Here's a detailed breakdown to provide a vivid and logical understanding:
+
+1. **Location Relative to the Person**: The plate is on the floor directly in front of the person, slightly to the",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-CAMERA.png,cup,The cup is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-CAMERA.png,ball-of-yarn,"The ball of yarn is on the floor to the right of the person when facing the image. It is located near the person's right knee, slightly to the side and behind the wooden stool they are sitting on.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-RIGHT.png,spatula,"To determine the location of the spatula in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned near the center of the image.
+
+2",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-CAMERA.png,microphone,"In the image, the microphone is positioned on the floor to the left side of the person sitting on the bench. Here's a detailed breakdown of its location:
+
+1. **Horizontal Position**: The microphone is placed on the floor, slightly to the left of the person's lower body. It is not directly beside him but",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-LEFT.png,shoes,"In the image, the shoes are visible on the feet of the person sitting on the wooden chair. The individual is wearing brown shoes, which appear to be dress shoes or loafers. The shoes are positioned on the wooden floor, directly beneath the chair. The person's legs are extended forward, allowing a clear view of",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-CAMERA.png,vase,"To determine the location of the vase in relation to the seated person, let's break down the spatial arrangement in the image:
+
+1. **Positioning of the Person**: The person is seated on a wooden stool, centered in the image, with their hands resting on their thighs.
+
+2. **Location of the Vase",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_left_of_chair_FACE-RIGHT.png,knife,"To determine where the knife is in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden bench against a beige wall. They are facing to the right side of the image.
+
+2. **Position of the Knife",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-CAMERA.png,sunglasses,The sunglasses are on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-LEFT.png,plate,"In the image, the plate is on the floor to the right of the person who is sitting on the wooden chair. The person is facing left, so from their perspective, the plate is behind and to their right on the floor. The plate is positioned near the wall, a few feet away from the chair's right",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-LEFT.png,spatula,"The spatula is on the floor to the left of the person, near their left foot.",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-LEFT.png,bottle,"To determine the position of the bottle relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is sitting on a wooden chair.
+   - He is facing to the right side of the image.
+   - His",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-CAMERA.png,blanket,"In the image, the blanket is located on the floor to the right side of the person sitting on the bench. It is folded neatly and placed parallel to the wall, slightly away from the wall and closer to the front edge of the bench. The color of the blanket is a dark teal, which contrasts with the light",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_left_of_chair_FACE-RIGHT.png,mug,"To determine the location of the mug relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden bench with their back against a wall. They are facing to the right side of the image.
+
+2. **Location of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-LEFT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is seated on a wooden bench.
+   - He is facing to the right side of the image.
+
+2. **",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-LEFT.png,box,"To determine the location of the box in relation to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location of",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-LEFT.png,orange,"The orange is on the floor to the left of the person, near their feet.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_right_of_chair_FACE-RIGHT.png,plate,"In the image, the plate is on the floor to the right side of the person sitting on the chair. The person is facing left, so from their perspective, the plate is behind and to their right side, near their feet.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_left_of_chair_FACE-RIGHT.png,remote,"To determine where the remote is in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned centrally in the image, with their back to the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_left_of_chair_FACE-CAMERA.png,remote,The remote is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-LEFT.png,toilet-roll,"To determine the location of the toilet roll in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a wooden bench against a plain wall. They are facing to the left side of the image.
+
+2. **Location of",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-LEFT.png,lamp,"To determine the location of the lamp relative to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location of the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-LEFT.png,sunglasses,"In the image, the sunglasses are placed on the wooden floor to the left side of the person, near their black shoes. They are positioned slightly away from the wall and close to the wall outlet. The sunglasses are lying with the arms extended outward, and they appear to be just a short distance from the person's left",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-CAMERA.png,dragonfruit,"The dragonfruit is on the floor to the left of the person when facing the camera. It is positioned near the wall, slightly in front of the person's left knee.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-LEFT.png,beer-bottle,"To determine the location of the beer bottle in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-RIGHT.png,dragonfruit,"To determine the position of the dragonfruit relative to the seated person, let's break down the scene:
+
+1. **Person's Position**: The person is sitting on a wooden chair, facing to the right side of the image.
+2. **Dragonfruit Location**: The dragonfruit is on the floor to the left side",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-RIGHT.png,photograph,"The photograph is on the floor in front of the person, to their right side.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-LEFT.png,pan,"In the image, the pan is on the wooden floor to the right side of the person sitting on the bench. The handle of the pan is pointing towards the bottom right corner of the image. The person appears to be sitting with their hands clasped between their knees, and the pan is a few feet away from their",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-RIGHT.png,kettle,"To determine the position of the kettle relative to the seated person in the image, let's break down the spatial arrangement:
+
+1. **Person's Position**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Kettle's Position**: The",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-LEFT.png,vase,"To determine the location of the vase relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is seated on a wooden bench against a plain wall. He is facing to the right side of the image.
+
+2. **Location of the V",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-RIGHT.png,pillow,"The pillow is on the floor to the right of the person sitting on the chair. It is positioned near their right knee, closer to the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_right_of_chair_FACE-RIGHT.png,blanket,"In the image, the blanket is positioned on the wooden floor to the right side of the person sitting on the bench. It is folded neatly into a compact rectangular shape and lies adjacent to the person's right leg. The teal color of the blanket contrasts with the light brown wooden floor, making it easily noticeable. The placement",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-RIGHT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are looking in that direction as well.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_left_of_chair_FACE-CAMERA.png,lemon,"The lemon is on the wooden floor to the left of the person, near their left foot.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-RIGHT.png,pillow,"To determine the position of the pillow relative to the person sitting on the chair, let's break down the scene step by step:
+
+1. **Observation of the Scene**:
+   - The person is seated on a wooden chair, facing to the right side of the image.
+   - The pillow is on the floor",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-CAMERA.png,orange,"The orange is on the floor to the left of the person (from the viewer's perspective). It is located near the bottom left corner of the image, on the wooden floor, and is positioned slightly to the left of the person's feet.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-CAMERA.png,beer-bottle,"In the image, the beer bottle is located on the floor to the right side of the person sitting on the bench. Here's a detailed analysis to pinpoint its location relative to the person:
+
+1. **Position Relative to the Person**: The beer bottle is on the floor, slightly to the person's right side. If",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-CAMERA.png,can,"In the image, the can is located on the floor to the right side of the person. It is positioned near the bottom right corner of the image, a short distance away from the wooden bench on which the person is sitting. The can is standing upright and appears to be a beverage can, identifiable by its cylindrical shape",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_right_of_chair_FACE-RIGHT.png,lamp,"To determine the location of the lamp in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is seated on a wooden chair.
+   - He is facing to the right side of the image.
+   - His hands",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-LEFT.png,shoes,"In the image, the shoes are positioned on the wooden floor to the right side of the stool, near the wall. The person sitting on the stool is facing left, and the shoes are placed side by side, pointing slightly towards the person. The shoes are a couple of feet away from the stool, with the top",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-LEFT.png,ball-of-yarn,"The ball of yarn is on the floor to the right of the person, near the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_left_of_chair_FACE-RIGHT.png,orange,"To determine where the orange is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and the Orange**:
+   - The human is sitting on a wooden bench with their back against a wall.
+   - The orange is on the floor to the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_left_of_chair_FACE-RIGHT.png,sunglasses,The sunglasses are on the floor to the left of the person.,yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-CAMERA.png,ball-of-yarn,"The ball of yarn is on the floor to the left of the person, near the wall socket.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-RIGHT.png,beer-bottle,"In the image, the beer bottle is located on the floor to the right side of the person sitting on the bench. The bottle is positioned near the person's right foot, close to the edge of the bench. The person is sitting with their hands resting on their lap, and the beer bottle is on the floor beside",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-RIGHT.png,pot,"In the image, the pot is on the floor to the left side of the person sitting on the chair. The person is facing to the right, so from their perspective, the pot would be behind and slightly in front of them on their left side. The pot is positioned near the wall, a bit away from the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-RIGHT.png,plate,"To determine where the plate is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden bench, facing to the right side of the image. They are looking in that direction as well.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-LEFT.png,lemon,"To determine the location of the lemon in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a wooden chair, facing to the right side of the image. He is positioned near the center of the image, with his back",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-LEFT.png,bowl,"To determine the location of the bowl relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is sitting on a wooden chair, facing to the right side of the image. He is positioned near the center of the image.
+
+2. **",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-RIGHT.png,scissors,"The scissors are on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-CAMERA.png,water-bottle,"To determine the location of the water bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is seated on a wooden bench against a plain wall. They are centered in the image, with their hands resting on their thighs.
+
+2.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-CAMERA.png,scarf,"In the image, the scarf is located on the floor to the right side of the person. It is positioned near the bottom right corner of the image, resting flat on the wooden floor. The dark red or maroon scarf has tassels hanging from its ends, adding a decorative touch to its appearance. The placement",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-RIGHT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Setting**:
+   - The person is sitting on a wooden bench against a plain wall.
+   - The bench is positioned such that the person is facing to the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-RIGHT.png,laptop,"The laptop is on the floor in front of the person, to their right side.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-CAMERA.png,bottle,"In the image, the bottle is positioned to the left side of the human, on the floor. The human is sitting on a small wooden stool, facing forward, with their hands resting on their thighs. The bottle is placed directly on the floor, a short distance away from the human's left foot. It is positioned",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-RIGHT.png,helmet,"To determine where the helmet is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden bench, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-RIGHT.png,bottle-of-orange-juice,"To determine the location of the bottle of orange juice in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden chair against a plain wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_left_of_chair_FACE-LEFT.png,dragonfruit,"The dragonfruit is on the floor to the left of the person, near their left foot.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-CAMERA.png,kettle,The kettle is on the floor to the left of the person sitting on the bench.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_left_of_chair_FACE-CAMERA.png,knife,"To determine the location of the knife in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The person is seated on a small wooden stool, centered in the image, with their hands resting on their thighs. They are facing forward, directly",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-CAMERA.png,book,"In the image, the book is on the wooden floor to the right side of the person. It is positioned near the bottom right corner of the image, slightly to the side of the person's right leg. The book appears to be lying flat on the floor, with its cover facing upwards. The placement of the book",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-CAMERA.png,bottle-of-mustard,The bottle of mustard is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-CAMERA.png,knife,The knife is on the floor to the right of the person.,yes,yes,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-RIGHT.png,water-filter,"In the image, the water-filter pitcher is positioned on the floor to the left side of the person sitting on the bench. Here's a detailed analysis to pinpoint its location relative to the person:
+
+1. **Spatial Positioning**:
+   - The water-filter pitcher is placed on the floor.
+   - It is situated",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-RIGHT.png,photograph,"The photograph is on the floor to the left of the person sitting on the bench. It is positioned near the wall, slightly in front of the bench's left leg. The photo appears to be lying flat and is oriented such that the image on the photograph is facing upwards, though the exact content of the photograph is not",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-RIGHT.png,book,"In the image, the book is on the wooden floor to the right side of the person sitting on the bench. The person is facing left, so from their perspective, the book is off to their right side, behind their right foot. The book appears to be closed and is lying flat on the floor.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-RIGHT.png,pan,"To determine the location of the pan relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is sitting on a wooden chair with their back to the wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-LEFT.png,bowl,"To determine the location of the bowl in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair with their back against a plain wall. They are facing to the right side of the image.
+
+2. **",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-RIGHT.png,painting,"In the image, the person is sitting on a wooden chair with their back to the wall. The wall appears to be plain without any visible paintings or decorations. Therefore, there is no painting in the view of the person sitting on the chair. The person's line of sight, if they were to look forward, would",no,no,no,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_left_of_chair_FACE-RIGHT.png,cap,"To determine the location of the cap in relation to the person sitting on the bench, let's break down the scene step-by-step:
+
+1. **Position of the Person**: The person is seated on a wooden bench, facing to the right side of the image. They are sitting upright with their hands resting on their thighs",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-RIGHT.png,vase,"To determine the location of the vase relative to the person sitting on the bench, let's break down the spatial arrangement in the image:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Position of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-CAMERA.png,mug,The mug is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-RIGHT.png,vase,"To determine the location of the vase in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The person is sitting on a wooden bench against a beige wall. He is facing to the right side of the image.
+
+2. **Location of",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-CAMERA.png,cap,The cap is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-CAMERA.png,laptop,"In the image, the laptop is placed on the wooden floor to the right side of the person who is sitting on the bench. The person is positioned in the center of the image, facing forward, with their hands resting on their thighs. The laptop is situated a short distance away from their right knee, closer to the",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-LEFT.png,spatula,"To determine the location of the spatula in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden bench against a beige wall. They are facing to the left, with their back towards the camera.
+
+2.",yes,yes,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_left_of_chair_FACE-RIGHT.png,wineglass,"To determine the location of the wineglass relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-LEFT.png,bottle,"To determine the position of the bottle relative to the human in the image, let's break down the scene step by step:
+
+1. **Human's Position**: The human is sitting on a wooden chair, facing to the right side of the image. He is positioned centrally in the image, with his back against a wall",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-RIGHT.png,headphones,"In the image, the headphones are placed on the wooden floor to the left side of the person who is sitting on the chair. They are positioned near the wall, close to the baseboard, and slightly in front of the person's left foot. The headphones are lying black side up, with the ear cushions visible and",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-LEFT.png,can,"To determine the location of the can relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is sitting on a wooden chair, facing to the right side of the image. He is positioned in the center of the image, slightly to the",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-RIGHT.png,ball-of-yarn,"The ball of yarn is on the floor to the left of the person, near the wall.",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_left_of_chair_FACE-CAMERA.png,hat,The hat is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-CAMERA.png,can,"In the image, the can is placed on the wooden floor to the left side of the person, a few feet away from their right foot. The can is positioned near the wall, close to the baseboard. Given the person's seated position and orientation, they can easily see the can in front of them to their",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_left_of_chair_FACE-LEFT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step by step:
+
+1. **Human's Position and Orientation**:
+   - The human is sitting on a wooden bench.
+   - He is facing to the right side of the image, with his profile visible.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-RIGHT.png,bottle,"To determine the position of the bottle in relation to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Setting**:
+   - The person is sitting on a wooden chair against a plain wall.
+   - The floor is wooden, and there is a baseboard",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-CAMERA.png,helmet,The helmet is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-LEFT.png,headphones,"In the image, the headphones are placed on the wooden floor to the left side of the person, near their feet. They are positioned close to the wall and the electrical outlet. The headphones are lying black-colored and appear to be within easy reach of the person sitting on the bench.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-RIGHT.png,dragonfruit,"To determine the location of the dragonfruit in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is sitting on a wooden chair, facing to the right side of the image.
+   - He is positioned against a",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-CAMERA.png,toilet-roll,"In the image, the toilet roll is on the wooden floor to the left side of the person. It is positioned near the bottom left corner of the image, close to the wall and slightly in front of the baseboard. The roll is lying horizontally with the end facing towards the person. The placement suggests it is within",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-LEFT.png,pillow,"In the image, the pillow is positioned on the floor to the left side of the person sitting on the bench. The pillow is placed a bit in front of the bench, closer to the wall. The person appears to be sitting with their back against the wall, and the pillow is on the floor near their feet,",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-RIGHT.png,scissors,"The scissors are on the floor to the left of the person, near the wall.",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-CAMERA.png,painting,"In the image, the person is sitting on a small wooden stool with their hands resting on their thighs. They are positioned centrally against a plain beige wall with a light switch visible to the left side of the image on the wall. The floor is made of light-colored wood.
+
+On the floor in front of the person,",no,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-LEFT.png,box,"In the image, the box is positioned to the left side of the person who is sitting on the wooden chair. The box is placed directly on the wooden floor, close to the person's left leg. Here are the detailed observations to elaborate on its position:
+
+1. **Proximity to the Person**: The box is",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_right_of_chair_FACE-LEFT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are looking in that direction.
+
+2. **Position of the Book**:",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-RIGHT.png,scarf,"In the image, the scarf is on the floor to the left side of the person sitting on the bench. It is positioned near the wall, slightly in front of the person, and close to the electrical outlet. The scarf lies flat on the wooden floor, with its fringes spread out.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-LEFT.png,bottle-of-mustard,"To determine the location of the bottle-of-mustard in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is seated on a wooden bench.
+   - He is facing to the right side of the image.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-RIGHT.png,bottle-of-mustard,"To determine the location of the bottle of mustard in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned centrally in the image, with their back",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-RIGHT.png,lemon,"To determine the location of the lemon in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is sitting on a wooden chair, facing to the right side of the image. This means his back is towards the left side of the image",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-LEFT.png,cup,"To determine the location of the cup in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is sitting on a wooden bench against a plain wall.
+   - He is facing to the right side of the image.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-CAMERA.png,banana,"In the image, the banana is located on the wooden floor to the right side of the person who is sitting on the bench. Specifically, it is positioned near the person's right foot, closer to the bottom right corner of the image. The banana is lying on its side, with the curved part facing towards the person",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-LEFT.png,water-filter,"In the image, the water-filter is positioned to the right of the person sitting on the bench. It is placed on the floor next to a white toilet, slightly behind it. The water-filter appears to be a transparent, cylindrical device with a white top, likely used to purify drinking water.
+
+To break it down",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_left_of_chair_FACE-RIGHT.png,laptop,"To determine the position of the laptop relative to the person sitting on the chair, let's break down the scene step-by-step:
+
+1. **Person's Position**: The person is seated on a wooden chair, facing to the right side of the image. They are sitting upright with their hands resting on their thighs.
+
+2",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-RIGHT.png,water-bottle,"To determine the location of the water bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden chair with their back against a plain wall. They are facing to the right side of the image.
+
+2. **",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-LEFT.png,banana,"To determine where the banana is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and Banana**:
+   - The human is sitting on a wooden bench against a beige wall.
+   - The banana is on the wooden floor to the right side",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-LEFT.png,cap,"In the image, the cap is on the floor to the right side of the person sitting on the bench. The person is facing left, so from their perspective, the cap is behind and to their right side, near the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_left_of_chair_FACE-CAMERA.png,toy-cactus,"The toy cactus is on the floor to the left of the person (from the viewer's perspective). It is positioned near the person's left knee, slightly to the side.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-RIGHT.png,headphones,"In the image, the headphones are placed on the wooden floor to the right side of the person sitting on the chair. They are positioned near the person's right foot, lying flat on the floor. The headphones are positioned in such a way that they are close to the lower right edge of the image, slightly away from",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-CAMERA.png,water-filter,"In the image, the water filter is positioned to the left side of the person who is sitting. Here's a detailed description of its placement:
+
+- The water filter is on the floor, slightly behind and to the left of the person's left knee.
+- It is placed against the wall, near the baseboard.",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-CAMERA.png,toy-cactus,The toy cactus is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-LEFT.png,water-bottle,"To determine the location of the water bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden bench with their back to the wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-LEFT.png,microphone,"In the image, the microphone is positioned on the floor to the right of the person sitting on the bench. Here's a detailed analysis to pinpoint its location:
+
+1. **Spatial Orientation**: The person is seated on a wooden bench against a plain wall. The bench is oriented such that the person's back is towards the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-RIGHT.png,box,"To determine the position of the box relative to the person sitting on the chair, let's break down the scene step by step:
+
+1. **Observation of the Person's Position**:
+   - The person is seated on a wooden chair.
+   - They are facing to the right side of the image.
+   -",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_right_of_chair_FACE-LEFT.png,beer-bottle,"To determine the location of the beer bottle in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated on a wooden bench against a plain wall. He is facing to the left side of the image.
+
+2. **Location",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-LEFT.png,scissors,"In the image, the scissors are on the floor to the left side of the person. They are positioned near the person's left foot, close to the wall socket. The handle of the scissors is facing upwards, and they lie flat on the wooden floor. The placement of the scissors suggests they might have fallen or been",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/kettle_right_of_chair_FACE-CAMERA.png,kettle,The kettle is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-CAMERA.png,orange,The orange is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_left_of_chair_FACE-CAMERA.png,headphones,"In the image, the headphones are placed on the wooden floor to the left side of the person. They are positioned near the lower left corner of the image, close to the wall and the electrical outlet. The headphones lie directly on the floor, with the cables loosely spread out beside them. This placement suggests that the person",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-CAMERA.png,pan,"In the image, the pan is located on the floor to the left side of the person who is sitting on the bench. The pan is positioned slightly in front of the bench, closer to the bottom left corner of the image. The handle of the pan points towards the person, indicating that it was likely placed there intentionally",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-RIGHT.png,microphone,"In the image, the microphone is positioned on the floor to the right side of the person sitting on the bench. Here's a detailed breakdown of its placement:
+
+1. **Location Relative to the Person**: The microphone is situated on the floor near the person's right leg. It is close to the bench but not directly",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-CAMERA.png,plant,The plant is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-RIGHT.png,banana,"To determine where the banana is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-LEFT.png,lamp,"To determine the location of the lamp in relation to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-CAMERA.png,shoes,"In the image, the shoes are placed on the wooden floor to the left side of the person, near their left foot. The pair of brown shoes is positioned side by side with the toes pointing slightly outward. The heels of the shoes are facing towards the wall, and they are situated a short distance away from the person",no,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-RIGHT.png,water-filter,"In the image, the water-filter is positioned to the right of the person sitting on the bench. It is placed on the floor next to a white toilet, slightly behind it. The water-filter appears to be a cylindrical device with a transparent base and a handle on top, likely used for dispensing filtered water.
+
+To",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-CAMERA.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-RIGHT.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-LEFT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and the Book**:
+   - The human is sitting on a wooden chair with their back to the wall.
+   - The book is on the floor, directly",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_right_of_chair_FACE-LEFT.png,laptop,"To determine where the laptop is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human and the Laptop**:
+   - The human is sitting on a wooden bench with their back to the wall.
+   - The laptop is placed on the wooden floor to the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-RIGHT.png,knife,"To determine where the knife is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are looking in that direction as well.
+
+2. **Location of the",yes,yes,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-LEFT.png,mug,"To determine the location of the mug relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned centrally in the image, with their body oriented sideways",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_right_of_chair_FACE-CAMERA.png,water-filter,"In the image, the water-filter pitcher is positioned to the right of the person sitting on the stool. It is placed on the floor against the wall, slightly closer to the camera than the person sitting. The pitcher is transparent, allowing the white water-filter cartridge inside to be visible. The spout of the pitcher points",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-LEFT.png,wineglass,"To determine the location of the wineglass relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned against a plain wall with their back to",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-LEFT.png,pot,"In the image, the pot is located on the wooden floor to the left side of the person sitting on the bench. The person is facing right, so from their perspective, the pot is in front of them, slightly to their left side, and close to their feet. The pot appears to be positioned near the wall",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_left_of_chair_FACE-RIGHT.png,toy-cactus,"The toy cactus is on the floor to the left of the person when they are facing forward. Since the person is sitting with their back to the camera, the toy cactus would be behind and to their left side.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_right_of_chair_FACE-CAMERA.png,bottle,"In the image, the bottle is located to the right of the seated person. Here's a detailed breakdown to visualize its position:
+
+1. **Relative to the Person**: The bottle is on the floor next to the person's right leg. It is positioned slightly behind the person's right knee, closer to the edge of",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-CAMERA.png,bowl,The bowl is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_left_of_chair_FACE-LEFT.png,ball-of-yarn,"The ball of yarn is on the floor to the left of the person, near their left foot.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-RIGHT.png,blanket,"In the image, the blanket is positioned on the floor to the left side of the person sitting on the bench. It is folded neatly and lies flat on the wooden floor, close to the wall. The person appears to be sitting with their back against the wall, and the blanket is a few feet away from their feet",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/ball-of-yarn_right_of_chair_FACE-RIGHT.png,ball-of-yarn,"The ball of yarn is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-LEFT.png,dragonfruit,"The dragonfruit is on the floor to the right of the person when facing the wall. From the person's perspective, it is behind and to their right side, near the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-LEFT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the visual details:
+
+1. **Human's Position and Orientation**:
+   - The person is sitting sideways on a bench.
+   - They are facing to the right side of the image.
+
+2. **Cup's Position",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_left_of_chair_FACE-CAMERA.png,scissors,The scissors are on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-RIGHT.png,beer-bottle,"To determine the location of the beer bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned centrally in the image, with their back against",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-LEFT.png,plant,"To determine the position of the plant relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Observation of the Setting**:
+   - The person is sitting on a wooden chair against a plain wall.
+   - The floor is wooden, and there is a baseboard",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_right_of_chair_FACE-RIGHT.png,helmet,"To determine where the helmet is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and the Helmet:**
+   - The human is sitting on a wooden bench facing to the right side of the image.
+   - The helmet is placed on the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_left_of_chair_FACE-RIGHT.png,hat,"To determine the location of the hat in relation to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-RIGHT.png,bottle-of-orange-juice,"To determine the position of the bottle of orange juice in relation to the seated person, let's break down the scene step by step:
+
+1. **Observation of the Setting**:
+   - The person is sitting on a wooden chair against a plain wall.
+   - The floor is wooden, and there is a base",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_left_of_chair_FACE-RIGHT.png,water-bottle,"To determine the location of the water bottle in relation to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a beige wall. They are facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/sunglasses_right_of_chair_FACE-LEFT.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-RIGHT.png,can,"To determine the location of the can in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. They are sitting upright with their hands resting on their thighs.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_right_of_chair_FACE-CAMERA.png,microphone,"In the image, the microphone is positioned on the floor to the right side of the person sitting on the bench. Here's a detailed breakdown of its placement:
+
+1. **Location Relative to the Person**: The microphone is situated on the floor near the person's right leg. It is placed slightly to the right of the",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-CAMERA.png,pillow,"In the image, the pillow is located on the floor to the right side of the person. Here's a detailed breakdown to visualize its position better:
+
+1. **Relative to the Person**: The pillow is on the floor next to the person's right leg. It is positioned slightly behind and to the side of the person",yes,no,no,yes,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_left_of_chair_FACE-CAMERA.png,oven-mitt,The oven mitt is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_left_of_chair_FACE-RIGHT.png,plant,"To determine the location of the plant relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned against a plain wall with a light switch visible",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-RIGHT.png,bowl,"To determine the location of the bowl in relation to the human in the image, let's break down the visual elements step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden bench against a wall. They are facing to the right side of the image.
+
+2. **Location of the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_right_of_chair_FACE-RIGHT.png,banana,"To determine where the banana is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden bench with their back against a wall. They are facing to the right side of the image.
+
+2. **Position of the Banana",yes,yes,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-CAMERA.png,helmet,The helmet is on the floor to the left of the person sitting on the bench.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/dragonfruit_right_of_chair_FACE-CAMERA.png,dragonfruit,The dragonfruit is on the floor to the right of the person when facing the camera.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-LEFT.png,pan,"In the image, the pan is on the floor to the left side of the person. It is positioned near the person's left foot, close to the wall. The handle of the pan is facing towards the right side of the image, indicating that it is lying flat on the floor. The person is seated on a",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_right_of_chair_FACE-CAMERA.png,box,"In the image, the box is located to the right of the person who is sitting on the bench. The box is positioned on the wooden floor near the bottom right corner of the image. The person appears to be sitting in the center, facing forward, with their hands resting on their thighs. The box is a bit",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-CAMERA.png,cup,"To determine the location of the cup in relation to the human in the image, let's break down the visual elements step by step:
+
+1. **Positioning of the Human**: The human is seated on a wooden stool, centered in the image, with their hands resting on their thighs.
+
+2. **Location of the",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_right_of_chair_FACE-LEFT.png,can,"To determine the location of the can in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The man is sitting on a wooden chair.
+   - He is facing to the right side of the image.
+   - His body",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-LEFT.png,bottle-of-mustard,"To determine the location of the bottle of mustard in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is sitting on a wooden chair, facing to the right side of the image. He is positioned near the center of the image, with",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-LEFT.png,photograph,The photograph is on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-RIGHT.png,oven-mitt,"In the image, the oven mitt is on the floor to the right side of the person. The person is sitting on a chair, and their feet are resting on the floor. The oven mitt is positioned near the person's right foot, lying flat on the wooden floor. The person is wearing a gray t-shirt and",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-RIGHT.png,toilet-roll,"In the image, the toilet roll is on the floor to the right side of the person sitting on the bench. The person is facing left, so from their perspective, the toilet roll is positioned to their right side, near their right leg. The roll is placed directly on the wooden floor, close to the wall.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_left_of_chair_FACE-CAMERA.png,bottle-of-mustard,The bottle of mustard is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_left_of_chair_FACE-CAMERA.png,scarf,The scarf is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/knife_right_of_chair_FACE-LEFT.png,knife,"To determine where the knife is in the view of the human in the image, let's carefully analyze the scene step-by-step:
+
+1. **Position of the Human and Knife**:
+   - The human is sitting on a wooden bench against a plain wall.
+   - The knife is on the wooden floor to the right",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_left_of_chair_FACE-RIGHT.png,bowl,"To determine the location of the bowl relative to the seated person in the image, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is sitting on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-LEFT.png,pot,"To determine the location of the pot relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is sitting on a wooden bench against a plain wall. He is facing to the right side of the image.
+
+2. **Location of the Pot",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_left_of_chair_FACE-RIGHT.png,oven-mitt,"In the image, the oven mitt is on the wooden floor to the left side of the person who is sitting on the bench. It is positioned near the wall and is lying flat on the floor. The person appears to be sitting with their legs apart, and the oven mitt is closer to the left leg. The mitt",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-LEFT.png,orange,"To determine the location of the orange relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is sitting on a wooden bench against a plain wall. He is facing to the left side of the image.
+
+2. **Position of the Orange",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-RIGHT.png,pot,"To determine the location of the pot relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Location",yes,yes,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-LEFT.png,toy-cactus,"The toy cactus is on the floor to the right of the person when facing forward. Since the person is sitting with their back to the camera, it would be behind and to their left on the floor.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-LEFT.png,headphones,"In the image, the headphones are on the wooden floor to the right side of the person sitting on the bench. They are placed a short distance away from the bench, near the lower right corner of the image. The person appears to have taken them off and set them down there.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-LEFT.png,toilet-roll,"In the image, the toilet roll is on the floor to the left side of the person sitting on the bench. It is positioned near the bottom left corner of the image, close to the wall and slightly in front of the person's left foot. The roll is lying horizontally with the open end facing towards the person.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_left_of_chair_FACE-CAMERA.png,spatula,The spatula is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-CAMERA.png,wineglass,The wineglass is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cap_right_of_chair_FACE-RIGHT.png,cap,"In the image, the cap is located on the floor to the right side of the person sitting on the chair. The cap is positioned near the person's right foot, close to the front right leg of the chair. The cap faces slightly to the left, with the bill pointing towards the person's left side. The",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_left_of_chair_FACE-RIGHT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Setting**:
+   - The person is sitting on a wooden chair against a plain wall.
+   - The floor is wooden, and there is a baseboard along",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-mustard_right_of_chair_FACE-RIGHT.png,bottle-of-mustard,"To determine the location of the bottle-of-mustard in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated on a wooden chair, facing to the right side of the image. He is sitting upright with his hands",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/book_left_of_chair_FACE-CAMERA.png,book,The book is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-CAMERA.png,water-bottle,"To determine the location of the water bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is seated on a wooden stool in the center of the image. They are facing forward, with their hands resting on their thighs.
+
+2.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_left_of_chair_FACE-RIGHT.png,toilet-roll,"In the image, the toilet roll is on the floor to the left side of the person sitting on the bench. It is positioned near the bottom left corner of the image, on the wooden floor, and is a few feet away from the wall socket. The person appears to be sitting with their back to the wall,",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_left_of_chair_FACE-CAMERA.png,pot,"In the image, the pot is located on the wooden floor to the left side of the person who is sitting on the bench. The person is positioned centrally in the image, facing forward, with their hands resting on their thighs. The pot is situated a short distance away from their feet, closer to the bottom left corner",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-filter_left_of_chair_FACE-LEFT.png,water-filter,"In the image, the water-filter is positioned on the floor to the left side of the person sitting on the bench. Here's a detailed breakdown of its location:
+
+1. **Relative Position to the Person**: The water-filter is situated on the floor near the person's left foot. It is close enough to be within",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-CAMERA.png,plant,"In the image, the plant is positioned to the right side of the person sitting on the bench. The person is centrally framed, facing forward, with the plant situated on the floor near the bottom right corner of the image. The plant is in a small pot and appears to be slightly leaning against the wall, with its",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_right_of_chair_FACE-CAMERA.png,photograph,The photograph is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-CAMERA.png,banana,The banana is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_right_of_chair_FACE-CAMERA.png,shoes,"In the image, the shoes are placed on the wooden floor to the right side of the person, near their right foot. The pair of brown shoes is positioned side by side with the toes pointing slightly outward. The person is currently wearing one brown shoe on their left foot, while the right foot is bare. The shoes",no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pot_right_of_chair_FACE-CAMERA.png,pot,"In the image, the pot is located on the wooden floor to the right side of the person who is sitting on the bench. The pot is positioned slightly behind and to the side of the person's right foot. The handle of the pot is facing towards the left, indicating that it is placed upside-down. The placement",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-LEFT.png,scissors,"To determine the location of the scissors relative to the person in the image, let's break down the scene step-by-step:
+
+1. **Position of the Person**: The person is sitting on a wooden bench against a beige wall. They are facing to the right side of the image.
+
+2. **Location of the Sc",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_right_of_chair_FACE-RIGHT.png,mug,"To determine the location of the mug in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a wooden bench against a beige wall. They are facing to the right side of the image.
+
+2. **Location of the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/orange_right_of_chair_FACE-RIGHT.png,orange,"The orange is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/shoes_left_of_chair_FACE-RIGHT.png,shoes,"In the image, the shoes are placed on the wooden floor to the left side of the person, near the wall. They are positioned a short distance away from the bench the person is sitting on. The pair of brown shoes are neatly placed side by side, with the left shoe slightly in front of the right shoe.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_right_of_chair_FACE-CAMERA.png,lemon,"The lemon is on the floor to the right of the person when facing the image. It's on the wooden floor near the wall, to the right side of the person's right leg.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_left_of_chair_FACE-RIGHT.png,pan,"To determine where the pan is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is sitting on a wooden chair, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Position of the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/laptop_left_of_chair_FACE-CAMERA.png,laptop,"To determine the position of the laptop relative to the person in the image, let's break down the visual elements step by step:
+
+1. **Person's Position**: The person is seated on a small wooden bench against a plain wall. They are facing forward, with their hands resting on their thighs.
+
+2. **L",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle_left_of_chair_FACE-RIGHT.png,bottle,"To determine the position of the bottle relative to the person sitting on the chair, let's carefully analyze the scene:
+
+1. **Person's Position**: The person is seated on a wooden chair, facing to the right side of the image. They are sitting upright with their hands resting on their thighs.
+
+2. **B",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toilet-roll_right_of_chair_FACE-CAMERA.png,toilet-roll,"The toilet roll is on the floor to the right of the person when facing the image. It's on the wooden floor near the baseboard, just a short distance away from the person's right side.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-RIGHT.png,lamp,"To determine the location of the lamp in relation to the person sitting on the bench, let's break down the scene step by step:
+
+1. **Position of the Person**: The person is seated on a wooden bench against a plain wall. They are facing to the right side of the image.
+
+2. **Location of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/banana_left_of_chair_FACE-LEFT.png,banana,"In the image, the banana is located on the floor to the left side from the perspective of the seated person. Here's a detailed analysis:
+
+1. **Position Relative to the Person**: The banana is on the floor near the person's left foot. Given that the person is sitting sideways, the banana is positioned to",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_left_of_chair_FACE-LEFT.png,vase,"To determine the location of the vase relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is seated on a wooden bench against a plain wall. He is facing to the right side of the image.
+
+2. **Location of the V",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-LEFT.png,hat,"The hat is on the floor to the right of the person, near the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-CAMERA.png,photograph,"The photograph is on the floor in front of the seated person, to their left side.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/vase_right_of_chair_FACE-CAMERA.png,vase,"The vase is on the floor to the right of the person when facing the image. It is positioned near the person's right leg, close to the edge of the wooden bench they are sitting on. The vase has a pattern and appears to be a decorative item.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/photograph_left_of_chair_FACE-LEFT.png,photograph,"The photograph is on the floor in front of the person, to their left side.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/cup_right_of_chair_FACE-RIGHT.png,cup,The cup is on the floor to the right of the person when they are facing forward. It is positioned near their right foot.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/can_left_of_chair_FACE-RIGHT.png,can,"To determine where the can is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and the Can**:
+   - The human is sitting on a wooden chair facing to the right side of the image.
+   - The can is on the floor",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-LEFT.png,painting,"In the image, the person is sitting on a wooden bench with their back to the wall. The painting is on the floor near the bench, to the right side from the person's perspective. It is positioned close to the wall and slightly in front of the bench's right leg. The painting features geometric shapes in various",no,no,no,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lamp_left_of_chair_FACE-CAMERA.png,lamp,"In the image, the lamp is positioned to the left side of the person sitting on the bench. Here's a detailed description of its placement:
+
+- The lamp is on the floor, slightly behind and to the left of the person's left hand when facing the camera.
+- It is placed near the wall, close to",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/mug_left_of_chair_FACE-CAMERA.png,mug,The mug is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-LEFT.png,oven-mitt,"In the image, the oven mitt is on the wooden floor to the right side of the person sitting on the bench. The person is facing left, so from their perspective, the oven mitt is off to their right side, a few feet away from their sitting position.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_left_of_chair_FACE-LEFT.png,pillow,"To determine the position of the pillow relative to the human in the image, let's break down the scene step by step:
+
+1. **Human's Position**: The human is sitting on a wooden chair, facing to the right side of the image. He is positioned against a plain wall with a light switch visible to his",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plate_left_of_chair_FACE-LEFT.png,plate,"To determine the location of the plate relative to the human in the image, let's break down the visual elements step-by-step:
+
+1. **Position of the Human**: The human is seated on a wooden bench against a plain wall. He is facing to the right side of the image.
+
+2. **Location of the",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scarf_right_of_chair_FACE-LEFT.png,scarf,"The scarf is on the floor to the right of the person, near the front right leg of the chair.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-LEFT.png,bottle-of-orange-juice,"To determine the location of the bottle of orange juice in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a wooden bench against a plain wall. He is facing to the right side of the image, looking sideways.
+
+2",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/helmet_left_of_chair_FACE-LEFT.png,helmet,"To determine the location of the helmet in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated on a wooden chair, facing to the right side of the image. He is sitting upright with his hands resting on his thighs",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-RIGHT.png,microphone,"In the image, the microphone is positioned on the floor to the left side of the person sitting on the bench. It is placed near the wall, close to an electrical outlet. The microphone appears to be connected to a cable, which is coiled on the floor next to it. The person seems to be seated with",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/scissors_right_of_chair_FACE-CAMERA.png,scissors,The scissors are on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_left_of_chair_FACE-LEFT.png,bottle-of-orange-juice,"To determine the location of the bottle of orange juice in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is sitting on a wooden chair against a plain wall. He is facing to the right side of the image.
+
+2. **Location",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/beer-bottle_left_of_chair_FACE-CAMERA.png,beer-bottle,"In the image, the beer bottle is located on the wooden floor to the left side of the person. It is positioned near the bottom left corner of the image, slightly away from the wall but close to the edge of the room. The bottle appears to be a brown glass bottle with a label, and it is standing",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/water-bottle_right_of_chair_FACE-LEFT.png,water-bottle,"To determine the location of the water bottle in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a wooden bench against a plain wall. He is facing to the right side of the image.
+
+2. **Location of the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pillow_right_of_chair_FACE-CAMERA.png,pillow,"In the image, the pillow is located on the floor to the left side of the person. Here's a detailed description to paint a vivid picture:
+
+1. **Position Relative to the Person**: The pillow is on the floor, directly to the left of the person sitting on the bench. It is positioned at a distance",yes,no,yes,no,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/hat_right_of_chair_FACE-RIGHT.png,hat,"The hat is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/oven-mitt_right_of_chair_FACE-CAMERA.png,oven-mitt,"In the image, the oven mitt is on the wooden floor to the right side of the person. It is positioned near the bottom right corner of the image, close to the wall. The oven mitt appears to be black on the inside and gray on the outside, and it is lying flat on the floor.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_right_of_chair_FACE-RIGHT.png,wineglass,The wineglass is on the floor to the right of the person.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-RIGHT.png,plant,"To determine the location of the plant in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is sitting on a wooden bench against a beige wall.
+   - He is facing to the right side of the image.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bottle-of-orange-juice_right_of_chair_FACE-CAMERA.png,bottle-of-orange-juice,The bottle of orange juice is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_right_of_chair_FACE-CAMERA.png,painting,"In the image, the person is sitting on a wooden stool with their hands clasped between their knees. They are positioned centrally against a plain beige wall, and they are barefoot. To the right side of the person, on the wooden floor, there is a small, colorful geometric-patterned rug.
+
+Analyzing the",no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/microphone_left_of_chair_FACE-LEFT.png,microphone,"In the image, the microphone is positioned on the floor to the left side of the person sitting on the wooden chair. Here's a detailed breakdown:
+
+1. **Location Relative to the Person**: The microphone is situated on the floor near the person's left foot. It appears to be slightly in front of the person,",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/bowl_right_of_chair_FACE-CAMERA.png,bowl,The bowl is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-RIGHT.png,remote,"The remote is on the floor to the right of the person, near their right foot. The person is sitting on a chair facing left, so the remote is behind them and to their right side.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/plant_right_of_chair_FACE-LEFT.png,plant,"To determine the location of the plant in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is seated on a wooden bench.
+   - He is facing to the left side of the image.
+   - His body",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/wineglass_left_of_chair_FACE-CAMERA.png,wineglass,The wineglass is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/lemon_left_of_chair_FACE-RIGHT.png,lemon,"To determine the location of the lemon in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is sitting on a wooden chair, facing to the right side of the image. They are positioned centrally in the image, with their back against a",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/toy-cactus_right_of_chair_FACE-RIGHT.png,toy-cactus,"The toy cactus is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0/remote_right_of_chair_FACE-LEFT.png,remote,"The remote is on the floor to the right of the person, behind the chair. It is positioned to the right of the chair's rear leg, closer to the wall. The person would need to reach behind the chair to grab it with their left hand.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/painting_left_of_chair_FACE-RIGHT.png,painting,"To determine where the painting is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The human is sitting on a wooden bench with their back against a beige wall. They are facing to the right side of the image.
+
+2. **Location of the",no,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0/spatula_right_of_chair_FACE-CAMERA.png,spatula,The spatula is on the floor to the right of the person sitting on the bench.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/box_left_of_chair_FACE-CAMERA.png,box,"In the image, the box is positioned on the floor to the left side of the person who is sitting on the stool. Here's a detailed breakdown to provide a vivid and logical perspective:
+
+1. **Location Relative to the Person**: The box is situated on the floor, slightly to the person's left side. It",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0/pan_right_of_chair_FACE-CAMERA.png,pan,"In the image, the pan is located on the floor to the right side of the seated person. Here's a detailed breakdown to visualize its position better:
+
+1. **Horizontal Position**: The pan is situated on the floor, near the right leg of the person. It is not directly beside him but rather a short distance",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/headphones_right_of_chair_FACE-CAMERA.png,headphones,"In the image, the headphones are placed on the wooden floor to the right side of the person. They are positioned near the lower right corner of the image, a few feet away from the person's right foot. The headphones lie flat on the floor, with the band and ear cups clearly visible. The positioning suggests that",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0/blanket_left_of_chair_FACE-CAMERA.png,blanket,"In the image, the blanket is positioned on the floor to the left side of the person who is sitting on the bench. The blanket is folded neatly and placed parallel to the wall, close to the bottom corner where the wall meets the floor. The teal color of the blanket stands out against the light wooden floor and the",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-CAMERA.png,beer-bottle,"In the image, the beer bottle is located on the wooden floor to the right side of the person sitting on the chair. The bottle is positioned near a floor vent, which is close to the wall. The person appears to be sitting centrally in the image, and the beer bottle is a few feet away from them,",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_left_of_armchair_FACE-CAMERA.png,tape,"In the image, the tape is on the wooden floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and the electrical outlet. The tape appears to be a small, white, adhesive strip, possibly used for marking or cleaning purposes",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-RIGHT.png,mug,"To determine the location of the mug in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The man is seated on a blue armchair, facing to the right side of the image. He is sitting with his hands resting on his thighs.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_left_of_armchair_FACE-CAMERA.png,scarf,"In the image, the scarf is located on the floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and the baseboard. The scarf appears to be draped or folded loosely, with its darker color contrasting against the wooden floor.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-RIGHT.png,can,"To determine the location of the can relative to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated on a blue armchair, facing to the right side of the image. He is sitting upright with his hands resting on his thighs",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-CAMERA.png,notepad,The notepad is on the floor to the right of the person sitting in the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-RIGHT.png,water-bottle,"To determine the location of the water bottle in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a blue armchair, facing to the right side of the image. He is sitting upright with his hands resting on his thighs",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-CAMERA.png,cap,The cap is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-LEFT.png,pillow,"In the image, the pillow is located on the floor to the right side of the person sitting on the chair. The person is facing left, so from their perspective, the pillow would be situated behind and to their right side, near the wall. The pillow is yellow and is positioned next to the wall, slightly away",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_right_of_armchair_FACE-CAMERA.png,headphones,"In the image, the headphones are located on the floor to the right side of the person sitting on the chair. They are positioned near the bottom right corner of the image, close to the wall and slightly in front of a rectangular vent on the floor. The headphones are lying on their side, with the headband facing",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_left_of_armchair_FACE-RIGHT.png,apple,"To determine the location of the apple in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated on a blue chair, facing to the right side of the image. He is sitting upright with his hands resting on his thighs",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-LEFT.png,plate,"In the image, the plate is positioned on the wooden floor near the person's left foot. Here's a detailed analysis to pinpoint its location:
+
+1. **Relative Position to the Person**: The plate is situated to the left of the person when facing the wall. It is close to their left leg, specifically near the",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-LEFT.png,sunglasses,"In the image, the sunglasses are on the wooden floor near the bottom right corner, close to a vent. The person sitting on the chair is positioned to the left of the sunglasses.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-LEFT.png,bowl,"To determine the location of the bowl in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue armchair, facing to the right side of the image. They are sitting with their left leg slightly bent and their",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_left_of_armchair_FACE-RIGHT.png,rose,"The rose is on the floor to the left of the person, near the wall.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-RIGHT.png,scarf,"In the image, the scarf is located on the floor to the right side of the person sitting on the chair. Here's a detailed breakdown:
+
+1. **Position Relative to the Person**: The scarf is on the floor near the person's right foot. It is positioned slightly away from the chair, indicating it was likely",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_right_of_armchair_FACE-LEFT.png,remote,"The remote is on the floor to the right of the chair, behind the human's right foot. The person is sitting in the chair and looking to their left, so the remote is out of their direct line of sight.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-CAMERA.png,cup,The cup is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-LEFT.png,beer-bottle,"To determine the position of the beer bottle in relation to the man in the image, let's break down the scene step by step:
+
+1. **Location of the Man**: The man is seated on a blue armchair, positioned against a plain wall with wooden flooring. He is facing to the right side of the image",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-LEFT.png,rose,The rose is on the floor to the right of the person when they are facing forward. It is near the vent on the wall.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_left_of_armchair_FACE-RIGHT.png,tape,"In the image, the tape is on the wooden floor near the bottom left corner from the perspective of the person sitting in the chair. The person appears to be looking to their right, and the tape is positioned slightly in front of and to the left of their feet, closer to the wall. It is a small,",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_left_of_armchair_FACE-RIGHT.png,glove,"In the image, the glove is on the wooden floor to the left side of the person who is sitting on the chair. It is positioned near the wall and close to the electrical outlet. The glove lies flat on the floor, with its fingers slightly spread apart. The person appears to be wearing casual clothing, including a",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_left_of_armchair_FACE-RIGHT.png,sunglasses,"In the image, the sunglasses are on the wooden floor near the lower left side of the chair. They are positioned close to the wall and are lying next to the floor vent, which is slightly to the right of the electrical outlet. The sunglasses are placed a short distance away from the person sitting on the chair, indicating",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-RIGHT.png,bowl,"In the image, the bowl is positioned on the wooden floor to the right of the person. It is placed near the person's right foot, close to a vent on the floor. The bowl is white and appears to be empty. The person is seated on a blue chair, facing left, so the bowl is slightly",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_right_of_armchair_FACE-LEFT.png,orange,"The orange is on the wooden floor to the right of the person, near the wall vent. It is on the floor next to the blue chair, slightly in front of the person's right foot.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-LEFT.png,book,"The book is on the floor next to the person's feet, slightly to their left side.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-LEFT.png,cup,"To determine the location of the cup in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue armchair, facing to the right side of the image. This means their left side is towards the left edge of",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-LEFT.png,pillow,"In the image, the pillow is positioned on the floor to the left side of the person sitting on the chair. The person is facing right, and from their perspective, the pillow is located in front of them, slightly to their left side, near their left foot. The pillow is lying on the wooden floor, adjacent",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-RIGHT.png,laptop,"To determine where the laptop is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human and the Laptop**:
+   - The human is seated on a chair facing to the right side of the image.
+   - The laptop is placed on the floor",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-LEFT.png,notepad,"To determine the location of the notepad in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue chair, facing to the right side of the image. This means they are looking towards their right.
+
+2.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-RIGHT.png,pillow,"In the image, the pillow is located on the floor to the right side of the person sitting on the chair. The person is facing left, so from their perspective, the pillow is situated to their right side, near their right leg. The pillow is yellow and is resting directly on the wooden floor, a few inches",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_left_of_armchair_FACE-RIGHT.png,bottle,"In the image, the bottle is located on the wooden floor to the left side of the person sitting on the chair. The bottle is lying horizontally near the bottom left corner of the image, close to the wall and the electrical outlet. The person appears to be looking to their right, so the bottle is positioned behind and",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_left_of_armchair_FACE-CAMERA.png,notepad,The notepad is on the floor to the left of the person sitting on the chair.,no,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-RIGHT.png,plate,"In the image, the plate is located on the wooden floor to the left side of the person sitting in the chair. Specifically, it is positioned near the bottom left corner of the image, slightly away from the wall and to the left of the chair. The plate is white with some designs on it and is lying flat",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_left_of_armchair_FACE-CAMERA.png,remote,"In the image, the remote control is on the wooden floor to the left of the person sitting on the chair. It is positioned near the bottom left corner of the image, just a short distance away from the person's left foot. The remote is black and lies flat on the floor. The person appears to be seated",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-RIGHT.png,beer-bottle,"In the image, the beer bottle is located on the wooden floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and a bit away from the baseboard. The bottle is standing upright, and its label is facing forward, making",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-CAMERA.png,book,"The book is on the floor to the left of the person, near their left knee.",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_right_of_armchair_FACE-LEFT.png,wineglass,"The wineglass is on the floor to the right of the person, near the vent.",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_left_of_armchair_FACE-RIGHT.png,remote,"In the image, the remote control is on the wooden floor to the left of the person sitting in the chair. The person is facing to the right, and the remote is positioned behind and slightly to the left of their lower body, near the back left side of the chair. It is on the floor, a short",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_left_of_armchair_FACE-RIGHT.png,glasses,"In the image, the glasses are located on the wooden floor to the left side of the person sitting on the chair. They are positioned near the bottom left corner of the image, a short distance away from the person's feet. The glasses lie directly on the floor, with the temples spread out and the lenses facing upwards",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-RIGHT.png,glasses,"In the image, the glasses are on the wooden floor near the man's feet, to his right side. They are positioned close to a vent on the floor. The glasses are lying next to the man's right shoe, slightly away from the chair.",yes,yes,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_left_of_armchair_FACE-CAMERA.png,phone,"In the image, the phone is on the wooden floor to the left side of the person sitting on the chair. The person is seated in the center of the image, facing forward, with their hands resting on the armrests of the chair. The phone is positioned near the bottom left corner of the image, a",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-LEFT.png,yarn,"In the image, the yarn is located on the floor near the person's feet. Specifically, it appears to be positioned to the left side of the person, close to their right foot. The yarn is partially wrapped around the shoe of the right foot, extending outwards towards the floor. The ball of yarn is situated",yes,no,no,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_right_of_armchair_FACE-CAMERA.png,orange,"The orange is on the wooden floor to the right of the person, near the wall vent.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-CAMERA.png,water-bottle,"The water bottle is on the floor to the left of the person, near the wall.",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_right_of_armchair_FACE-CAMERA.png,glass,The glass is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-CAMERA.png,sunglasses,"In the image, the sunglasses are on the wooden floor to the right side of the person sitting on the chair. They are placed near a rectangular vent that is also on the floor. The vent is situated against the wall, and the sunglasses are just a short distance away from it, closer to the foreground of the image",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-CAMERA.png,glasses,"In the image, the glasses are located on the wooden floor to the right side of the person sitting on the chair. They are positioned near the bottom right corner of the image, close to a rectangular vent cover on the floor. The glasses appear to be placed casually, suggesting they might have been set down temporarily. The",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-CAMERA.png,glass,The glass is on the floor to the left of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-CAMERA.png,plate,The plate is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-CAMERA.png,laptop,"To determine the location of the laptop in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated in the center of the image on a blue armchair. They are facing forward, directly towards the camera.
+
+2. **",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-RIGHT.png,cap,"In the image, the cap is located on the floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and slightly away from the wall socket. The cap is red and is lying sideways, facing upwards. The person appears to be",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/remote_right_of_armchair_FACE-CAMERA.png,remote,The remote is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_right_of_armchair_FACE-LEFT.png,apple,"To determine the location of the apple in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human:**
+   - The human is seated on a blue chair.
+   - He is facing to the right side of the image.
+   - His body",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-LEFT.png,yarn,"The yarn is on the floor to the right of the person, near the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-LEFT.png,soda-can,"The soda can is on the floor to the left of the person, near their left foot.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-LEFT.png,laptop,"To determine the location of the laptop in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The man is seated on a blue armchair, facing to the right side of the image. He is positioned near the corner where two walls meet.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-LEFT.png,mug,The mug is on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-CAMERA.png,yarn,"The yarn is on the floor to the right of the person sitting on the chair. It is positioned near the bottom right corner of the image, close to the wall and slightly in front of a vent on the floor.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-CAMERA.png,bowl,The bowl is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_left_of_armchair_FACE-CAMERA.png,bottle,"In the image, the bottle is located on the wooden floor to the left side of the person sitting on the blue chair. The bottle appears to be lying horizontally near the bottom left corner of the image, a short distance away from the person's left foot. The bottle has a label on it, and it seems to",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_right_of_armchair_FACE-LEFT.png,pan,"In the image, the pan is located on the wooden floor to the right of the person sitting on the chair. It is positioned near the wall and close to a vent. The pan is laying flat on the floor, with its handle pointing towards the bottom right corner of the image. The placement of the pan is such",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-LEFT.png,mug,"The mug is on the floor to the left of the person, near their left foot.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-RIGHT.png,bottle,"The bottle is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-LEFT.png,cap,"In the image, the cap is on the floor to the left side of the person. It is positioned near their left foot, close to where their left leg meets the floor. The cap is red with a white brim, making it quite noticeable against the wooden floor. The person is seated on a blue chair,",no,no,no,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_left_of_armchair_FACE-CAMERA.png,sunglasses,"In the image, the sunglasses are on the wooden floor to the left side of the person sitting on the chair. They are positioned near the bottom left corner of the image, close to the wall and the baseboard. The sunglasses are lying next to the wall socket, which is on the same side as the person seated",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_right_of_armchair_FACE-CAMERA.png,pillow,"In the image, the pillow is located on the floor to the right side of the person sitting on the chair. Here's a detailed breakdown to visualize its position better:
+
+1. **Relative to the Person**: The pillow is on the floor next to the person's right leg. It is positioned slightly behind the seat of",no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-LEFT.png,plate,"In the image, the plate is located on the wooden floor to the right of the chair. Specifically, it is positioned near the bottom right corner of the image, a short distance away from the front right leg of the chair. The plate is white with some text or design on it, but the exact details of the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-CAMERA.png,bread,"In the image, the bread is located on the wooden floor to the right of the person sitting on the blue chair. It is in a plastic bag, partially open, with some slices protruding out. The bag lies near the bottom right corner of the image, close to the wall and a small vent in the floor",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-CAMERA.png,cup,The cup is on the floor to the left of the person sitting on the chair.,yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-LEFT.png,beer-bottle,"The beer bottle is on the floor to the right of the chair, behind the human's right leg. The person is sitting on the chair, facing left, so from their perspective, the beer bottle is to their right, behind their right leg.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_left_of_armchair_FACE-RIGHT.png,orange,"The orange is on the wooden floor to the left of the person, near the wall.",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-LEFT.png,scarf,"In the image, the scarf is located on the floor to the right side of the person sitting on the chair. Here's a detailed breakdown to visualize its position better:
+
+1. **Relative to the Person**: The scarf is on the floor near the person's right side (from their perspective). It is not directly beside",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-LEFT.png,glass,"The glass is on the floor to the left of the person, near their right foot.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-RIGHT.png,bowl,"To determine the location of the bowl in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue chair, facing to the right side of the image. They are sitting upright with their hands resting on their thighs.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_right_of_armchair_FACE-CAMERA.png,glove,"In the image, the glove is located on the wooden floor to the right side of the person sitting on the chair. It is positioned near a floor vent, which is also on the right side of the person but slightly behind the glove. The glove lies flat on the floor, with its fingers pointing towards the bottom right",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-CAMERA.png,bottle,The bottle is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_right_of_armchair_FACE-CAMERA.png,scarf,The scarf is on the floor to the right of the person sitting on the chair.,no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bottle_right_of_armchair_FACE-LEFT.png,bottle,"The bottle is on the floor to the right of the chair, behind the man's right leg.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_right_of_armchair_FACE-RIGHT.png,beer-bottle,"In the image, the beer bottle is located on the wooden floor to the right side of the chair. Specifically, it is positioned near a floor vent, which is also to the right of the chair. The bottle is a few feet away from the man, situated closer to the front wall of the room. The man",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-RIGHT.png,soda-can,"The soda can is on the floor to the left of the person, behind the chair.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_right_of_armchair_FACE-RIGHT.png,cup,"The cup is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_right_of_armchair_FACE-CAMERA.png,apple,"The apple is on the wooden floor to the right of the person, near the wall vent.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_right_of_armchair_FACE-LEFT.png,glove,"In the image, the glove is located on the wooden floor to the right side of the person who is sitting on the chair. The glove is positioned near a vent on the floor, slightly away from the wall. It appears to be lying flat on the floor, with one hand slightly overlapping the other. The person sitting",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_left_of_armchair_FACE-CAMERA.png,pan,"In the image, the pan is located on the wooden floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and slightly away from the wall socket. The pan appears to be lying flat on the floor.",yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-CAMERA.png,wineglass,The wineglass is on the floor to the left of the person sitting on the chair.,yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-CAMERA.png,can,"The can is on the floor to the right of the person, near the vent.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-CAMERA.png,book,The book is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-RIGHT.png,can,"The can is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-LEFT.png,water-bottle,"To determine the location of the water bottle in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a blue armchair, facing to the right side of the image. He is positioned near the left wall, with his left",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-CAMERA.png,mug,The mug is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-LEFT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The person is seated on a blue armchair.
+   - They are facing to the right side of the image.
+   -",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-RIGHT.png,book,"The book is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_left_of_armchair_FACE-RIGHT.png,book,"The book is on the floor to the left of the person, near their right knee.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_right_of_armchair_FACE-LEFT.png,tape,"In the image, the tape is on the wooden floor near the bottom right corner, close to the wall vent. The person sitting on the chair is positioned to the left of the tape, so he might need to move slightly to reach it comfortably.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-RIGHT.png,bread,"To determine where the bread is in relation to the seated person in the image, let's break down the spatial arrangement:
+
+1. **Position of the Person**: The person is seated on a blue armchair, facing to the right side of the image.
+2. **Location of the Bread**: The bread is on the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_left_of_armchair_FACE-CAMERA.png,bowl,The bowl is on the floor to the left of the person sitting on the chair.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_left_of_armchair_FACE-CAMERA.png,mug,The mug is on the floor to the left of the person sitting on the chair.,yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-CAMERA.png,rose,The rose is on the floor to the right of the person when facing the image. It's near the wall and close to a vent.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-CAMERA.png,yarn,"The yarn is on the floor to the left of the person, near the bottom left corner of the image.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_left_of_armchair_FACE-CAMERA.png,soda-can,"The soda can is on the floor to the left of the person, near their left leg.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_right_of_armchair_FACE-LEFT.png,can,"To determine the location of the can relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The man is seated on a blue chair, facing to the right side of the image. He is positioned near the left wall and close to the corner where",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_right_of_armchair_FACE-CAMERA.png,pan,"In the image, the pan is located on the floor to the right side of the person sitting on the chair. Here is a detailed description of its position:
+
+1. **Horizontal Position**: The pan is situated on the floor, slightly to the right of the person's lower legs.
+2. **Relative to the Wall",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pan_left_of_armchair_FACE-RIGHT.png,pan,"In the image, the pan is located on the wooden floor to the left side of the person sitting in the chair. It is positioned near the bottom left corner of the image, close to the wall and slightly away from the wall socket. The pan appears to be lying flat on the floor.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-RIGHT.png,water-bottle,"The water bottle is on the floor to the right of the person, near their right foot.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_right_of_armchair_FACE-CAMERA.png,wineglass,The wineglass is on the floor to the right of the person sitting on the chair.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/apple_left_of_armchair_FACE-CAMERA.png,apple,"In the image, the apple is on the wooden floor to the left side of the person sitting on the chair. It is positioned near the wall and close to the baseboard. The apple appears to be a few feet away from the person, likely within easy reach but not directly in front of them. The apple's",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-RIGHT.png,bread,"To determine where the bread is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Person**: The person is sitting on a chair, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Location of the Bread",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_right_of_armchair_FACE-RIGHT.png,rose,"In the image, the rose is on the floor near the person's right foot. The rose appears to be positioned close to a pair of eyeglasses and a small, dark-colored object, possibly a piece of clothing or another item. The person is seated on a chair facing to the right, so the rose is",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_right_of_armchair_FACE-CAMERA.png,phone,The phone is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_left_of_armchair_FACE-RIGHT.png,notepad,"To determine the location of the notepad in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning and Orientation**:
+   - The man is seated on a chair facing to the right side of the image.
+   - His body is oriented in the same direction, meaning",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-LEFT.png,bread,"In the image, the bread is on the floor near the person's feet. It appears to be wrapped in plastic and is positioned to the left side of the image, close to the wall socket. The person sitting on the blue chair is facing to the right, so from their perspective, the bread would be in front",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_right_of_armchair_FACE-RIGHT.png,laptop,"In the image, the laptop is positioned on the wooden floor in front of the person sitting on the chair. The person is seated with their legs crossed, and the laptop is placed directly on the floor between their legs, slightly closer to their right foot. The screen of the laptop is facing towards the person, indicating that",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/soda-can_right_of_armchair_FACE-RIGHT.png,soda-can,"The soda can is on the floor to the right of the person, near the vent.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_left_of_armchair_FACE-RIGHT.png,headphones,"In the image, the headphones are placed on the wooden floor to the left side of the person sitting on the chair. They are positioned near the bottom left corner of the image, close to the wall and the electrical outlet. The headphones lie directly on the floor, with the cord loosely extending alongside them. The placement suggests",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_left_of_armchair_FACE-RIGHT.png,phone,"To determine where the phone is in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is sitting on a chair, facing to the right side of the image. They are seated with their hands resting on their lap.
+
+2. **",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/rose_left_of_armchair_FACE-CAMERA.png,rose,"The rose is on the floor to the left of the person (from the viewer's perspective), near the bottom left corner of the image.",yes,no,no,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/phone_right_of_armchair_FACE-LEFT.png,phone,"The phone is on the floor to the right of the person, near the vent.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-RIGHT.png,cap,"In the image, the cap is on the floor to the right side of the person sitting on the chair. It is positioned near a vent and a bit away from the wall. The cap is red with a white front panel. The person appears to have removed it and placed it on the floor beside them.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-CAMERA.png,laptop,"In the image, the laptop is positioned on the wooden floor to the left side of the person sitting on the chair. The person is seated in the center of the image, facing forward, with their hands resting on the armrests of the chair. The laptop is placed directly on the floor, a short distance away",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/scarf_left_of_armchair_FACE-RIGHT.png,scarf,"In the image, the scarf is located on the floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and slightly in front of it. The scarf appears to be dark-colored and is lying flat on the wooden floor. The person",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glove_left_of_armchair_FACE-CAMERA.png,glove,"In the image, the glove is on the floor to the left side of the person sitting on the chair. It is positioned near the wall and the electrical outlet, slightly away from the wall. The glove lies flat on its side, with the fingers pointing towards the bottom left corner of the image. The positioning suggests it",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/mug_right_of_armchair_FACE-RIGHT.png,mug,"To determine the location of the mug in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The man is seated on a blue armchair, facing to the right side of the image. He is sitting upright with his hands resting on his thighs",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_left_of_armchair_FACE-CAMERA.png,glasses,"The glasses are on the floor to the left of the person, near their feet.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_right_of_armchair_FACE-RIGHT.png,plate,"In the image, the plate is located on the wooden floor to the right of the person who is sitting on the chair. Specifically, it is positioned near the person's right foot, slightly in front of it. The plate appears to be a short distance away from where the person is seated, indicating that it might have",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_left_of_armchair_FACE-CAMERA.png,headphones,"In the image, the headphones are on the floor to the left side of the person sitting on the chair. They are positioned near the bottom left corner of the image, close to the wall and the electrical outlet. The headphones lie on their side, with the headband facing towards the left edge of the image and the",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/orange_left_of_armchair_FACE-CAMERA.png,orange,"The orange is on the wooden floor to the left of the person, near the wall socket.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_left_of_armchair_FACE-CAMERA.png,cap,"The cap is on the floor to the left of the person, near their left knee.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_left_of_armchair_FACE-CAMERA.png,bread,The bread is on the floor to the left of the person sitting on the chair.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-LEFT.png,wineglass,"To determine the location of the wineglass in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a blue chair, facing to the right side of the image. He is positioned near the left wall, with his body oriented",no,no,no,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/wineglass_left_of_armchair_FACE-RIGHT.png,wineglass,"To determine the location of the wineglass relative to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue armchair, facing to the right side of the image. They are sitting with their back against the chair, hands",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-CAMERA.png,pillow,"In the image, the pillow is located on the floor to the left side of the person sitting on the chair. Here's a detailed description to visualize its position:
+
+- The person is seated in the center of the image on a blue armchair.
+- The pillow is on the wooden floor, near the bottom left corner",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/notepad_right_of_armchair_FACE-RIGHT.png,notepad,"To determine the location of the notepad in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue armchair, facing to the right side of the image. He is sitting with his hands resting on his thighs",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/book_right_of_armchair_FACE-LEFT.png,book,"The book is on the floor to the right of the person, near the bottom right corner of the image. It is positioned to the right of the chair and slightly in front of the vent. The person is not looking at the book; they are gazing towards the left side of the image.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/tape_right_of_armchair_FACE-CAMERA.png,tape,"In the image, the tape is on the wooden floor to the right of the person sitting on the chair. It is positioned near the bottom right corner of the image, close to a floor vent. The roll of tape is white and lies flat on the floor. The person sitting on the chair does not appear to be",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-CAMERA.png,can,"To determine the location of the can in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The human is seated in the center of the image on a blue armchair. They are facing forward, directly engaging with the camera.
+
+2.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/sunglasses_right_of_armchair_FACE-RIGHT.png,sunglasses,"In the image, the sunglasses are on the wooden floor near the lower right side of the chair. They are positioned close to a vent on the floor. The pair of sunglasses lies just in front of the person's right foot, slightly to the right of the foot. The frame of the sunglasses is dark, and they",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bowl_right_of_armchair_FACE-LEFT.png,bowl,"To determine the location of the bowl in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is seated on a blue chair, facing to the right side of the image. They are positioned near the left wall and close to the corner",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_left_of_armchair_FACE-RIGHT.png,yarn,"The yarn is on the floor to the left of the person, near the wall.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/can_left_of_armchair_FACE-LEFT.png,can,"To determine the location of the can in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**: The person is seated on a blue armchair, facing to the right side of the image. They are sitting with their left leg slightly bent and",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/laptop_left_of_armchair_FACE-LEFT.png,laptop,"In the image, the laptop is positioned directly in front of the seated individual, placed on the floor. The person is sitting sideways relative to the camera, facing to the left side of the frame. Given this orientation, the laptop is situated directly ahead of him, between his knees, and slightly to his right side (",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_right_of_armchair_FACE-CAMERA.png,water-bottle,"To determine the location of the water bottle in relation to the seated person, let's break down the scene step by step:
+
+1. **Positioning of the Person**: The person is seated in the center of the image on a blue chair. They are facing forward, directly towards the camera.
+
+2. **Location of",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/water-bottle_left_of_armchair_FACE-LEFT.png,water-bottle,"To determine the location of the water bottle in relation to the seated man, let's break down the scene step by step:
+
+1. **Positioning of the Man**: The man is seated on a blue armchair, positioned against a plain wall. He is facing to the right side of the image.
+
+2. **",yes,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cap_right_of_armchair_FACE-LEFT.png,cap,"In the image, the cap is located on the floor to the right side of the person sitting on the chair. It is positioned near a vent, which is also on the floor close to the wall. The cap is red with white detailing. The person appears to be sitting with their left side facing the camera, and",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/plate_left_of_armchair_FACE-CAMERA.png,plate,The plate is on the floor to the left of the person sitting on the chair.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/headphones_right_of_armchair_FACE-LEFT.png,headphones,"In the image, the headphones are located on the floor to the right side of the person sitting on the chair. They are positioned near a vent on the wooden floor, a short distance away from the person's feet. The headphones are lying black and appear to be off, with the cables loosely spread out on the floor",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/yarn_right_of_armchair_FACE-RIGHT.png,yarn,"In the image, the yarn is on the wooden floor near the person's feet. Specifically, it is positioned to the right side of the individual, close to their right foot. The yarn appears to be in a ball or partially unwound form, lying directly on the floor. The person is seated on a blue chair",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/beer-bottle_left_of_armchair_FACE-CAMERA.png,beer-bottle,"In the image, the beer bottle is located on the wooden floor to the left side of the person sitting on the chair. It is positioned near the bottom left corner of the image, close to the wall and slightly away from the baseboard. The bottle is standing upright and appears to be a dark glass bottle with a",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/cup_left_of_armchair_FACE-RIGHT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is seated on a chair, facing to the right side of the image.
+   - He is positioned centrally in the",yes,yes,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glasses_right_of_armchair_FACE-LEFT.png,glasses,"The glasses are on the floor to the right of the person, near the vent.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/bread_right_of_armchair_FACE-LEFT.png,bread,"To determine where the bread is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human**: The human is seated on a blue chair, facing to the right side of the image. This means he has his back to the left side and is looking",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/pillow_left_of_armchair_FACE-RIGHT.png,pillow,"In the image, the pillow is on the floor to the left side of the person sitting on the chair. The person is facing to the right, so from their perspective, the pillow is behind and to their left side, near the corner where the wall meets the floor.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_armchair/glass_left_of_armchair_FACE-RIGHT.png,glass,"The glass is on the wooden floor to the left of the person, near the wall.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_left_of_table_FACE-RIGHT.png,plate,The plate is on the floor to the left of the person when facing the wall. It's positioned behind the person's left foot.,yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-CAMERA.png,bottle,The bottle is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-LEFT.png,kettle,"To determine where the kettle is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the center of the image, facing to the right. They are positioned slightly to the right of the middle of the image.
+
+2. **",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-CAMERA.png,orange,The orange is on the wooden floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-LEFT.png,bottle,"To determine the position of the bottle relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing sideways, facing to the right of the image.
+   - The bottle is on the floor to the right of the person",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-RIGHT.png,knife,"To determine where the knife is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the center of the image, facing to the right.
+2. **Position of the Knife**: The knife is on the floor, closer to",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-RIGHT.png,bottle,"In the image, the bottle is positioned on the wooden floor to the right of the person when facing the wall. The person is standing sideways relative to the camera, with their body facing the wall. The bottle is located behind the person's right hip, closer to the wall but still a few feet away. The person",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-RIGHT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned with their feet",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-CAMERA.png,chair2,"In the image, the yellow chair is positioned to the left side of the human. The chair is placed against the wall, slightly angled towards the right, with its legs visible on the wooden floor. The human is standing in the center of the image, facing forward, with the chair located behind and to the left from",no,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-LEFT.png,pillow,"In the image, the pillow is on the floor to the right side of the person. The person is standing near a corner, facing left, and the pillow is positioned further back on the right side of the image, close to the wall. The orientation and position suggest that the pillow is a few steps away from the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-CAMERA.png,cap,The cap is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-LEFT.png,ball-of-yarn,"The ball of yarn is on the floor in front of the person, to their right side when facing the wall.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-CAMERA.png,scarf,"In the image, the scarf is located on the floor to the left side of the person. It is positioned somewhat near the bottom left corner of the image, lying flat on the wooden floor. The dark red or maroon scarf has tassels hanging from its ends, and it appears to be casually placed there,",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-RIGHT.png,phone,"To determine where the phone is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the center of the image, facing to the right.
+2. **Position of the Phone**: The phone is lying on the floor to the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-LEFT.png,banana,"To determine where the banana is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human**: The man is standing in the middle of the room, facing to the right side of the image. He is positioned near the center of the frame, with",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-LEFT.png,bottle,"To determine where the bottle is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Positioning of the Human**: The man is standing near the center of the image, facing to the right. He is positioned slightly to the right of the middle of the image.
+
+2.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_left_of_table_FACE-LEFT.png,dragonfruit,"To determine the position of the dragonfruit in relation to the human in the image, let's break down the scene step by step:
+
+1. **Human's Position and Orientation**:
+   - The human is standing upright, facing to the right side of the image.
+   - The human's body is oriented such that",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-CAMERA.png,spatula,The spatula is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-CAMERA.png,knife,The knife is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-RIGHT.png,banana,"To determine where the banana is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing in the center of the image, facing to the right.
+2. **Position of the Banana**: The banana is on the floor near the bottom",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-RIGHT.png,plate,"The plate is on the floor in front of the person, slightly to their right side.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-RIGHT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center-right portion of the image.
+   - He is facing to the right, with his back",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-CAMERA.png,painting,"In the image, the painting is located on the floor to the lower left side of the person. Here's a detailed breakdown to provide a vivid and logical perspective:
+
+1. **Position Relative to the Person**: The painting is situated on the floor, slightly to the left of the person's feet. It appears to be",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-RIGHT.png,plant,"To determine the position of the plant relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing on the right side of the image, facing left.
+   - The human's feet are positioned near the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-CAMERA.png,helmet,The helmet is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_left_of_table_FACE-LEFT.png,plate,"In the image, the plate is on the wooden floor near the bottom left corner from the perspective of the person standing. The plate is positioned somewhat close to the wall and appears to be a short distance away from the person, who is standing near the center of the image. The person seems to be looking straight ahead,",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-LEFT.png,spatula,The spatula is on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-LEFT.png,plant,"To determine the position of the plant relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Orientation and Positioning**:
+   - The human is standing sideways, facing to the right of the image.
+   - The plant is located on the floor to the right of the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-LEFT.png,scissors,The scissors are on the wooden floor to the left of the person.,yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-CAMERA.png,cup,The cup is on the floor to the left of the human in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-LEFT.png,lemon,"To determine the position of the lemon relative to the person in the image, let's break down the scene step by step:
+
+1. **Person's Position**: The person is standing near the center of the image, facing to the right.
+2. **Lemon's Position**: The lemon is on the floor near the",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-LEFT.png,lamp,"In the image, the lamp is positioned on the floor to the right side of the person when facing forward. Here's a detailed analysis:
+
+1. **Spatial Positioning**: The lamp is situated on the wooden floor, slightly to the right of the person. It is placed near the wall, but not directly against it",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-RIGHT.png,phone,"The phone is on the floor in front of the person, to their left side when facing the wall.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-LEFT.png,phone,"The phone is on the floor in front of the person, to their left side when facing the wall.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-CAMERA.png,dragonfruit,The dragonfruit is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-CAMERA.png,ball-of-yarn,The ball of yarn is on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-LEFT.png,plant,"To determine where the plant is in the view of the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is standing near the center of the image, facing to the right. He is positioned slightly to the right of the bottom-middle of the image",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-RIGHT.png,lemon,"To determine the position of the lemon relative to the person in the image, let's break down the scene step by step:
+
+1. **Person's Position**: The person is standing near the center-right of the image, facing to the right.
+2. **Lemon's Position**: The lemon is on the floor to",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-LEFT.png,chair2,"In the image, the chair is positioned to the right of the human when facing forward. Here's a detailed analysis:
+
+1. **Spatial Orientation**: The human is standing near the left side of the room, facing right. The chair is placed further to the right, closer to the wall.
+2. **Relative Position",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-LEFT.png,bowl,"To determine the position of the bowl relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned with their feet",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-CAMERA.png,sunglasses,The sunglasses are on the floor in front of the person.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-RIGHT.png,bowl,"To determine the position of the bowl relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing with their back to the left side of the image and facing right.
+   - The bowl is located on the floor near",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_left_of_table_FACE-CAMERA.png,lemon,"The lemon is on the wooden floor to the left of the person. It is positioned near the bottom left corner of the image, a short distance away from the wall. The person appears to be standing with their feet together, and the lemon is located to their lower left side, slightly behind their left foot.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-LEFT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the left",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-RIGHT.png,helmet,The helmet is on the floor to the right of the person in the image.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-CAMERA.png,lamp,"In the image, the lamp is positioned to the right side of the human figure, near the bottom right corner of the image. The lamp is a modern-style floor lamp with a white lampshade and a metallic base. The cord of the lamp is visible, extending from the base to the electrical outlet on the floor.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_right_of_table_FACE-CAMERA.png,dog,"In the image, the dog is positioned to the right side of the human. The human is standing in the center of the image, facing forward, with the dog sitting on the floor nearby, slightly to his right side. The dog appears to be looking up, possibly at the person or something above them. The setup",no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-RIGHT.png,banana,"To determine the position of the banana relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Orientation and Positioning**:
+   - The human is standing with their back to the left side of the image and facing right.
+   - The banana is on the floor near the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-RIGHT.png,chair2,"In the image, the chair is positioned to the left side of the human when facing the wall. The chair is placed near the corner where the wall meets the floor, and it is situated slightly behind the human's left hip level. The chair is angled slightly towards the human, making it more visible from this perspective.",no,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_right_of_table_FACE-RIGHT.png,ball-of-yarn,"The ball of yarn is on the floor in front of the person, to their right side when facing the wall.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-RIGHT.png,scissors,"To determine the location of the scissors in relation to the person in the image, let's break down the scene step-by-step:
+
+1. **Positioning of the Person**: The person is standing in the middle of the room, facing to the right. They are positioned near the center of the image, closer to the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_right_of_table_FACE-RIGHT.png,lamp,"In the image, the lamp is positioned on the floor to the right side of the person when facing forward. Here's a detailed analysis:
+
+1. **Spatial Positioning**: The lamp is situated on the wooden floor, slightly to the right of the person. The person is standing near the center of the image, facing",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-CAMERA.png,cap,The cap is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-RIGHT.png,painting,"To determine the location of the painting in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is standing with their back to the camera, facing a wall. They are positioned towards the right side of the image.
+
+2. **Location of the",no,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-CAMERA.png,bowl,The bowl is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-LEFT.png,bowl,"To determine the position of the bowl relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing with their back to the corner of a room, facing right.
+   - The bowl is on the wooden floor near the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_left_of_table_FACE-RIGHT.png,ball-of-yarn,"To determine the position of the ball of yarn relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned with",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-LEFT.png,scissors,"To determine where the scissors are in the view of the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The person is standing in the middle of the room, facing to the right side of the image. They are positioned near the center of the frame,",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-LEFT.png,plate,The plate is on the floor to the right of the person in the image.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_left_of_table_FACE-RIGHT.png,dragonfruit,"To determine the position of the dragonfruit in relation to the human in the image, let's break down the scene step by step:
+
+1. **Positioning of the Human**:
+   - The human is standing on the right side of the image, facing left.
+   - The person is positioned near the center-right",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-RIGHT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the wall",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_right_of_table_FACE-LEFT.png,knife,"To determine where the knife is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the center of the image, facing to the right. They are positioned relatively close to the left wall.
+
+2. **Position of the Knife",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-RIGHT.png,scarf,The scarf is on the floor to the right of the person.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-LEFT.png,pillow,"To determine the position of the pillow in relation to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing upright, facing to the right side of the image.
+   - The person is positioned near the center",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-RIGHT.png,lamp,"In the image, the lamp is positioned on the floor to the left side of the person when facing forward. Here's a detailed analysis:
+
+1. **Spatial Position**: The lamp is situated on the wooden floor, slightly to the left of the person. It is positioned near the corner where the wall meets the floor.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-CAMERA.png,book,The book is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-CAMERA.png,pillow,The pillow is on the floor to the left side of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-LEFT.png,banana,"To determine where the banana is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human**: The human is standing near the center of the image, facing to the right. They are positioned closer to the left side of the image.
+
+2. **",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-RIGHT.png,mug,"The mug is on the floor to the right of the person when facing the wall. Since the person is facing the wall, the mug is to their left side on the floor.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-RIGHT.png,helmet,"To determine where the helmet is in the view of the human in the image, let's analyze the scene step-by-step:
+
+1. **Position of the Human**: The human is standing near the right side of the image, facing left. He is positioned close to the wall, with his body parallel to it.
+
+2",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_left_of_table_FACE-CAMERA.png,banana,"The banana is on the wooden floor to the left of the person. It is positioned near the bottom left corner of the image, slightly away from the wall. The person appears to be standing with their feet together, and the banana is a few feet in front of them, closer to the wall on the left side.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-LEFT.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-LEFT.png,scarf,The scarf is on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-CAMERA.png,plant,The plant is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-RIGHT.png,dragonfruit,"The dragonfruit is on the floor to the right of the person when facing the wall. From the person's perspective, it is in front of them and slightly to their right side.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/toilet-roll_right_of_table_FACE-RIGHT.png,toilet-roll,"To determine the location of the toilet roll in the view of the human in the image, let's break down the scene step-by-step:
+
+1. **Position of the Human**: The human is standing in the center of the image, facing to the right. He is positioned near the middle of the room, with his",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_left_of_table_FACE-RIGHT.png,bottle,"To determine the position of the bottle in relation to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing sideways, facing to the right of the image.
+   - The person is positioned near the center of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-CAMERA.png,painting,"In the image, the painting is on the floor to the right of the person. It is a small, colorful piece of artwork featuring geometric shapes in blue, orange, and white. The person is standing with their feet on a wooden floor, and the painting is positioned near their right foot, slightly to the side.",no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_right_of_table_FACE-CAMERA.png,bowl,The bowl is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_left_of_table_FACE-LEFT.png,chair,"To determine the position of the chair relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing sideways to the camera, facing to the right.
+   - The chair is positioned to the left of the human when facing",no,yes,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bottle_right_of_table_FACE-CAMERA.png,bottle,The bottle is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_right_of_table_FACE-LEFT.png,chair,"To determine the position of the chair relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing with their back to the left side of the image, facing right.
+   - The chair is located on the right side",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-CAMERA.png,helmet,The helmet is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-RIGHT.png,cap,"In the image, the cap is on the floor near the person's feet. Specifically, it is positioned to the right of the person when facing the wall, slightly in front of their left foot. The cap is facing downwards, with the bill pointing towards the person's feet and the back part extended outward. The placement",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-CAMERA.png,mug,The mug is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-LEFT.png,scarf,"The scarf is on the floor in front of the person, to their left side when facing the wall.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair_left_of_table_FACE-CAMERA.png,chair,"In the image, the chair is positioned to the left side of the human. The chair is placed against the wall, slightly away from it, with the seat facing towards the right side of the image where the person is standing. The back of the chair is oriented towards the wall, and the chair's legs are firmly",no,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_left_of_table_FACE-LEFT.png,painting,"To determine where the painting is in the view of the human in the image, let's carefully analyze the scene:
+
+1. **Position of the Human**: The person is standing in the middle of the room, facing to the right side of the image. This means they are looking towards their right.
+
+2. **Location",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_right_of_table_FACE-LEFT.png,helmet,The helmet is on the floor to the right of the person.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-RIGHT.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-CAMERA.png,scissors,The scissors are on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-RIGHT.png,spatula,The spatula is on the floor to the left of the person in the image.,yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_right_of_table_FACE-CAMERA.png,sunglasses,The sunglasses are on the floor to the right of the person.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-RIGHT.png,sunglasses,"The sunglasses are on the floor in front of the person, to their left side.",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_left_of_table_FACE-LEFT.png,knife,"To determine where the knife is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The human is standing in the center of the image, facing to the right. They are positioned near the middle of the room, with their feet slightly apart.
+
+2",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_left_of_table_FACE-CAMERA.png,scissors,The scissors are on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-LEFT.png,orange,"To determine the position of the orange relative to the person in the image, let's break down the scene step-by-step:
+
+1. **Person's Position and Orientation**:
+   - The person is standing sideways, facing to the right of the image.
+   - They are positioned towards the back half of the room,",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-LEFT.png,cap,"The cap is on the floor in front of the person, to their left side.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-CAMERA.png,spatula,The spatula is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_right_of_table_FACE-LEFT.png,lemon,The lemon is on the wooden floor to the right of the person when facing the wall. It is positioned near the bottom right corner of the image from the person's perspective.,yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_right_of_table_FACE-RIGHT.png,plant,"To determine the position of the plant relative to the human in the image, let's break down the scene step by step:
+
+1. **Orientation and Positioning**:
+   - The human is standing sideways, facing to the right of the image.
+   - The plant is located on the floor to the right of the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_left_of_table_FACE-CAMERA.png,dog,"In the image, the dog is positioned to the left side of the human when facing the camera. The dog is sitting on the floor, looking up towards the person. The human is standing in the center of the image, with the dog sitting near the bottom left corner from the human's perspective. The setup suggests that",no,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_left_of_table_FACE-CAMERA.png,kettle,The kettle is on the floor to the left of the person in the image.,yes,yes,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-RIGHT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the wall",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-CAMERA.png,chair2,The chair is to the right of the person in the image.,no,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_left_of_table_FACE-LEFT.png,cup,"To determine the position of the cup relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person's feet are positioned close",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_left_of_table_FACE-RIGHT.png,pillow,"In the image, the pillow is on the floor to the left side of the person when facing the wall. The person appears to be standing near the corner of the room, and the pillow is positioned closer to the bottom left corner of the image. The person's feet are slightly overlapping with the pillow, indicating that the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-CAMERA.png,phone,The phone is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/ball-of-yarn_left_of_table_FACE-LEFT.png,ball-of-yarn,"The ball of yarn is on the floor in front of the person, to their left side when facing the wall.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_left_of_table_FACE-RIGHT.png,scarf,"In the image, the scarf is on the wooden floor near the bottom left corner from the perspective of the person standing. The person is positioned with their back to the camera, looking to the right side of the image. The scarf is lying flat on the floor, close to the wall, and slightly to the left of",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-RIGHT.png,pillow,"In the image, the pillow is located on the floor to the right side of the human when facing the wall. The person is standing with their back towards the camera, looking at the wall, so from their perspective, the pillow is on their right side, a short distance away from them.",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scissors_right_of_table_FACE-RIGHT.png,scissors,The scissors are on the floor to the right of the person.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plant_left_of_table_FACE-CAMERA.png,plant,The plant is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-RIGHT.png,orange,"To determine the position of the orange relative to the person in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Room and Person**:
+   - The person is standing in a room with wooden flooring and a plain wall.
+   - The person is facing to the right side",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_left_of_table_FACE-LEFT.png,chair2,"In the image, the chair is positioned to the left of the human when facing the wall. The person is standing with their back to the wall, and the chair is placed near the corner where the wall meets the floor, slightly closer to the person than to the wall. The chair is oriented such that its back is",no,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lemon_right_of_table_FACE-RIGHT.png,lemon,"To determine the position of the lemon relative to the person in the image, let's break down the scene step by step:
+
+1. **Observation of the Person's Position**:
+   - The person is standing sideways, facing to the right of the image.
+   - The person's feet are positioned close together,",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/toilet-roll_right_of_table_FACE-CAMERA.png,toilet-roll,"In the image, the toilet roll is on the wooden floor to the right side of the person. The person is standing near a wall with a light switch, and the toilet roll is a few feet away from them, closer to the bottom right corner of the image.",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-CAMERA.png,book,The book is on the floor to the left of the person in the image.,yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-LEFT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the center of the image, facing to the right. They are positioned with their back partially towards the camera, and their head turned to the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-LEFT.png,lamp,"In the image, the lamp is positioned on the floor to the left side of the person when facing forward. Here's a detailed analysis:
+
+1. **Spatial Positioning**: The lamp is situated on the wooden floor, slightly to the left of the person. It is placed near the corner where the wall meets the floor",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-LEFT.png,painting,"In the image, the person is standing on a wooden floor facing a plain wall. On the floor near the person's feet, there is a small mat or rug with a geometric design featuring blue, orange, and white colors. There is no painting visible in the view of the human in the image. The wall behind",no,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-RIGHT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the right side of the image, facing left.
+2. **Position of the Book**: The book is on the floor to the left side",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_left_of_table_FACE-CAMERA.png,phone,"The phone is on the floor in front of the person, to their left side (from their perspective).",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_right_of_table_FACE-LEFT.png,cap,"In the image, the cap is on the floor to the right of the person. The person is standing near the corner of a room, facing sideways relative to the camera, with their body oriented towards the left side of the image. The cap is positioned on the wooden floor, closer to the bottom right corner of the",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_left_of_table_FACE-CAMERA.png,orange,"The orange is on the wooden floor in front of the person, to their left side when facing the camera.",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/helmet_left_of_table_FACE-LEFT.png,helmet,The helmet is on the floor to the left of the human in the image.,yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/pillow_right_of_table_FACE-CAMERA.png,pillow,"In the image, the pillow is located on the floor to the right side of the human. Here's a detailed breakdown to visualize its position better:
+
+1. **Horizontal Position**: The pillow is situated on the floor near the bottom right corner of the image. It is positioned slightly away from the wall, closer to the",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-LEFT.png,orange,"The orange is on the wooden floor to the right of the person. It is a bit in front of them, closer to the bottom right corner of the image. The person appears to be standing near the wall, and the orange is on the floor at a distance from their feet.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/chair2_right_of_table_FACE-RIGHT.png,chair2,"In the image, the chair is positioned to the right of the human. The human is standing facing forward, and the chair is placed slightly behind and to the right of this person, angled in such a way that its back is more visible. The chair's bright yellow color makes it stand out against the neutral background of",no,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/knife_left_of_table_FACE-RIGHT.png,knife,"To determine where the knife is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human**: The person is standing near the right side of the image, facing left. They are positioned relatively close to the wall.
+
+2. **Position of the Knife**: The",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/plate_right_of_table_FACE-CAMERA.png,plate,The plate is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_left_of_table_FACE-LEFT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial relationship between the person and the book step by step:
+
+1. **Positioning and Orientation**:
+   - The person is standing sideways, facing to the right of the image.
+   - The book is on the",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_right_of_table_FACE-RIGHT.png,spatula,The spatula is on the floor to the right of the person in the image.,yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/phone_right_of_table_FACE-LEFT.png,phone,"To determine where the phone is in relation to the human in the image, let's break down the scene step by step:
+
+1. **Position of the Human**: The human is standing in the center of the image, facing to the right. They are positioned near the wall, with their feet slightly apart.
+
+2.",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dog_right_of_table_FACE-LEFT.png,dog,"In the image, the dog is sitting on the wooden floor to the right of the person. The person is standing near the wall with their back partially facing the camera, and the dog is positioned a short distance away from the person, looking up towards them. This positioning suggests that the dog is facing the person, likely",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cap_left_of_table_FACE-RIGHT.png,cap,"In the image, the cap is on the floor to the left of the person. The person is standing near the wall with their side facing the camera, and the cap is positioned slightly in front of and to the left of their feet, closer to the bottom left corner of the image. The cap appears to be facing",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/painting_right_of_table_FACE-RIGHT.png,painting,"In the image, the person is standing on a wooden floor facing a beige wall. On the floor near the person's feet, there is a small mat or rug with a geometric design featuring blue, orange, and white colors. The painting or artwork is not visible in the image. The description might be referring to this",no,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/book_right_of_table_FACE-RIGHT.png,book,"To determine where the book is in the view of the human in the image, let's analyze the spatial arrangement:
+
+1. **Position of the Human and the Book**: The human is standing near the center-right of the image, facing left. The book is on the floor to the right of the person (from the",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/dragonfruit_right_of_table_FACE-LEFT.png,dragonfruit,"To determine the position of the dragonfruit in relation to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The human's body is",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/mug_right_of_table_FACE-LEFT.png,mug,"To determine the position of the mug relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the left",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/orange_right_of_table_FACE-RIGHT.png,orange,"To determine the position of the orange relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the wall",yes,no,no,yes,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/cup_right_of_table_FACE-CAMERA.png,cup,The cup is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/banana_right_of_table_FACE-CAMERA.png,banana,"In the image, the banana is located on the wooden floor to the right of the person. Specifically, it is a few feet away from the person's right foot, closer to the wall on the right side of the image. The banana is positioned near the bottom right corner of the image, lying on its side with",yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/bowl_left_of_table_FACE-RIGHT.png,bowl,"To determine the position of the bowl relative to the human in the image, let's break down the scene step by step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing near the center-right of the image.
+   - He is facing to the right, looking sideways towards the",yes,no,yes,no,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/lamp_left_of_table_FACE-CAMERA.png,lamp,"In the image, the lamp is positioned to the left side of the human figure, closer to the corner where the wall meets the floor. The lamp stands on a small round base and has a white lampshade. The cord of the lamp is visible, extending from the base to the electrical outlet on the wall, which",yes,no,yes,no,right
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-CAMERA.png,kettle,The kettle is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/spatula_left_of_table_FACE-LEFT.png,spatula,"The spatula is on the floor in front of the person, to their left side when facing the wall.",yes,no,yes,no,front
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/scarf_right_of_table_FACE-CAMERA.png,scarf,The scarf is on the floor to the right of the person in the image.,yes,no,no,yes,left
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/kettle_right_of_table_FACE-LEFT.png,kettle,"To determine the position of the kettle relative to the human in the image, let's break down the scene step-by-step:
+
+1. **Observation of the Human's Position**:
+   - The human is standing in the center of the image, facing to the right.
+   - The person is positioned near the left",yes,no,no,yes,behind
+./Version0_dataset/Qwen_Image_Edit_2509_v0_table/sunglasses_left_of_table_FACE-LEFT.png,sunglasses,"The sunglasses are on the floor in front of the person, to their left side.",yes,no,yes,no,front
