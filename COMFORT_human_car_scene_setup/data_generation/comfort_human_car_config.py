@@ -123,7 +123,7 @@ OBJECT_CHAIR = {
     "object_name": "chair",
     "ref_shape": CHAIR,
     "ref_color": "",
-    "ref_size": 2.0,
+    "ref_size": 1.7,
     "ref_position": (0.0, 0.0, 0.0),
     "ref_rotation": (0, 0, 0),
 }

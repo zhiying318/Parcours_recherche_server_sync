@@ -43,27 +43,37 @@ def _normalize_choice_thinking(x: str) -> str:
 
 @dataclass
 class MCQAsker:
+    answer_length: str # no default value, put behind those with default value to avoid dataclass error: TypeError: non-default argument 'answer_length' follows default argument
     seed: int = 0
     max_new_tokens_mcq: int = 512
 
-    relations = {
+    relations_middle = {
         "front": "in the front of",
         "behind": "behind",
         "left": "on the left",
         "right": "on the right",
         }
-    # relations = {
-    #     "front": "front",
-    #     "behind": "behind",
-    #     "left": "left",
-    #     "right": "right",
-    #     }
-    # relations = {
-    #     "front": "From the person's perspective, the {second_object} is in front of them.",
-    #     "behind": "From the person's perspective, the {second_object} is behind them.",
-    #     "left": "From the person's perspective, the {second_object} is on their left.",
-    #     "right": "From the person's perspective, the {second_object} is on their right.",
-    #     }
+    relations_short = {
+        "front": "front",
+        "behind": "behind",
+        "left": "left",
+        "right": "right",
+        }
+    relations_long = {
+        "front": "From the person's perspective, the {second_object} is in front of them.",
+        "behind": "From the person's perspective, the {second_object} is behind them.",
+        "left": "From the person's perspective, the {second_object} is on their left.",
+        "right": "From the person's perspective, the {second_object} is on their right.",
+        }
+    
+    def get_relations(self) -> Dict[str, str]:
+        mapping = {
+            "short": self.relations_short,
+            "middle": self.relations_middle,
+            "long": self.relations_long,
+        }
+        return mapping[self.answer_length]
+    
     opposite_map = {
         "front": "behind",
         "behind": "front",
@@ -74,11 +84,11 @@ class MCQAsker:
     def evaluate_one(self, backend: VLMBackend, img_path: str, second_object: str, correct_relation: str) -> Dict[str, Any]:
         rng = random.Random(self.seed + hash(img_path))
 
-        keys = list(self.relations.keys())
+        keys = list(self.get_relations().keys())
         rng.shuffle(keys)  # random change order of options
 
         letters = ["A", "B", "C", "D"]
-        choices = {letters[i]: self.relations[keys[i]].format(second_object=second_object) for i in range(4)}
+        choices = {letters[i]: self.get_relations()[keys[i]].format(second_object=second_object) for i in range(4)}
 
         correct_letter = letters[keys.index(correct_relation)]
 
