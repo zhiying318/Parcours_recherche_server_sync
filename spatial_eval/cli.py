@@ -61,7 +61,9 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --image_json valide_image_paths.json \
   --out_csv eval_output/mcq_middle_qwen3_5vl_thinking.csv \
   --ask_mode mcq \
-  --max_new_tokens_mcq 2048
+  --answer_length middle \
+  --max_new_tokens_mcq 81920 
+
 
   
 CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \

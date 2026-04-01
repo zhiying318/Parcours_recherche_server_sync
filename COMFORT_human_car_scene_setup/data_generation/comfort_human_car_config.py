@@ -48,12 +48,12 @@ CAMERA_BACK = {
 
 CAMERA_LEFT = {
     "view_name": "cam_left",
-    "cam_position": (-CAMERA_DISTANCE, 0.0, CAMERA_HEIGHT),
+    "cam_position": (CAMERA_DISTANCE, 0.0, CAMERA_HEIGHT), #这样左右才没有反，之前反了。相机在人左边的时候camera position应该是10，0，2
 }
 
 CAMERA_RIGHT = {
     "view_name": "cam_right",
-    "cam_position": (CAMERA_DISTANCE, 0.0, CAMERA_HEIGHT),
+    "cam_position": (-CAMERA_DISTANCE, 0.0, CAMERA_HEIGHT),
 }
 
 ALL_CAMERAS = [
@@ -199,7 +199,7 @@ COMFORT_HUMAN_CAR_RELATIONS = {
     LEFT: {
         "relation": LEFT,
         "path_type": "cardinal_static",
-        "cardinal_offset": (CARDINAL_DISTANCE, 0.0, 0.0),
+        "cardinal_offset": (CARDINAL_DISTANCE, 0.0, 0.0), # 物体在 human 左边时，物体相对于 human 的位置是 (2.5, 0, 0)
     },
     RIGHT: {
         "relation": RIGHT,
