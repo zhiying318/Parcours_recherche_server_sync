@@ -4,11 +4,12 @@ import json
 import argparse
 from .utils import get_dtype
 from .backends.factory import build_backend
-from .eval_runner import run_eval, run_eval_pair, run_eval_pov
+from .eval_runner import run_eval, run_eval_pair, run_eval_pov, run_eval_pov_four
 from .prompts.YesNo import YNAsker
 from .prompts.MCQ import MCQAsker
 from .prompts.MCQ_pair import MCQPairAsker
 from .prompts.MCQ_pov import MCQPovAsker
+from .prompts.MCQ_pov_four import MCQPovFourAsker
 
 """
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
@@ -87,6 +88,8 @@ def main():
     parser.add_argument("--pair_mode", action="store_true", help="Evaluate with two images per query (COMFORT pairs).")
     parser.add_argument("--pov_mode", action="store_true", help="Evaluate POV image-choice: 1 external image + 2 POV option images.")
     parser.add_argument("--image_triples_json", default=None, help="JSON with external_img/correct_pov_img/distractor_pov_img entries.")
+    parser.add_argument("--pov4_mode", action="store_true", help="Evaluate 4-choice POV: 1 external image + 4 POV images as options.")
+    parser.add_argument("--image_quads_json", default=None, help="JSON with external_img/pov_front/pov_back/pov_left/pov_right/correct_cam entries.")
     parser.add_argument("--out_csv", required=True)
     parser.add_argument("--cuda_visible_devices", default=None) # Use CUDA_CISIBLE_DEVICES=0 at the beginning of the command in cli to avoid device_map="auto" to see all GPUs such that we have AttnImplementation Error:RuntimeError(FlashAttention only supports Ampere GPUs or newer.)
     parser.add_argument("--device_map", default="auto")
@@ -110,7 +113,22 @@ def main():
 
     backend = build_backend(args.backend, args.model_id, dtype=dtype, device_map=args.device_map)
 
-    if args.pov_mode:
+    if args.pov4_mode:
+        if not args.image_quads_json:
+            raise ValueError("--pov4_mode requires --image_quads_json")
+        with open(args.image_quads_json, "r", encoding="utf-8") as f:
+            image_quads = json.load(f)
+        asker = MCQPovFourAsker(
+            seed=args.mcq_seed,
+            max_new_tokens=args.max_new_tokens_mcq,
+        )
+        run_eval_pov_four(
+            backend=backend,
+            image_quads=image_quads,
+            output_csv=args.out_csv,
+            asker=asker,
+        )
+    elif args.pov_mode:
         if not args.image_triples_json:
             raise ValueError("--pov_mode requires --image_triples_json")
         with open(args.image_triples_json, "r", encoding="utf-8") as f:

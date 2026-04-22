@@ -17,7 +17,7 @@ TRIPLES_JSON="$(dirname "$0")/image_triples.json"
 RESULTS_DIR="$(dirname "$0")/results"
 
 # ---------- Qwen3-VL ----------
-CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --backend qwen3vl \
   --model_id Qwen/Qwen3-VL-8B-Instruct \
   --image_triples_json "$TRIPLES_JSON" \

@@ -8,8 +8,8 @@ Run AFTER generating the comfort_human_car_pov dataset:
 
 Each triple:
     external_img       : one of the 4 external camera images (cam_back/front/left/right)
-    correct_pov_img    : POV camera facing toward the object (relation-dependent)
-    distractor_pov_img : POV camera facing the opposite direction
+    correct_pov_img    : always cam_pov_front (person always faces forward)
+    distractor_pov_img : cam_pov_back if object is in front; else POV facing toward object
 """
 
 import os
@@ -18,18 +18,19 @@ import argparse
 
 EXTERNAL_CAMS = ["cam_back", "cam_front", "cam_left", "cam_right"]
 
-# correct POV = camera facing toward the object; distractor = opposite direction
-RELATION_TO_CORRECT_CAM = {
-    "infrontof": "cam_pov_front",
+# Correct POV = always cam_pov_front (person faces -Y regardless of object position)
+CORRECT_CAM = "cam_pov_front"
+
+# Distractor:
+#   infrontof → cam_pov_back (opposite of front, since object is already in front)
+#   behind    → cam_pov_back (facing toward the object, which is behind)
+#   totheleft → cam_pov_left (facing toward the object, which is to the left)
+#   totheright→ cam_pov_right (facing toward the object, which is to the right)
+RELATION_TO_DISTRACT_CAM = {
+    "infrontof": "cam_pov_back",
     "behind":    "cam_pov_back",
     "totheleft": "cam_pov_left",
     "totheright":"cam_pov_right",
-}
-RELATION_TO_DISTRACT_CAM = {
-    "infrontof": "cam_pov_back",
-    "behind":    "cam_pov_front",
-    "totheleft": "cam_pov_right",
-    "totheright":"cam_pov_left",
 }
 
 RELATION_MAP = {
@@ -73,7 +74,7 @@ def main():
             )
 
         for (obj_name, rel), cam_map in scenes.items():
-            correct_cam   = RELATION_TO_CORRECT_CAM.get(relation_dir)
+            correct_cam   = CORRECT_CAM
             distract_cam  = RELATION_TO_DISTRACT_CAM.get(relation_dir)
             correct_img   = cam_map.get(correct_cam)
             distractor_img = cam_map.get(distract_cam)

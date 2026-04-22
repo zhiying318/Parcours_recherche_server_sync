@@ -61,7 +61,7 @@ class MCQPairAsker:
         option_lines = "\n".join([f"{k}. {v}" for k, v in choices.items()])
         # Prompt identical to single-image MCQAsker
         prompt = (
-            f"Here are two images of the same scene from different camera angles. The first image has an aligned perspective with the person.\n"
+            f"Here are two images of the same scene from different camera angles.\n"
             f"Where is the {second_object} in the perspective of the person?\n"
             f"Choose ONE option and respond with ONLY the letter.\n"
             f"{option_lines}"

@@ -167,6 +167,72 @@ def run_eval_pov(
             ])
 
 
+def run_eval_pov_four(
+    backend,
+    image_quads: List[Dict[str, Any]],
+    output_csv: str,
+    asker,
+):
+    """
+    image_quads: list of dicts with keys:
+        external_img,
+        pov_correct, cam_correct,
+        pov_dist1, cam_dist1,
+        pov_dist2, cam_dist2,
+        correct_relation, cam_view_external,
+        second_object, third_object, third_object_relation
+    """
+    os.makedirs(os.path.dirname(output_csv) or ".", exist_ok=True)
+
+    with open(output_csv, "w", newline="", encoding="utf-8") as f:
+        writer = csv.writer(f)
+        writer.writerow([
+            "external_img",
+            "pov_correct", "cam_correct",
+            "pov_dist1", "cam_dist1",
+            "pov_dist2", "cam_dist2",
+            "cam_view_external",
+            "second_object", "correct_relation",
+            "third_object", "third_object_relation",
+            "correct_letter", "cam_order",
+            "pred_letter", "correct",
+            "mcq_prompt", "raw_answer",
+        ])
+
+        for entry in image_quads:
+            external_img = f"./{entry['external_img']}"
+            pov_imgs = {
+                entry["cam_correct"]: f"./{entry['pov_correct']}",
+                entry["cam_dist1"]:   f"./{entry['pov_dist1']}",
+                entry["cam_dist2"]:   f"./{entry['pov_dist2']}",
+            }
+
+            payload = asker.evaluate_one(
+                backend=backend,
+                external_img=external_img,
+                pov_imgs=pov_imgs,
+                correct_cam=entry["cam_correct"],
+            )
+
+            writer.writerow([
+                external_img,
+                f"./{entry['pov_correct']}", entry["cam_correct"],
+                f"./{entry['pov_dist1']}",  entry["cam_dist1"],
+                f"./{entry['pov_dist2']}",  entry["cam_dist2"],
+                entry.get("cam_view_external", ""),
+                entry.get("second_object", ""),
+                entry.get("correct_relation", ""),
+                entry.get("third_object", ""),
+                entry.get("third_object_relation", ""),
+                payload.get("correct_letter", ""),
+                str(payload.get("cam_order", "")),
+                payload.get("pred_letter", ""),
+                payload.get("correct", ""),
+                payload.get("mcq_prompt", ""),
+                payload.get("raw_answer", ""),
+            ])
+
+
 def run_eval_pair(
     backend,
     image_pairs: List[Dict[str, Any]],
