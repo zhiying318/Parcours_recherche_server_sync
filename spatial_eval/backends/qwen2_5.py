@@ -22,25 +22,25 @@ class Qwen2Backend(VLMBackend):
         )
         self.model.eval()
 
-    @torch.inference_mode()
-    def ask(self, image_path: str, prompt: str, max_new_tokens: int = 64) -> str:
-        image = Image.open(image_path).convert("RGB")
-        messages = [{
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image},
-                {"type": "text", "text": prompt},
-            ],
-        }]
-
+    def _run_messages(self, messages, max_new_tokens):
         inputs = self.processor.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_tensors="pt",
-            return_dict=True,
+            messages, add_generation_prompt=True, tokenize=True,
+            return_tensors="pt", return_dict=True,
         ).to(self.model.device)
-
         outputs = self.model.generate(**inputs, max_new_tokens=int(max_new_tokens))
         gen = outputs[0][inputs["input_ids"].shape[-1]:]
         return self.processor.decode(gen, skip_special_tokens=True).strip()
+
+    @torch.inference_mode()
+    def ask(self, image_path: str, prompt: str, max_new_tokens: int = 64) -> str:
+        messages = [{"role": "user", "content": [
+            {"type": "image", "image": Image.open(image_path).convert("RGB")},
+            {"type": "text", "text": prompt},
+        ]}]
+        return self._run_messages(messages, max_new_tokens)
+
+    @torch.inference_mode()
+    def ask_multi(self, image_paths, prompt: str, max_new_tokens: int = 64) -> str:
+        content = [{"type": "image", "image": Image.open(p).convert("RGB")} for p in image_paths]
+        content.append({"type": "text", "text": prompt})
+        return self._run_messages([{"role": "user", "content": content}], max_new_tokens)

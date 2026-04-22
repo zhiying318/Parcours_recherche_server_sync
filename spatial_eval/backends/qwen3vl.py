@@ -23,34 +23,26 @@ class Qwen3VLBackend(VLMBackend):
         )
         self.model.eval()
 
-    @torch.inference_mode()
-    def ask(self, image_path: str, prompt: str, max_new_tokens: int = 512) -> str:
-        img_uri = "file://" + os.path.abspath(image_path)
+    def _build_messages(self, image_paths, prompt):
+        content = [{"type": "image", "image": "file://" + os.path.abspath(p)} for p in image_paths]
+        content.append({"type": "text", "text": prompt})
+        return [{"role": "user", "content": content}]
 
-        messages = [{
-            "role": "user",
-            "content": [
-                {"type": "image", "image": img_uri},
-                {"type": "text", "text": prompt},
-            ],
-        }]
-
+    def _run_messages(self, messages, max_new_tokens):
         text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
         images, videos = process_vision_info(messages, image_patch_size=16)
-
         inputs = self.processor(
-            text=[text],
-            images=images,
-            videos=videos,
-            do_resize=False,
-            padding=True,
-            return_tensors="pt",
+            text=[text], images=images, videos=videos,
+            do_resize=False, padding=True, return_tensors="pt",
         ).to(self.model.device)
-        # print(inputs.keys())
         output = self.model.generate(**inputs, max_new_tokens=int(max_new_tokens), do_sample=False)
-
         trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], output)]
-        resp = self.processor.batch_decode(
-            trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
-        )[0]
-        return resp.strip()
+        return self.processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].strip()
+
+    @torch.inference_mode()
+    def ask(self, image_path: str, prompt: str, max_new_tokens: int = 512) -> str:
+        return self._run_messages(self._build_messages([image_path], prompt), max_new_tokens)
+
+    @torch.inference_mode()
+    def ask_multi(self, image_paths, prompt: str, max_new_tokens: int = 512) -> str:
+        return self._run_messages(self._build_messages(image_paths, prompt), max_new_tokens)

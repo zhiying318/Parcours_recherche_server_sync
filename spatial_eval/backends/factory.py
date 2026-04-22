@@ -13,7 +13,7 @@ def build_backend(name: str, model_id: str, dtype: torch.dtype, device_map: str)
     if name in ("internvl", "internvl3.5", "intern"):
         from .internvl import InternVLBackend
         return InternVLBackend(model_id=model_id, dtype=dtype, device_map=device_map)
-    if name in ("qwen3-vl-thinking"):
+    if name in ("qwen3-vl-thinking"): # 这个backend里面用的不是标准读图的方法。用的是PIL，应该用process_vision_info
         from .qwen3vlthinking import Qwen3ThinkingBackend
         return Qwen3ThinkingBackend(model_id=model_id, dtype="auto", device_map=device_map)
     if name in ("gemma3"):
@@ -22,6 +22,9 @@ def build_backend(name: str, model_id: str, dtype: torch.dtype, device_map: str)
     if name in ("qwen3.5vl", "qwen3.5"):
         from .qwen3_5vl import Qwen35VLBackend
         return Qwen35VLBackend(model_id=model_id, dtype="auto", device_map=device_map)
+    if name in ("qwen3.5vl-thinking", "qwen3.5-thinking"):
+        from .qwen3_5vl import Qwen35VLThinkingBackend
+        return Qwen35VLThinkingBackend(model_id=model_id, dtype="auto", device_map=device_map)
 
     if name in ("qwen3vl-logits", "qwen3-logits"):
         from .qwen3vl_logits import Qwen3VLLogitsBackend

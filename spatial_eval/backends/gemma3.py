@@ -23,43 +23,26 @@ class Gemma3Backend(VLMBackend):
         )
         self.model.eval()
 
+    def _run_messages(self, messages, max_new_tokens):
+        inputs = self.processor.apply_chat_template(
+            messages, add_generation_prompt=True, tokenize=True,
+            return_dict=True, return_tensors="pt",
+        )
+        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+        output = self.model.generate(**inputs, max_new_tokens=int(max_new_tokens), do_sample=False)
+        trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], output)]
+        return self.processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].strip()
+
     @torch.inference_mode()
     def ask(self, image_path: str, prompt: str, max_new_tokens: int = 512) -> str:
-        image = Image.open(image_path).convert("RGB")
+        messages = [{"role": "user", "content": [
+            {"type": "image", "image": Image.open(image_path).convert("RGB")},
+            {"type": "text", "text": prompt},
+        ]}]
+        return self._run_messages(messages, max_new_tokens)
 
-        messages = [{
-            "role": "user",
-            "content": [
-                {"type": "image", "image": image},
-                {"type": "text", "text": prompt},
-            ],
-        }]
-
-        inputs = self.processor.apply_chat_template(
-            messages,
-            add_generation_prompt=True,
-            tokenize=True,
-            return_dict=True,
-            return_tensors="pt",
-        )
-
-        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
-
-        output = self.model.generate(
-            **inputs,
-            max_new_tokens=int(max_new_tokens),
-            do_sample=False,
-        )
-
-        trimmed = [
-            out_ids[len(in_ids):]
-            for in_ids, out_ids in zip(inputs["input_ids"], output)
-        ]
-
-        resp = self.processor.batch_decode(
-            trimmed,
-            skip_special_tokens=True,
-            clean_up_tokenization_spaces=False,
-        )[0]
-
-        return resp.strip()
+    @torch.inference_mode()
+    def ask_multi(self, image_paths, prompt: str, max_new_tokens: int = 512) -> str:
+        content = [{"type": "image", "image": Image.open(p).convert("RGB")} for p in image_paths]
+        content.append({"type": "text", "text": prompt})
+        return self._run_messages([{"role": "user", "content": content}], max_new_tokens)

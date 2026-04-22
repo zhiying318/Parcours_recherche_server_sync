@@ -2,6 +2,7 @@ from dataclasses import dataclass
 import os
 from typing import Sequence
 
+import gc
 import torch
 from transformers import AutoProcessor, AutoModelForImageTextToText
 from qwen_vl_utils import process_vision_info
@@ -53,6 +54,19 @@ class Qwen35VLBackend(VLMBackend):
     #     }]
     #     return messages
 
+    def _build_inputs_multi(self, image_paths, prompt: str):
+        content = [{"type": "image", "image": "file://" + os.path.abspath(p)} for p in image_paths]
+        content.append({"type": "text", "text": prompt})
+        messages = [{"role": "user", "content": content}]
+        text = self.processor.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True, enable_thinking=False,
+        )
+        images, videos = process_vision_info(messages, image_patch_size=16)
+        return self.processor(
+            text=[text], images=images, videos=videos,
+            do_resize=False, padding=True, return_tensors="pt",
+        ).to(self.model.device)
+
     def _build_inputs(self, image_path: str, prompt: str):
         img_uri = "file://" + os.path.abspath(image_path)
         messages = [{
@@ -91,6 +105,10 @@ class Qwen35VLBackend(VLMBackend):
     #     except Exception:
     #         return next(self.model.parameters()).device
 
+    def _decode(self, inputs, output):
+        trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs["input_ids"], output)]
+        return self.processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].strip()
+
     @torch.inference_mode()
     def ask(self, image_path: str, prompt: str, max_new_tokens: int = 512) -> str:
         inputs = self._build_inputs(image_path, prompt)
@@ -107,17 +125,31 @@ class Qwen35VLBackend(VLMBackend):
             pad_token_id=self.processor.tokenizer.eos_token_id,
         )
 
-        trimmed = [
-            out_ids[len(in_ids):]
-            for in_ids, out_ids in zip(inputs["input_ids"], output)
-        ]
+        resp = self._decode(inputs, output)
+        del inputs, output
+        gc.collect()
+        torch.cuda.empty_cache()
+        return resp
 
-        resp = self.processor.batch_decode(
-            trimmed,
-            skip_special_tokens=True,
-            clean_up_tokenization_spaces=False,
-        )[0]
-        return resp.strip()
+    @torch.inference_mode()
+    def ask_multi(self, image_paths, prompt: str, max_new_tokens: int = 512) -> str:
+        inputs = self._build_inputs_multi(image_paths, prompt)
+        output = self.model.generate(
+            **inputs,
+            max_new_tokens=int(max_new_tokens),
+            do_sample=True,
+            temperature=self.temperature,
+            top_p=self.top_p,
+            top_k=self.top_k,
+            min_p=self.min_p,
+            repetition_penalty=self.repetition_penalty,
+            pad_token_id=self.processor.tokenizer.eos_token_id,
+        )
+        result = self._decode(inputs, output)
+        del inputs, output
+        gc.collect()
+        torch.cuda.empty_cache()
+        return result
 
     @torch.inference_mode()
     def ask_logits(
@@ -175,3 +207,45 @@ class Qwen35VLBackend(VLMBackend):
         outputs = self.model(**inputs)
         logits = outputs.logits[:, -1, :]   # [1, vocab_size]
         return logits[0].detach().float().cpu()
+
+
+@dataclass
+class Qwen35VLThinkingBackend(Qwen35VLBackend):
+    """Qwen3.5 with thinking mode enabled (enable_thinking=True).
+    Uses recommended thinking decoding params: temperature=0.6, top_p=0.95, top_k=20.
+    """
+    temperature: float = 0.6
+    top_p: float = 0.95
+    top_k: int = 20
+    min_p: float = 0.0
+    repetition_penalty: float = 1.0
+
+    def _build_inputs(self, image_path: str, prompt: str):
+        img_uri = "file://" + os.path.abspath(image_path)
+        messages = [{"role": "user", "content": [
+            {"type": "image", "image": img_uri},
+            {"type": "text", "text": prompt},
+        ]}]
+        text = self.processor.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True,
+            enable_thinking=True,  # ← only change vs base class
+        )
+        images, videos = process_vision_info(messages, image_patch_size=16)
+        return self.processor(
+            text=[text], images=images, videos=videos,
+            do_resize=False, padding=True, return_tensors="pt",
+        ).to(self.model.device)
+
+    def _build_inputs_multi(self, image_paths, prompt: str):
+        content = [{"type": "image", "image": "file://" + os.path.abspath(p)} for p in image_paths]
+        content.append({"type": "text", "text": prompt})
+        messages = [{"role": "user", "content": content}]
+        text = self.processor.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True,
+            enable_thinking=True,
+        )
+        images, videos = process_vision_info(messages, image_patch_size=16)
+        return self.processor(
+            text=[text], images=images, videos=videos,
+            do_resize=False, padding=True, return_tensors="pt",
+        ).to(self.model.device)
