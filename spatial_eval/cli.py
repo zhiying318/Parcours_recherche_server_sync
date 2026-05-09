@@ -43,6 +43,13 @@ CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --ask_mode mcq 
 
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  --backend gemma4 \
+  --model_id google/gemma-4-E2B-it \
+  --image_json valide_image_paths.json \
+  --out_csv eval_output/mcq_short_gemma4.csv \
+  --ask_mode mcq 
+
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3.5vl \
   --model_id Qwen/Qwen3.5-9B \
   --image_json valide_image_paths.json \
@@ -81,7 +88,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
 
 def main():
     parser = argparse.ArgumentParser(description="Spatial QA evaluation (modular).")
-    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits"])
+    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "gemma4", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits"])
     parser.add_argument("--model_id", required=True)
     parser.add_argument("--image_json", default=None)
     parser.add_argument("--image_pairs_json", default=None)

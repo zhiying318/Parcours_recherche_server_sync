@@ -37,4 +37,25 @@ CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
 #   --max_new_tokens_mcq 81920 \
 #   --mcq_seed 123
 
+# ---------- Qwen3.5-VL thinking ----------
+CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+  --backend qwen3.5vl-thinking \
+  --model_id Qwen/Qwen3.5-9B \
+  --image_quads_json "$QUADS_JSON" \
+  --pov4_mode \
+  --out_csv "$RESULTS_DIR/pov4_qwen3_5vl_thinking.csv" \
+  --ask_mode mcq \
+  --max_new_tokens_mcq 81920 \
+  --mcq_seed 123
+
+# ---------- Gemma4 ----------
+CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+  --backend gemma4 \
+  --model_id google/gemma-4-E2B-it \
+  --image_quads_json "$QUADS_JSON" \
+  --pov4_mode \
+  --out_csv "$RESULTS_DIR/pov4_gemma4.csv" \
+  --ask_mode mcq \
+  --mcq_seed 123
+
 echo "All done."

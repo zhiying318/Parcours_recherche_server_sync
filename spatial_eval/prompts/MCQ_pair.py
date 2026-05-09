@@ -14,17 +14,17 @@ class MCQPairAsker:
     seed: int = 0
     max_new_tokens_mcq: int = 512
 
-    relations_middle = {
-        "front": "in the front of",
-        "behind": "behind",
-        "left": "on the left",
-        "right": "on the right",
-    }
     relations_short = {
         "front": "front",
         "behind": "behind",
         "left": "left",
         "right": "right",
+    }
+    relations_middle = {
+        "front": "in the front of",
+        "behind": "behind",
+        "left": "on the left",
+        "right": "on the right",
     }
     relations_long = {
         "front": "From the person's perspective, the {second_object} is in front of them.",
@@ -62,6 +62,7 @@ class MCQPairAsker:
         # Prompt identical to single-image MCQAsker
         prompt = (
             f"Here are two images of the same scene from different camera angles.\n"
+            f"The first image has an aligned perspective with the person.\n"
             f"Where is the {second_object} in the perspective of the person?\n"
             f"Choose ONE option and respond with ONLY the letter.\n"
             f"{option_lines}"

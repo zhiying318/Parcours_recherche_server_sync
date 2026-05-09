@@ -19,6 +19,9 @@ def build_backend(name: str, model_id: str, dtype: torch.dtype, device_map: str)
     if name in ("gemma3"):
         from .gemma3 import Gemma3Backend
         return Gemma3Backend(model_id=model_id, dtype=dtype, device_map=device_map)
+    if name in ("gemma4"):
+        from .gemma4 import Gemma4Backend
+        return Gemma4Backend(model_id=model_id, dtype=dtype, device_map=device_map)
     if name in ("qwen3.5vl", "qwen3.5"):
         from .qwen3_5vl import Qwen35VLBackend
         return Qwen35VLBackend(model_id=model_id, dtype="auto", device_map=device_map)
