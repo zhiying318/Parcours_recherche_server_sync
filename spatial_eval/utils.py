@@ -1,9 +1,10 @@
 # spatial_eval/utils.py
 import re
-import torch
-from typing import Tuple
+from typing import Any, Tuple
 
-def get_dtype() -> torch.dtype:
+def get_dtype() -> Any:
+    import torch
+
     if torch.cuda.is_available():
         major, _ = torch.cuda.get_device_capability()
         return torch.bfloat16 if major >= 8 else torch.float16

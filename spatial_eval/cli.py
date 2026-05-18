@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
 
 def main():
     parser = argparse.ArgumentParser(description="Spatial QA evaluation (modular).")
-    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "gemma4", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits"])
+    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "gemma4", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits", "mistral"])
     parser.add_argument("--model_id", required=True)
     parser.add_argument("--image_json", default=None)
     parser.add_argument("--image_pairs_json", default=None)
@@ -110,15 +110,27 @@ def main():
     parser.add_argument("--max_new_tokens_yn", type=int, default=8)
     parser.add_argument("--max_new_tokens_mcq", type=int, default=8)
     parser.add_argument("--mcq_seed", type=int, default=0)
+    parser.add_argument("--mcq_prompt_note", default="", help="Optional extra sentence inserted into single-image MCQ prompts. insert (with_aligned_prompts)")
+    parser.add_argument("--mistral_reasoning_effort", choices=["none", "high"], default=None)
+    parser.add_argument("--mistral_temperature", type=float, default=None)
+    parser.add_argument("--mistral_top_p", type=float, default=None)
 
     args = parser.parse_args()
 
     if args.cuda_visible_devices is not None:
         os.environ["CUDA_VISIBLE_DEVICES"] = str(args.cuda_visible_devices)
 
-    dtype = get_dtype()
+    dtype = None if args.backend == "mistral" else get_dtype()
 
-    backend = build_backend(args.backend, args.model_id, dtype=dtype, device_map=args.device_map)
+    backend = build_backend(
+        args.backend,
+        args.model_id,
+        dtype=dtype,
+        device_map=args.device_map,
+        mistral_temperature=args.mistral_temperature,
+        mistral_top_p=args.mistral_top_p,
+        mistral_reasoning_effort=args.mistral_reasoning_effort,
+    )
 
     if args.pov4_mode:
         if not args.image_quads_json:
@@ -181,6 +193,7 @@ def main():
                 seed=args.mcq_seed,
                 max_new_tokens_mcq=args.max_new_tokens_mcq,
                 answer_length=args.answer_length,
+                prompt_note=args.mcq_prompt_note,
             )
         run_eval(
             backend=backend,

@@ -1,8 +1,16 @@
 # spatial_eval/backends/factory.py
-import torch
+from typing import Any
 from .base import VLMBackend
 
-def build_backend(name: str, model_id: str, dtype: torch.dtype, device_map: str) -> VLMBackend:
+def build_backend(
+    name: str,
+    model_id: str,
+    dtype: Any,
+    device_map: str,
+    mistral_temperature: float | None = None,
+    mistral_top_p: float | None = None,
+    mistral_reasoning_effort: str | None = None,
+) -> VLMBackend:
     name = name.lower()
     if name in ("qwen", "qwen2", "qwen2.5", "qwen2.5vl"):
         from .qwen2_5 import Qwen2Backend
@@ -32,4 +40,12 @@ def build_backend(name: str, model_id: str, dtype: torch.dtype, device_map: str)
     if name in ("qwen3vl-logits", "qwen3-logits"):
         from .qwen3vl_logits import Qwen3VLLogitsBackend
         return Qwen3VLLogitsBackend(model_id=model_id, dtype="auto", device_map=device_map)
+    if name in ("mistral", "mistralai"):
+        from .mistral import MistralBackend
+        return MistralBackend(
+            model_id=model_id,
+            temperature=mistral_temperature,
+            top_p=mistral_top_p,
+            reasoning_effort=mistral_reasoning_effort,
+        )
     raise ValueError(f"Unknown backend '{name}'.")

@@ -136,7 +136,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
 
 
 # ---------- Qwen3.5-VL thinking short ----------
-CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3.5vl-thinking \
   --model_id Qwen/Qwen3.5-9B \
   --image_json "$IMAGES_JSON" \
@@ -147,7 +147,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --mcq_seed 123
 
 # ---------- Qwen3.5-VL thinking middle ----------
-CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3.5vl-thinking \
   --model_id Qwen/Qwen3.5-9B \
   --image_json "$IMAGES_JSON" \
@@ -158,7 +158,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --mcq_seed 123
 
 # ---------- Qwen3.5-VL thinking long ----------
-CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3.5vl-thinking \
   --model_id Qwen/Qwen3.5-9B \
   --image_json "$IMAGES_JSON" \

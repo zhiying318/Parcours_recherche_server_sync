@@ -46,6 +46,7 @@ class MCQAsker:
     answer_length: str # no default value, put behind those with default value to avoid dataclass error: TypeError: non-default argument 'answer_length' follows default argument
     seed: int = 0
     max_new_tokens_mcq: int = 512
+    prompt_note: str = ""
 
     relations_middle = {
         "front": "in the front of",
@@ -96,11 +97,16 @@ class MCQAsker:
         opposite_letter = letters[keys.index(opposite_direction)]
 
         option_lines = "\n".join([f"{k}. {v}" for k, v in choices.items()])
-        prompt = (
-            f"Where is the {second_object} in the perspective of the person?\n"
-            f"Choose ONE option and respond with ONLY the letter.\n"
-            f"{option_lines}"
-        )
+        prompt_lines = [
+            f"Where is the {second_object} in the perspective of the person?",
+        ]
+        if self.prompt_note:
+            prompt_lines.append(self.prompt_note)
+        prompt_lines.extend([
+            "Choose ONE option and respond with ONLY the letter.",
+            option_lines,
+        ])
+        prompt = "\n".join(prompt_lines)
 
         raw = backend.ask(img_path, prompt, self.max_new_tokens_mcq)
         # pred_letter = _normalize_choice(raw) # change to below: altomatic switch between thinking or not-thinking model
