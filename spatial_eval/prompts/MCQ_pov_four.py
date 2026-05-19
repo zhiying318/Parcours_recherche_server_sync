@@ -49,7 +49,7 @@ class MCQPovFourAsker:
         all_imgs = [external_img] + ordered_imgs
         raw = backend.ask_multi(all_imgs, prompt, self.max_new_tokens)
 
-        if "thinking" in backend.model_id.lower() or "Qwen3.5" in backend.model_id:
+        if getattr(backend, "enable_thinking", False):
             pred_letter = _normalize_choice_thinking(raw)
         else:
             pred_letter = _normalize_choice(raw)

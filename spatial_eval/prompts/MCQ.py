@@ -110,7 +110,7 @@ class MCQAsker:
 
         raw = backend.ask(img_path, prompt, self.max_new_tokens_mcq)
         # pred_letter = _normalize_choice(raw) # change to below: altomatic switch between thinking or not-thinking model
-        if "thinking" in backend.model_id.lower() or "Qwen3.5" in backend.model_id:  # Qwen3.5 is thinking model by default
+        if getattr(backend, "enable_thinking", False):
             pred_letter = _normalize_choice_thinking(raw)
         else:
             pred_letter = _normalize_choice(raw)

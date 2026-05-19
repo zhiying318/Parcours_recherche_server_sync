@@ -15,6 +15,7 @@ class Gemma4Backend(VLMBackend):
     dtype: str | torch.dtype = torch.bfloat16
     device_map: str = "auto"
     attn_implementation: str = "sdpa"
+    enable_thinking: bool = False
 
     def __post_init__(self):
         self.processor = AutoProcessor.from_pretrained(
@@ -36,12 +37,23 @@ class Gemma4Backend(VLMBackend):
             tokenize=True,
             return_dict=True,
             return_tensors="pt",
+            enable_thinking=self.enable_thinking,
         ).to(self.model.device)
+
+        generate_kwargs = {
+            "max_new_tokens": int(max_new_tokens),
+        }
+        if self.enable_thinking:
+            generate_kwargs.update({
+                "do_sample": True,
+                "temperature": 0.6,
+            })
+        else:
+            generate_kwargs["do_sample"] = False
 
         output = self.model.generate(
             **inputs,
-            max_new_tokens=int(max_new_tokens),
-            do_sample=False,
+            **generate_kwargs,
         )
         trimmed = [
             out_ids[len(in_ids):]

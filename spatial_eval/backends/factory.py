@@ -7,6 +7,7 @@ def build_backend(
     model_id: str,
     dtype: Any,
     device_map: str,
+    enable_thinking: bool = False,
     mistral_temperature: float | None = None,
     mistral_top_p: float | None = None,
     mistral_reasoning_effort: str | None = None,
@@ -17,10 +18,10 @@ def build_backend(
         return Qwen2Backend(model_id=model_id, dtype=dtype, device_map=device_map)
     if name in ("qwen3vl", "qwen3"):
         from .qwen3vl import Qwen3VLBackend
-        return Qwen3VLBackend(model_id=model_id, dtype="auto", device_map=device_map)
+        return Qwen3VLBackend(model_id=model_id, dtype="auto", device_map=device_map, enable_thinking=enable_thinking)
     if name in ("internvl", "internvl3.5", "intern"):
         from .internvl import InternVLBackend
-        return InternVLBackend(model_id=model_id, dtype=dtype, device_map=device_map)
+        return InternVLBackend(model_id=model_id, dtype=dtype, device_map=device_map, enable_thinking=enable_thinking)
     if name in ("qwen3-vl-thinking"): # 这个backend里面用的不是标准读图的方法。用的是PIL，应该用process_vision_info
         from .qwen3vlthinking import Qwen3ThinkingBackend
         return Qwen3ThinkingBackend(model_id=model_id, dtype="auto", device_map=device_map)
@@ -29,9 +30,11 @@ def build_backend(
         return Gemma3Backend(model_id=model_id, dtype=dtype, device_map=device_map)
     if name in ("gemma4"):
         from .gemma4 import Gemma4Backend
-        return Gemma4Backend(model_id=model_id, dtype=dtype, device_map=device_map)
+        return Gemma4Backend(model_id=model_id, dtype=dtype, device_map=device_map, enable_thinking=enable_thinking)
     if name in ("qwen3.5vl", "qwen3.5"):
-        from .qwen3_5vl import Qwen35VLBackend
+        from .qwen3_5vl import Qwen35VLBackend, Qwen35VLThinkingBackend
+        if enable_thinking:
+            return Qwen35VLThinkingBackend(model_id=model_id, dtype="auto", device_map=device_map)
         return Qwen35VLBackend(model_id=model_id, dtype="auto", device_map=device_map)
     if name in ("qwen3.5vl-thinking", "qwen3.5-thinking"):
         from .qwen3_5vl import Qwen35VLThinkingBackend

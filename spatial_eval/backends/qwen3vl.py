@@ -12,6 +12,7 @@ class Qwen3VLBackend(VLMBackend):
     device_map: str = "auto"
     dtype: str | torch.dtype = "auto"
     attn_implementation: str = "eager"
+    enable_thinking: bool = False
 
     def __post_init__(self):
         self.processor = AutoProcessor.from_pretrained(self.model_id)
@@ -29,7 +30,13 @@ class Qwen3VLBackend(VLMBackend):
         return [{"role": "user", "content": content}]
 
     def _run_messages(self, messages, max_new_tokens):
-        text = self.processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+        template_kwargs = {
+            "tokenize": False,
+            "add_generation_prompt": True,
+        }
+        if self.enable_thinking:
+            template_kwargs["enable_thinking"] = True
+        text = self.processor.apply_chat_template(messages, **template_kwargs)
         images, videos = process_vision_info(messages, image_patch_size=16)
         inputs = self.processor(
             text=[text], images=images, videos=videos,

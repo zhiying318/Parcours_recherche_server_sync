@@ -119,7 +119,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   # ---------- Gemma4 short ----------
   CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
     --backend gemma4 \
-    --model_id google/gemma-4-E2B-it \
+    --model_id google/gemma-4-E4B-it \
     --image_json "$IMAGES_JSON" \
     --out_csv "$RESULTS_DIR/mcq_short_gemma4_with_aligned.csv" \
     --ask_mode mcq \
@@ -130,7 +130,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   # ---------- Gemma4 middle ----------
   CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
     --backend gemma4 \
-    --model_id google/gemma-4-E2B-it \
+    --model_id google/gemma-4-E4B-it \
     --image_json "$IMAGES_JSON" \
     --out_csv "$RESULTS_DIR/mcq_middle_gemma4_with_aligned.csv" \
     --ask_mode mcq \
@@ -141,7 +141,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   # ---------- Gemma4 long ----------
   CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
     --backend gemma4 \
-    --model_id google/gemma-4-E2B-it \
+    --model_id google/gemma-4-E4B-it \
     --image_json "$IMAGES_JSON" \
     --out_csv "$RESULTS_DIR/mcq_long_gemma4_with_aligned.csv" \
     --ask_mode mcq \

@@ -12,6 +12,7 @@ class Qwen3ThinkingBackend(VLMBackend):
     model_id: str
     device_map: str = "auto"
     dtype: str | torch.dtype = "auto"
+    enable_thinking: bool = True
 
     def __post_init__(self):
         self.processor = AutoProcessor.from_pretrained(self.model_id)

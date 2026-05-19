@@ -16,6 +16,7 @@ class Qwen35VLBackend(VLMBackend):
     device_map: str = "auto"
     dtype: str | torch.dtype = "auto"
     attn_implementation: str = "eager"
+    enable_thinking: bool = False
 
     # Qwen3.5 official recommended non-thinking / instruct decoding params
     temperature: float = 1.0
@@ -219,6 +220,7 @@ class Qwen35VLThinkingBackend(Qwen35VLBackend):
     top_k: int = 20
     min_p: float = 0.0
     repetition_penalty: float = 1.0
+    enable_thinking: bool = True
 
     def _build_inputs(self, image_path: str, prompt: str):
         img_uri = "file://" + os.path.abspath(image_path)

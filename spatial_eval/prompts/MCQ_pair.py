@@ -70,7 +70,7 @@ class MCQPairAsker:
 
         raw = backend.ask_multi(img_paths, prompt, self.max_new_tokens_mcq)
 
-        if "thinking" in backend.model_id.lower() or "Qwen3.5" in backend.model_id:
+        if getattr(backend, "enable_thinking", False):
             pred_letter = _normalize_choice_thinking(raw)
         else:
             pred_letter = _normalize_choice(raw)
