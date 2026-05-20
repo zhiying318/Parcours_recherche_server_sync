@@ -1,6 +1,7 @@
 # spatial_eval/backends/gemma4.py
 
 from dataclasses import dataclass
+import gc
 
 import torch
 from PIL import Image
@@ -59,11 +60,17 @@ class Gemma4Backend(VLMBackend):
             out_ids[len(in_ids):]
             for in_ids, out_ids in zip(inputs["input_ids"], output)
         ]
-        return self.processor.batch_decode(
+        response = self.processor.batch_decode(
             trimmed,
             skip_special_tokens=True,
             clean_up_tokenization_spaces=False,
         )[0].strip()
+
+        del inputs, output, trimmed
+        gc.collect()
+        torch.cuda.empty_cache()
+
+        return response
 
     @torch.inference_mode()
     def ask(self, image_path: str, prompt: str, max_new_tokens: int = 512) -> str:

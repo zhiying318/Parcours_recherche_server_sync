@@ -1,5 +1,6 @@
 # spatial_eval/backends/internvl.py
 from dataclasses import dataclass
+import gc
 import torch
 from PIL import Image
 from transformers import AutoProcessor, AutoModelForImageTextToText
@@ -60,7 +61,14 @@ class InternVLBackend(VLMBackend):
             **generate_kwargs,
         )
         input_len = inputs["input_ids"].shape[-1]
-        return self.processor.decode(output_ids[0][input_len:], skip_special_tokens=True).strip()
+        response = self.processor.decode(output_ids[0][input_len:], skip_special_tokens=True).strip()
+
+        del inputs_raw, inputs, output_ids
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+
+        return response
 
     @torch.inference_mode()
     def ask(self, image_path: str, prompt: str, max_new_tokens: int = 64) -> str:

@@ -50,17 +50,6 @@ run_gpu1_queue() {
     --ask_mode mcq \
     --mcq_seed 123
 
-  # ---------- Gemma4 thinking ----------
-  CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
-    --backend gemma4 \
-    --model_id google/gemma-4-E4B-it \
-    --image_quads_json "$QUADS_JSON" \
-    --pov4_mode \
-    --out_csv "$RESULTS_DIR/pov4_gemma4_thinking.csv" \
-    --ask_mode mcq \
-    --enable_thinking \
-    --max_new_tokens_mcq 81920 \
-    --mcq_seed 123
 }
 
 run_gpu0_queue() {
@@ -72,6 +61,18 @@ run_gpu0_queue() {
     --pov4_mode \
     --out_csv "$RESULTS_DIR/pov4_qwen3_5vl.csv" \
     --ask_mode mcq \
+    --mcq_seed 123
+
+  # ---------- Gemma4 thinking ----------
+  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+    --backend gemma4 \
+    --model_id google/gemma-4-E4B-it \
+    --image_quads_json "$QUADS_JSON" \
+    --pov4_mode \
+    --out_csv "$RESULTS_DIR/pov4_gemma4_thinking.csv" \
+    --ask_mode mcq \
+    --enable_thinking \
+    --max_new_tokens_mcq 81920 \
     --mcq_seed 123
 
   # ---------- InternVL thinking ----------

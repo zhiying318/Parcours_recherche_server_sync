@@ -47,16 +47,17 @@ run_gpu1_queue() {
     run_single_mcq 1 gemma4 google/gemma-4-E4B-it gemma4 "$length"
   done
 
-  for length in "${LENGTHS[@]}"; do
-    run_single_mcq 1 gemma4 google/gemma-4-E4B-it gemma4_thinking "$length" \
-      --enable_thinking \
-      --max_new_tokens_mcq 81920
-  done
 }
 
 run_gpu0_queue() {
   for length in "${LENGTHS[@]}"; do
     run_single_mcq 0 qwen3.5vl Qwen/Qwen3.5-9B qwen3_5vl "$length"
+  done
+
+  for length in "${LENGTHS[@]}"; do
+    run_single_mcq 0 gemma4 google/gemma-4-E4B-it gemma4_thinking "$length" \
+      --enable_thinking \
+      --max_new_tokens_mcq 81920
   done
 
   for length in "${LENGTHS[@]}"; do

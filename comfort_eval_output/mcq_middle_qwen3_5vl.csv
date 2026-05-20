@@ -1,865 +1,865 @@
 image_path,second_object,mcq_prompt,correct_relation,correct_letter,opposite_relation,opposite_letter,model_answer,pred_letter
 ./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_back/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. right
-D. front",behind,A,front,D,D,D
+A. in the front of
+B. behind
+C. on the right
+D. on the left",behind,B,front,A,A,A
 ./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_front/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. right
-D. front",behind,A,front,D,A,A
+A. in the front of
+B. behind
+C. on the left
+D. on the right",behind,B,front,A,B,B
 ./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_left/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",behind,D,front,B,A,A
+A. on the left
+B. on the right
+C. behind
+D. in the front of",behind,C,front,D,B,B
 ./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",behind,C,front,B,A,A
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/bench__behind__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. behind
-D. left",behind,C,front,B,B,B
+A. behind
+B. on the left
+C. in the front of
+D. on the right",behind,A,front,C,C,C
 ./COMFORT/data/comfort_human_car/behind/bench__behind__cam_front/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. right
-D. behind",behind,D,front,B,B,B
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,A,A
 ./COMFORT/data/comfort_human_car/behind/bench__behind__cam_left/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. right
-D. front",behind,A,front,D,C,C
+A. on the right
+B. on the left
+C. in the front of
+D. behind",behind,D,front,C,A,A
 ./COMFORT/data/comfort_human_car/behind/bench__behind__cam_right/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. behind
-D. front",behind,C,front,D,A,A
+A. behind
+B. in the front of
+C. on the right
+D. on the left",behind,A,front,B,D,D
 ./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_back/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. behind
-D. left",behind,C,front,A,C,C
+A. in the front of
+B. on the left
+C. on the right
+D. behind",behind,D,front,A,A,A
 ./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_front/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. in the front of
+B. on the right
 C. behind
-D. right",behind,C,front,A,A,A
+D. on the left",behind,C,front,A,C,C
 ./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_left/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. front
-D. right",behind,A,front,C,D,D
+A. in the front of
+B. on the right
+C. behind
+D. on the left",behind,C,front,A,B,B
 ./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",behind,C,front,D,B,B
+A. behind
+B. on the left
+C. on the right
+D. in the front of",behind,A,front,D,B,B
 ./COMFORT/data/comfort_human_car/behind/car__behind__cam_back/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",behind,A,front,D,D,D
+A. on the right
+B. on the left
+C. in the front of
+D. behind",behind,D,front,C,D,D
 ./COMFORT/data/comfort_human_car/behind/car__behind__cam_front/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. on the left
+B. on the right
 C. behind
-D. right",behind,C,front,A,C,C
+D. in the front of",behind,C,front,D,C,C
 ./COMFORT/data/comfort_human_car/behind/car__behind__cam_left/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",behind,D,front,B,A,A
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,D,D
 ./COMFORT/data/comfort_human_car/behind/car__behind__cam_right/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. right
-C. front
-D. left",behind,A,front,C,D,D
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/chair__behind__cam_back/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",behind,D,front,C,D,D
+A. in the front of
+B. on the left
+C. on the right
+D. behind",behind,D,front,A,B,B
 ./COMFORT/data/comfort_human_car/behind/chair__behind__cam_front/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",behind,D,front,B,A,A
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,A,A
 ./COMFORT/data/comfort_human_car/behind/chair__behind__cam_left/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. right
-D. front",behind,B,front,D,C,C
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,D,D
 ./COMFORT/data/comfort_human_car/behind/chair__behind__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",behind,B,front,D,C,C
+A. on the right
+B. in the front of
+C. behind
+D. on the left",behind,C,front,B,D,D
 ./COMFORT/data/comfort_human_car/behind/dog__behind__cam_back/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
+A. in the front of
+B. on the right
 C. behind
-D. front",behind,C,front,D,A,A
+D. on the left",behind,C,front,A,A,A
 ./COMFORT/data/comfort_human_car/behind/dog__behind__cam_front/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",behind,D,front,C,A,A
+A. on the left
+B. in the front of
+C. behind
+D. on the right",behind,C,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/dog__behind__cam_left/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",behind,D,front,C,B,B
+A. on the left
+B. in the front of
+C. on the right
+D. behind",behind,D,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/dog__behind__cam_right/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",behind,B,front,D,C,C
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/duck__behind__cam_back/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",behind,D,front,C,C,C
+A. in the front of
+B. behind
+C. on the right
+D. on the left",behind,B,front,A,A,A
 ./COMFORT/data/comfort_human_car/behind/duck__behind__cam_front/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. left
-C. front
-D. right",behind,A,front,C,B,B
+B. in the front of
+C. on the right
+D. on the left",behind,A,front,B,A,A
 ./COMFORT/data/comfort_human_car/behind/duck__behind__cam_left/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",behind,D,front,B,A,A
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,D,D
 ./COMFORT/data/comfort_human_car/behind/duck__behind__cam_right/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",behind,D,front,A,C,C
+A. on the right
+B. in the front of
+C. on the left
+D. behind",behind,D,front,B,C,C
 ./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_back/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. behind
-D. right",behind,C,front,A,B,B
+A. on the right
+B. in the front of
+C. on the left
+D. behind",behind,D,front,B,B,B
 ./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_front/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",behind,A,front,C,B,B
+A. on the right
+B. behind
+C. in the front of
+D. on the left",behind,B,front,C,B,B
 ./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_left/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. right
-C. front
-D. left",behind,A,front,C,B,B
+B. on the left
+C. in the front of
+D. on the right",behind,A,front,C,D,D
 ./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_right/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. right
-C. front
-D. left",behind,A,front,C,D,D
+B. on the right
+C. on the left
+D. in the front of",behind,A,front,D,C,C
 ./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_back/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",behind,D,front,A,D,D
+A. in the front of
+B. on the left
+C. behind
+D. on the right",behind,C,front,A,C,C
 ./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_front/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",behind,B,front,C,B,B
+A. behind
+B. in the front of
+C. on the left
+D. on the right",behind,A,front,B,A,A
 ./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_left/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",behind,A,front,C,B,B
+A. in the front of
+B. on the left
+C. on the right
+D. behind",behind,D,front,A,C,C
 ./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_right/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. on the right
+B. in the front of
 C. behind
-D. right",behind,C,front,A,B,B
+D. on the left",behind,C,front,B,D,D
 ./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_back/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. behind
-C. left
-D. right",front,A,behind,B,C,C
+A. behind
+B. on the right
+C. on the left
+D. in the front of",front,D,behind,A,D,D
 ./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_front/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. right
-D. front",front,D,behind,B,D,D
+A. in the front of
+B. on the right
+C. behind
+D. on the left",front,A,behind,C,A,A
 ./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_left/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. behind
-C. left
-D. right",front,A,behind,B,C,C
+A. in the front of
+B. on the right
+C. on the left
+D. behind",front,A,behind,D,C,C
 ./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",front,C,behind,D,B,B
+A. on the right
+B. on the left
+C. behind
+D. in the front of",front,D,behind,C,A,A
 ./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",front,B,behind,A,A,A
+A. in the front of
+B. on the left
+C. behind
+D. on the right",front,A,behind,C,C,C
 ./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_front/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",front,D,behind,C,D,D
+A. on the left
+B. behind
+C. in the front of
+D. on the right",front,C,behind,B,C,C
 ./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_left/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",front,D,behind,A,C,C
+A. on the left
+B. on the right
+C. behind
+D. in the front of",front,D,behind,C,A,A
 ./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_right/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. behind
-D. front",front,D,behind,C,B,B
+A. on the right
+B. behind
+C. in the front of
+D. on the left",front,C,behind,B,A,A
 ./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_back/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. on the right
+B. in the front of
 C. behind
-D. right",front,A,behind,C,C,C
+D. on the left",front,B,behind,C,C. behind,C
 ./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_front/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
+A. in the front of
 B. behind
-C. front
-D. right",front,C,behind,B,C,C
+C. on the left
+D. on the right",front,A,behind,B,A,A
 ./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_left/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",front,A,behind,D,B,B
+A. on the right
+B. on the left
+C. in the front of
+D. behind",front,C,behind,D,B,B
 ./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",front,B,behind,C,D,D
+A. on the right
+B. on the left
+C. in the front of
+D. behind",front,C,behind,D,A,A
 ./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_back/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. right
-D. front",front,D,behind,B,A,A
+A. in the front of
+B. on the right
+C. on the left
+D. behind",front,A,behind,D,C,C
 ./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_front/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",front,A,behind,D,D,D
+A. on the left
+B. behind
+C. in the front of
+D. on the right",front,C,behind,B,C,C
 ./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_left/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",front,D,behind,A,C,C
+A. on the right
+B. on the left
+C. in the front of
+D. behind",front,C,behind,D,B,B
 ./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_right/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",front,C,behind,B,D,D
+A. on the left
+B. in the front of
+C. on the right
+D. behind",front,B,behind,D,C,C
 ./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_back/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",front,C,behind,A,A,A
+A. on the right
+B. in the front of
+C. on the left
+D. behind",front,B,behind,D,C,C
 ./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_front/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",front,D,behind,A,D,D
+A. in the front of
+B. behind
+C. on the right
+D. on the left",front,A,behind,B,A,A
 ./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_left/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",front,B,behind,A,C,C
+A. on the right
+B. on the left
+C. behind
+D. in the front of",front,D,behind,C,B,B
 ./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
+A. in the front of
+B. on the right
 C. behind
-D. right",front,B,behind,C,D,D
+D. on the left",front,A,behind,C,B,B
 ./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_back/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",front,D,behind,C,The image provided only shows a person standing,A
+A. on the left
+B. behind
+C. in the front of
+D. on the right",front,C,behind,B,D,D
 ./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_front/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
+A. in the front of
+B. on the left
 C. behind
-D. front",front,D,behind,C,A,A
+D. on the right",front,A,behind,C,A,A
 ./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_left/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",front,C,behind,B,A,A
+A. behind
+B. on the right
+C. in the front of
+D. on the left",front,C,behind,A,D,D
 ./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_right/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. behind
-C. left
-D. right",front,A,behind,B,D,D
+A. on the right
+B. on the left
+C. in the front of
+D. behind",front,C,behind,D,A,A
 ./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_back/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",front,C,behind,A,B,B
+A. on the left
+B. behind
+C. on the right
+D. in the front of",front,D,behind,B,D,D
 ./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_front/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",front,C,behind,A,C,C
+A. on the right
+B. on the left
+C. behind
+D. in the front of",front,D,behind,C,D. in the front of,D
 ./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_left/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. right
-D. behind",front,B,behind,D,A,A
+A. on the right
+B. in the front of
+C. on the left
+D. behind",front,B,behind,D,C,C
 ./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_right/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",front,A,behind,D,C,C
+A. on the left
+B. on the right
+C. behind
+D. in the front of",front,D,behind,C,B,B
 ./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_back/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",front,C,behind,D,D,D
+A. behind
+B. on the right
+C. in the front of
+D. on the left",front,C,behind,A,A,A
 ./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_front/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. behind
-D. right",front,A,behind,C,B,B
+A. on the left
+B. behind
+C. on the right
+D. in the front of",front,D,behind,B,D,D
 ./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_left/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",front,B,behind,C,A,A
+A. behind
+B. on the right
+C. in the front of
+D. on the left",front,C,behind,A,D,D
 ./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_right/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. behind
-D. right",front,A,behind,C,D,D
+A. in the front of
+B. behind
+C. on the right
+D. on the left",front,A,behind,B,C,C
 ./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_back/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",front,C,behind,D,C,C
+A. in the front of
+B. behind
+C. on the left
+D. on the right",front,A,behind,B,B,B
 ./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_front/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",front,C,behind,B,C,C
+A. on the left
+B. in the front of
+C. on the right
+D. behind",front,B,behind,D,B,B
 ./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_left/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",front,A,behind,D,C,C
+A. behind
+B. in the front of
+C. on the right
+D. on the left",front,B,behind,A,D,D
 ./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_right/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",front,A,behind,D,B,B
+A. in the front of
+B. behind
+C. on the left
+D. on the right",front,A,behind,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_back/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
+A. on the left
 B. behind
-C. front
-D. left",left,D,right,A,D,D
+C. in the front of
+D. on the right",left,A,right,D,A,A
 ./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_front/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",left,A,right,D,D,D
+A. on the right
+B. in the front of
+C. behind
+D. on the left",left,D,right,A,A,A
 ./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_left/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. front
-C. right
-D. left",left,D,right,C,C,C
+B. in the front of
+C. on the right
+D. on the left",left,D,right,C,B,B
 ./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. behind
-D. front",left,A,right,B,None,N
+A. in the front of
+B. behind
+C. on the right
+D. on the left",left,D,right,C,A,A
 ./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. front
-D. right",left,B,right,D,B,B
+A. on the right
+B. behind
+C. on the left
+D. in the front of",left,C,right,A,C,C
 ./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_front/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
+A. in the front of
 B. behind
-C. left
-D. right",left,C,right,D,D,D
+C. on the left
+D. on the right",left,C,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_left/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",left,C,right,D,A,A
+A. in the front of
+B. on the left
+C. behind
+D. on the right",left,B,right,D,B,B
 ./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_right/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",left,A,right,D,B,B
+A. on the left
+B. on the right
+C. behind
+D. in the front of",left,A,right,B,B,B
 ./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_back/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. front
-D. left",left,D,right,A,D,D
+A. on the right
+B. in the front of
+C. behind
+D. on the left",left,D,right,A,D,D
 ./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_front/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. right
-D. left",left,D,right,C,C,C
+A. in the front of
+B. behind
+C. on the left
+D. on the right",left,C,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_left/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",left,B,right,C,D,D
+A. on the left
+B. on the right
+C. in the front of
+D. behind",left,A,right,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",left,D,right,B,C,C
+A. in the front of
+B. behind
+C. on the right
+D. on the left",left,D,right,C,A,A
 ./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_back/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",left,C,right,B,C,C
+A. in the front of
+B. on the left
+C. on the right
+D. behind",left,B,right,C,B,B
 ./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_front/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. behind
-D. left",left,D,right,A,A,A
+A. behind
+B. on the right
+C. on the left
+D. in the front of",left,C,right,B,B,B
 ./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_left/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",left,C,right,A,C,C
+A. on the left
+B. on the right
+C. in the front of
+D. behind",left,A,right,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_right/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",left,B,right,A,A,A
+A. in the front of
+B. on the right
+C. on the left
+D. behind",left,C,right,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_back/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",left,C,right,D,C,C
+A. on the right
+B. in the front of
+C. on the left
+D. behind",left,C,right,A,C,C
 ./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_front/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",left,D,right,B,B,B
+A. in the front of
+B. on the left
+C. behind
+D. on the right",left,B,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_left/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",left,C,right,B,D,D
+A. in the front of
+B. on the right
+C. behind
+D. on the left",left,D,right,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",left,C,right,B,B,B
+A. on the right
+B. on the left
+C. in the front of
+D. behind",left,B,right,A,A,A
 ./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_back/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. right
-D. left",left,D,right,C,D,D
+A. on the left
+B. in the front of
+C. on the right
+D. behind",left,A,right,C,A,A
 ./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_front/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",left,C,right,B,B,B
+A. behind
+B. in the front of
+C. on the right
+D. on the left",left,D,right,C,C,C
 ./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_left/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. on the right
+B. in the front of
 C. behind
-D. right",left,B,right,D,B,B
+D. on the left",left,D,right,A,D,D
 ./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_right/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
 A. behind
-B. left
-C. front
-D. right",left,B,right,D,D,D
+B. in the front of
+C. on the left
+D. on the right",left,C,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_back/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. on the left
+B. in the front of
 C. behind
-D. right",left,B,right,D,B,B
+D. on the right",left,A,right,D,A,A
 ./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_front/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
+A. on the left
+B. in the front of
 C. behind
-D. right",left,A,right,D,D,D
+D. on the right",left,A,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_left/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",left,A,right,B,C,C
+A. behind
+B. in the front of
+C. on the right
+D. on the left",left,D,right,C,B,B
 ./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",left,C,right,A,The image provided only shows a person standing,A
+A. on the left
+B. in the front of
+C. on the right
+D. behind",left,A,right,C,C,C
 ./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_back/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. behind
-D. left",left,D,right,B,D,D
+A. in the front of
+B. behind
+C. on the left
+D. on the right",left,C,right,D,C,C
 ./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_front/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. left
-D. front",left,C,right,B,B,B
+A. on the right
+B. behind
+C. in the front of
+D. on the left",left,D,right,A,A,A
 ./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_left/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",left,D,right,B,D,D
+A. on the left
+B. in the front of
+C. on the right
+D. behind",left,A,right,C,A,A
 ./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_right/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. right
-C. front
-D. left",left,D,right,B,A,A
+A. on the left
+B. in the front of
+C. on the right
+D. behind",left,A,right,C,D,D
 ./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_back/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",left,C,right,A,C,C
+A. behind
+B. in the front of
+C. on the left
+D. on the right",left,C,right,D,C,C
 ./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_front/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",left,B,right,A,A,A
+A. behind
+B. in the front of
+C. on the left
+D. on the right",left,C,right,D,D,D
 ./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_left/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. behind
-D. front",left,B,right,A,C,C
+A. on the left
+B. on the right
+C. in the front of
+D. behind",left,A,right,B,D,D
 ./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_right/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",left,C,right,A,D,D
+A. behind
+B. on the left
+C. on the right
+D. in the front of",left,B,right,C,A,A
 ./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_back/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",right,D,left,A,D,D
+A. in the front of
+B. on the right
+C. on the left
+D. behind",right,B,left,C,B,B
 ./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_front/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
+A. on the left
+B. on the right
 C. behind
-D. left",right,B,left,D,D,D
+D. in the front of",right,B,left,A,A,A
 ./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_left/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. behind
-D. left",right,B,left,D,None,N
+A. behind
+B. in the front of
+C. on the left
+D. on the right",right,D,left,C,A,A
 ./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",right,D,left,A,A,A
+A. on the right
+B. in the front of
+C. on the left
+D. behind",right,A,left,C,C,C
 ./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",right,A,left,B,A,A
+A. in the front of
+B. on the right
+C. on the left
+D. behind",right,B,left,C,B,B
 ./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_front/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. right
-D. behind",right,C,left,A,A,A
+A. on the right
+B. behind
+C. in the front of
+D. on the left",right,A,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_left/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",right,D,left,A,A,A
+A. on the right
+B. behind
+C. on the left
+D. in the front of",right,A,left,C,C,C
 ./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_right/0.png,bench,"Where is the bench in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. left
-C. right
-D. front",right,C,left,B,D,D
+A. on the left
+B. on the right
+C. in the front of
+D. behind",right,B,left,A,C,C
 ./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_back/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",right,B,left,A,B,B
+A. in the front of
+B. on the right
+C. behind
+D. on the left",right,B,left,D,B,B
 ./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_front/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",right,D,left,C,C,C
+A. on the right
+B. behind
+C. in the front of
+D. on the left",right,A,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_left/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",right,C,left,B,D,D
+A. in the front of
+B. on the right
+C. on the left
+D. behind",right,B,left,C,D,D
 ./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
+A. in the front of
 B. behind
-C. right
-D. front",right,C,left,A,D,D
+C. on the right
+D. on the left",right,C,left,D,C,C
 ./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_back/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",right,A,left,B,A,A
+A. in the front of
+B. on the right
+C. behind
+D. on the left",right,B,left,D,B,B
 ./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_front/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. right
-D. front",right,C,left,A,A,A
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_left/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. left
-D. behind",right,A,left,C,A,A
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_right/0.png,car,"Where is the car in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
+A. in the front of
+B. on the right
 C. behind
-D. right",right,D,left,B,B,B
+D. on the left",right,B,left,D,C,C
 ./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_back/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",right,A,left,B,A,A
+A. on the left
+B. on the right
+C. behind
+D. in the front of",right,B,left,A,B,B
 ./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_front/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
+A. in the front of
 B. behind
-C. left
-D. right",right,D,left,C,C,C
+C. on the right
+D. on the left",right,C,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_left/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. right
-D. behind",right,C,left,A,C,C
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. left
-C. front
-D. behind",right,A,left,B,C,C
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,B,B
 ./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_back/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",right,A,left,C,A,A
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,C,C
 ./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_front/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. behind
-C. front
-D. right",right,D,left,A,A,A
+A. behind
+B. in the front of
+C. on the right
+D. on the left",right,C,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_left/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. behind
-D. left",right,A,left,D,A,A
+A. on the right
+B. behind
+C. in the front of
+D. on the left",right,A,left,D,C,C
 ./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_right/0.png,dog,"Where is the dog in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",right,B,left,C,B,B
+A. on the right
+B. in the front of
+C. behind
+D. on the left",right,A,left,D,A,A
 ./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_back/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. front
-C. behind
-D. left",right,A,left,D,A,A
+A. on the left
+B. on the right
+C. in the front of
+D. behind",right,B,left,A,B,B
 ./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_front/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. behind
-C. right
-D. left",right,C,left,D,D,D
+A. on the left
+B. in the front of
+C. behind
+D. on the right",right,D,left,A,A,A
 ./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_left/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",right,D,left,A,The image provided only shows a person standing,A
+A. on the right
+B. behind
+C. on the left
+D. in the front of",right,A,left,C,D. in the front of,D
 ./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_right/0.png,duck,"Where is the duck in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. right
-C. front
-D. behind",right,B,left,A,B,B
+A. behind
+B. in the front of
+C. on the left
+D. on the right",right,D,left,C,B,B
 ./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_back/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. behind
-D. right",right,D,left,A,D,D
+A. on the left
+B. behind
+C. on the right
+D. in the front of",right,C,left,A,C,C
 ./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_front/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. left
-C. right
-D. behind",right,C,left,B,B,B
+A. in the front of
+B. on the right
+C. behind
+D. on the left",right,B,left,D,D,D
 ./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_left/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. left
-B. front
-C. right
-D. behind",right,C,left,A,A,A
+A. on the right
+B. behind
+C. on the left
+D. in the front of",right,A,left,C,C,C
 ./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_right/0.png,laptop,"Where is the laptop in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. right
-B. behind
-C. left
-D. front",right,A,left,C,D,D
+A. on the left
+B. on the right
+C. in the front of
+D. behind",right,B,left,A,D,D
 ./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_back/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. behind
-C. left
-D. right",right,D,left,C,D,D
+A. on the left
+B. on the right
+C. behind
+D. in the front of",right,B,left,A,B,B
 ./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_front/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. front
-B. right
-C. left
-D. behind",right,B,left,C,C,C
+A. on the left
+B. behind
+C. in the front of
+D. on the right",right,D,left,A,A,A
 ./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_left/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. right
-D. left",right,C,left,D,A,A
+A. on the left
+B. in the front of
+C. on the right
+D. behind",right,C,left,A,D,D
 ./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_right/0.png,sofa,"Where is the sofa in the perspective of the person?
 Choose ONE option and respond with ONLY the letter.
-A. behind
-B. front
-C. left
-D. right",right,D,left,C,B,B
+A. on the right
+B. on the left
+C. behind
+D. in the front of",right,A,left,B,D,D

@@ -175,7 +175,7 @@ run_gpu0_thinking() {
     --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
     --mcq_seed 123
 
-  # ---------- Qwen3.5-VL thinking long ----------
+  # ---------- Qwen3.5-VL thinking long ---------- # didn't do this one, stoped 
   CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
     --backend qwen3.5vl-thinking \
     --model_id Qwen/Qwen3.5-9B \
