@@ -30,14 +30,16 @@ run_gpu1_queue() {
     --ask_mode mcq \
     --mcq_seed 123
 
-  # ---------- Qwen3-VL ----------
-  CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
-    --backend qwen3vl \
-    --model_id Qwen/Qwen3-VL-8B-Instruct \
+  # ---------- Gemma4 thinking ----------
+  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+    --backend gemma4 \
+    --model_id google/gemma-4-E4B-it \
     --image_triples_json "$TRIPLES_JSON" \
     --pov_mode \
-    --out_csv "$RESULTS_DIR/pov_qwen3vl.csv" \
+    --out_csv "$RESULTS_DIR/pov_gemma4_thinking.csv" \
     --ask_mode mcq \
+    --enable_thinking \
+    --max_new_tokens_mcq 81920 \
     --mcq_seed 123
 
   # ---------- Gemma4 ----------
@@ -53,6 +55,16 @@ run_gpu1_queue() {
 }
 
 run_gpu0_queue() {
+  # # ---------- Qwen3-VL ----------
+  # CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+  #   --backend qwen3vl \
+  #   --model_id Qwen/Qwen3-VL-8B-Instruct \
+  #   --image_triples_json "$TRIPLES_JSON" \
+  #   --pov_mode \
+  #   --out_csv "$RESULTS_DIR/pov_qwen3vl.csv" \
+  #   --ask_mode mcq \
+  #   --mcq_seed 123
+
   # ---------- Qwen3.5-VL ----------
   CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
     --backend qwen3.5vl \
@@ -61,18 +73,6 @@ run_gpu0_queue() {
     --pov_mode \
     --out_csv "$RESULTS_DIR/pov_qwen3_5vl.csv" \
     --ask_mode mcq \
-    --mcq_seed 123
-
-  # ---------- Gemma4 thinking ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend gemma4 \
-    --model_id google/gemma-4-E4B-it \
-    --image_triples_json "$TRIPLES_JSON" \
-    --pov_mode \
-    --out_csv "$RESULTS_DIR/pov_gemma4_thinking.csv" \
-    --ask_mode mcq \
-    --enable_thinking \
-    --max_new_tokens_mcq 81920 \
     --mcq_seed 123
 
   # ---------- InternVL thinking ----------
@@ -84,7 +84,7 @@ run_gpu0_queue() {
     --out_csv "$RESULTS_DIR/pov_internvl_thinking.csv" \
     --ask_mode mcq \
     --enable_thinking \
-    --max_new_tokens_mcq 81920 \
+    --max_new_tokens_mcq 16382 \
     --mcq_seed 123
 
   # ---------- Qwen3-VL thinking ----------

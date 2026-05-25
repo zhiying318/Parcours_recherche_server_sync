@@ -181,74 +181,74 @@ run_gpu0_queue() {
   #   --answer_length long \
   #   --mcq_seed 123
 
-  # ---------- InternVL thinking short ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend internvl \
-    --model_id OpenGVLab/InternVL3_5-8B-HF \
-    --image_json "$IMAGES_JSON" \
-    --out_csv "$RESULTS_DIR/mcq_short_internvl_thinking.csv" \
-    --ask_mode mcq \
-    --answer_length short \
-    --enable_thinking \
-    --max_new_tokens_mcq 16384 \
-    --mcq_seed 123
-
-  # ---------- InternVL thinking middle ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend internvl \
-    --model_id OpenGVLab/InternVL3_5-8B-HF \
-    --image_json "$IMAGES_JSON" \
-    --out_csv "$RESULTS_DIR/mcq_middle_internvl_thinking.csv" \
-    --ask_mode mcq \
-    --answer_length middle \
-    --enable_thinking \
-    --max_new_tokens_mcq 16384 \
-    --mcq_seed 123
-
-  # ---------- InternVL thinking long ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend internvl \
-    --model_id OpenGVLab/InternVL3_5-8B-HF \
-    --image_json "$IMAGES_JSON" \
-    --out_csv "$RESULTS_DIR/mcq_long_internvl_thinking.csv" \
-    --ask_mode mcq \
-    --answer_length long \
-    --enable_thinking \
-    --max_new_tokens_mcq 16384 \
-    --mcq_seed 123
-
-  # # ---------- Qwen3-VL thinking short ----------
+  # # ---------- InternVL thinking short ----------
   # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-  #   --backend qwen3-vl-thinking \
-  #   --model_id Qwen/Qwen3-VL-8B-Thinking \
+  #   --backend internvl \
+  #   --model_id OpenGVLab/InternVL3_5-8B-HF \
   #   --image_json "$IMAGES_JSON" \
-  #   --out_csv "$RESULTS_DIR/mcq_short_qwen3vl_thinking.csv" \
+  #   --out_csv "$RESULTS_DIR/mcq_short_internvl_thinking.csv" \
   #   --ask_mode mcq \
   #   --answer_length short \
-  #   --max_new_tokens_mcq 81920 \
+  #   --enable_thinking \
+  #   --max_new_tokens_mcq 16384 \
   #   --mcq_seed 123
 
-  # # ---------- Qwen3-VL thinking middle ----------
+  # # ---------- InternVL thinking middle ----------
   # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-  #   --backend qwen3-vl-thinking \
-  #   --model_id Qwen/Qwen3-VL-8B-Thinking \
+  #   --backend internvl \
+  #   --model_id OpenGVLab/InternVL3_5-8B-HF \
   #   --image_json "$IMAGES_JSON" \
-  #   --out_csv "$RESULTS_DIR/mcq_middle_qwen3vl_thinking.csv" \
+  #   --out_csv "$RESULTS_DIR/mcq_middle_internvl_thinking.csv" \
   #   --ask_mode mcq \
   #   --answer_length middle \
-  #   --max_new_tokens_mcq 81920 \
+  #   --enable_thinking \
+  #   --max_new_tokens_mcq 16384 \
   #   --mcq_seed 123
 
-  # # ---------- Qwen3-VL thinking long ----------
+  # # ---------- InternVL thinking long ----------
   # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-  #   --backend qwen3-vl-thinking \
-  #   --model_id Qwen/Qwen3-VL-8B-Thinking \
+  #   --backend internvl \
+  #   --model_id OpenGVLab/InternVL3_5-8B-HF \
   #   --image_json "$IMAGES_JSON" \
-  #   --out_csv "$RESULTS_DIR/mcq_long_qwen3vl_thinking.csv" \
+  #   --out_csv "$RESULTS_DIR/mcq_long_internvl_thinking.csv" \
   #   --ask_mode mcq \
   #   --answer_length long \
-  #   --max_new_tokens_mcq 81920 \
+  #   --enable_thinking \
+  #   --max_new_tokens_mcq 16384 \
   #   --mcq_seed 123
+
+  # ---------- Qwen3-VL thinking short ----------
+  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+    --backend qwen3-vl-thinking \
+    --model_id Qwen/Qwen3-VL-8B-Thinking \
+    --image_json "$IMAGES_JSON" \
+    --out_csv "$RESULTS_DIR/mcq_short_qwen3vl_thinking.csv" \
+    --ask_mode mcq \
+    --answer_length short \
+    --max_new_tokens_mcq 81920 \
+    --mcq_seed 123
+
+  # ---------- Qwen3-VL thinking middle ----------
+  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+    --backend qwen3-vl-thinking \
+    --model_id Qwen/Qwen3-VL-8B-Thinking \
+    --image_json "$IMAGES_JSON" \
+    --out_csv "$RESULTS_DIR/mcq_middle_qwen3vl_thinking.csv" \
+    --ask_mode mcq \
+    --answer_length middle \
+    --max_new_tokens_mcq 81920 \
+    --mcq_seed 123
+
+  # ---------- Qwen3-VL thinking long ----------
+  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+    --backend qwen3-vl-thinking \
+    --model_id Qwen/Qwen3-VL-8B-Thinking \
+    --image_json "$IMAGES_JSON" \
+    --out_csv "$RESULTS_DIR/mcq_long_qwen3vl_thinking.csv" \
+    --ask_mode mcq \
+    --answer_length long \
+    --max_new_tokens_mcq 81920 \
+    --mcq_seed 123
 
   # # ---------- Qwen3.5-VL thinking short ----------
   # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
