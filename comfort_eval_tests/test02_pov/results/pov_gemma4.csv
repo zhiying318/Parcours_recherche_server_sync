@@ -1,0 +1,1009 @@
+external_img,correct_pov_img,distractor_pov_img,cam_view_external,second_object,correct_relation,mcq_prompt,img_option_A,img_option_B,correct_letter,pred_letter,correct,raw_answer
+./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,cam_back,basketball,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,cam_front,basketball,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,cam_left,basketball,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,cam_right,basketball,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/basketball__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,cam_back,bench,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,cam_front,bench,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,cam_left,bench,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,cam_right,bench,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bench__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,cam_back,bicycle,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,cam_front,bicycle,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,cam_left,bicycle,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,cam_right,bicycle,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/bicycle__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,cam_back,car,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,cam_front,car,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,cam_left,car,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,cam_right,car,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/car__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,cam_back,chair,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,cam_front,chair,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,cam_left,chair,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,cam_right,chair,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/chair__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,cam_back,dog,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,cam_front,dog,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,cam_left,dog,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,cam_right,dog,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/dog__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,cam_back,duck,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,cam_front,duck,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,cam_left,duck,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,cam_right,duck,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/duck__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,cam_back,laptop,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,cam_front,laptop,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,cam_left,laptop,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,cam_right,laptop,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/laptop__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,cam_back,sofa,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,cam_front,sofa,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,cam_left,sofa,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,cam_right,sofa,behind,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/behind/sofa__behind__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,cam_back,basketball,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,cam_front,basketball,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,cam_left,basketball,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,cam_right,basketball,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/basketball__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,cam_back,bench,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,cam_front,bench,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,cam_left,bench,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,cam_right,bench,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bench__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,cam_back,bicycle,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,cam_front,bicycle,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,cam_left,bicycle,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,cam_right,bicycle,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/bicycle__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,cam_back,car,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,cam_front,car,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,cam_left,car,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,cam_right,car,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/car__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,cam_back,chair,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,cam_front,chair,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,cam_left,chair,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,cam_right,chair,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/chair__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,cam_back,dog,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,cam_front,dog,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,cam_left,dog,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,cam_right,dog,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/dog__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,cam_back,duck,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,cam_front,duck,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,cam_left,duck,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,cam_right,duck,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/duck__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,cam_back,laptop,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,cam_front,laptop,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,cam_left,laptop,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,cam_right,laptop,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/laptop__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,cam_back,sofa,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,cam_front,sofa,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,cam_left,sofa,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,cam_right,sofa,front,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_back/0.png,./COMFORT/data/comfort_human_car_pov/infrontof/sofa__infrontof__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,cam_back,basketball,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,cam_front,basketball,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,cam_left,basketball,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,cam_right,basketball,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/basketball__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,cam_back,bench,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,cam_front,bench,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,cam_left,bench,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,cam_right,bench,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bench__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,cam_back,bicycle,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,cam_front,bicycle,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,cam_left,bicycle,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,cam_right,bicycle,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/bicycle__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,cam_back,car,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,cam_front,car,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,cam_left,car,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,cam_right,car,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/car__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,cam_back,chair,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,cam_front,chair,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,cam_left,chair,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,cam_right,chair,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/chair__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,cam_back,dog,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,cam_front,dog,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,cam_left,dog,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,cam_right,dog,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/dog__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,cam_back,duck,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,cam_front,duck,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,cam_left,duck,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,cam_right,duck,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/duck__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,cam_back,laptop,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,cam_front,laptop,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,cam_left,laptop,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,cam_right,laptop,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/laptop__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,cam_back,sofa,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,cam_front,sofa,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,cam_left,sofa,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,cam_right,sofa,left,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheleft/sofa__totheleft__cam_pov_left/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,cam_back,basketball,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,cam_front,basketball,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,cam_left,basketball,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,cam_right,basketball,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/basketball__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,cam_back,bench,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,cam_front,bench,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,cam_left,bench,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,cam_right,bench,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bench__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,cam_back,bicycle,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,cam_front,bicycle,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,cam_left,bicycle,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,cam_right,bicycle,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/bicycle__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,cam_back,car,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,cam_front,car,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,cam_left,car,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,cam_right,car,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/car__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,cam_back,chair,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,cam_front,chair,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,cam_left,chair,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,cam_right,chair,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/chair__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,cam_back,dog,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,cam_front,dog,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,cam_left,dog,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,cam_right,dog,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/dog__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,cam_back,duck,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,cam_front,duck,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,cam_left,duck,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,cam_right,duck,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/duck__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,cam_back,laptop,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,cam_front,laptop,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,cam_left,laptop,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,cam_right,laptop,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/laptop__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,cam_back,sofa,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,A,A,True,A
+./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,cam_front,sofa,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,cam_left,sofa,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,B,A,False,A
+./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_right/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,cam_right,sofa,right,"The first image shows a scene from an external camera.
+A person is standing at the center of the scene.
+One of the following two images was taken from the person's eye level, looking in the direction the person is facing.
+Which image represents what the person sees?
+Choose ONE option and respond with ONLY the letter.
+A. Image 2
+B. Image 3",./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_front/0.png,./COMFORT/data/comfort_human_car_pov/totheright/sofa__totheright__cam_pov_right/0.png,A,A,True,A
