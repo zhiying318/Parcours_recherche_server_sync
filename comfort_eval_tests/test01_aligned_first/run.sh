@@ -11,6 +11,16 @@ RESULTS_DIR="$(dirname "$0")/results"
 
 
 run_gpu1_queue() {
+  # ---------- Qwen3.5-VL long ----------
+  CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+    --backend qwen3.5vl \
+    --model_id Qwen/Qwen3.5-9B \
+    --image_pairs_json "$PAIRS_JSON" \
+    --pair_mode \
+    --out_csv "$RESULTS_DIR/pair_mcq_long_qwen3_5vl.csv" \
+    --ask_mode mcq \
+    --answer_length long \
+    --mcq_seed 123
   #   # ---------- Qwen3-VL thinking long ----------
   # CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   #   --backend qwen3-vl-thinking \
@@ -86,18 +96,6 @@ run_gpu1_queue() {
 }
 
 # run_gpu0_queue() {
-  # ---------- Qwen3.5-VL long ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend qwen3.5vl \
-    --model_id Qwen/Qwen3.5-9B \
-    --image_pairs_json "$PAIRS_JSON" \
-    --pair_mode \
-    --out_csv "$RESULTS_DIR/pair_mcq_long_qwen3_5vl.csv" \
-    --ask_mode mcq \
-    --answer_length long \
-    --mcq_seed 123
-#
-#
 #   # ---------- Qwen3-VL thinking long ----------
 #   CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
 #     --backend qwen3-vl-thinking \

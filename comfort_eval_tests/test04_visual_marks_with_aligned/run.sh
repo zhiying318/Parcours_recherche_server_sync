@@ -49,19 +49,6 @@ run_gpu1_queue() {
   #   --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
   #   --mcq_seed 123
 
-  # ---------- InternVL thinking long ----------
-  CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
-    --backend internvl \
-    --model_id OpenGVLab/InternVL3_5-8B-HF \
-    --image_json "$IMAGES_JSON" \
-    --out_csv "$RESULTS_DIR/mcq_long_internvl_thinking_with_aligned.csv" \
-    --ask_mode mcq \
-    --answer_length long \
-    --enable_thinking \
-    --max_new_tokens_mcq 16384 \
-    --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
-    --mcq_seed 123
-
   # ---------- Gemma4 thinking long ----------
   CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
     --backend gemma4 \
@@ -71,22 +58,35 @@ run_gpu1_queue() {
     --ask_mode mcq \
     --answer_length long \
     --enable_thinking \
-    --max_new_tokens_mcq 16384 \
+    --max_new_tokens_mcq 20480 \
+    --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
+    --mcq_seed 123
+
+  # ---------- InternVL thinking long ----------
+  CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
+    --backend internvl \
+    --model_id OpenGVLab/InternVL3_5-8B-HF \
+    --image_json "$IMAGES_JSON" \
+    --out_csv "$RESULTS_DIR/mcq_long_internvl_thinking_with_aligned.csv" \
+    --ask_mode mcq \
+    --answer_length long \
+    --enable_thinking \
+    --max_new_tokens_mcq 20480 \
     --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
     --mcq_seed 123
 }
 
 run_gpu0_thinking() {
-  # ---------- Qwen3.5-VL long ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-  --backend qwen3.5vl \
-  --model_id Qwen/Qwen3.5-9B \
-  --image_json "$IMAGES_JSON" \
-  --out_csv "$RESULTS_DIR/mcq_long_qwen3_5vl_with_aligned.csv" \
-  --ask_mode mcq \
-  --answer_length long \
-  --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
-  --mcq_seed 123
+  # # ---------- Qwen3.5-VL long ----------
+  # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  # --backend qwen3.5vl \
+  # --model_id Qwen/Qwen3.5-9B \
+  # --image_json "$IMAGES_JSON" \
+  # --out_csv "$RESULTS_DIR/mcq_long_qwen3_5vl_with_aligned.csv" \
+  # --ask_mode mcq \
+  # --answer_length long \
+  # --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
+  # --mcq_seed 123
 
   # # ---------- Qwen3.5-VL thinking short ----------
   # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
@@ -112,24 +112,24 @@ run_gpu0_thinking() {
   #   --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
   #   --mcq_seed 123
 
+  # # ---------- Qwen3-VL thinking long ----------
+  # CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
+  #   --backend qwen3-vl-thinking \
+  #   --model_id Qwen/Qwen3-VL-8B-Thinking \
+  #   --image_json "$IMAGES_JSON" \
+  #   --out_csv "$RESULTS_DIR/mcq_long_qwen3vl_thinking_with_aligned.csv" \
+  #   --ask_mode mcq \
+  #   --answer_length long \
+  #   --max_new_tokens_mcq 20480 \
+  #   --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
+  #   --mcq_seed 123
+
   # ---------- Qwen3.5-VL thinking long ---------- # didn't do this one, stoped 
   CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
     --backend qwen3.5vl-thinking \
     --model_id Qwen/Qwen3.5-9B \
     --image_json "$IMAGES_JSON" \
     --out_csv "$RESULTS_DIR/mcq_long_qwen3_5vl_thinking_with_aligned.csv" \
-    --ask_mode mcq \
-    --answer_length long \
-    --max_new_tokens_mcq 20480 \
-    --mcq_prompt_note "The arrows in the image indicate the person's face orientation." \
-    --mcq_seed 123
-
-  # ---------- Qwen3-VL thinking long ----------
-  CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
-    --backend qwen3-vl-thinking \
-    --model_id Qwen/Qwen3-VL-8B-Thinking \
-    --image_json "$IMAGES_JSON" \
-    --out_csv "$RESULTS_DIR/mcq_long_qwen3vl_thinking_with_aligned.csv" \
     --ask_mode mcq \
     --answer_length long \
     --max_new_tokens_mcq 20480 \
