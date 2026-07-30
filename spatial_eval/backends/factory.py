@@ -11,6 +11,12 @@ def build_backend(
     mistral_temperature: float | None = None,
     mistral_top_p: float | None = None,
     mistral_reasoning_effort: str | None = None,
+    openai_reasoning_effort: str | None = None,
+    openai_reasoning_summary: str | None = None,
+    openai_api_mode: str = "chat_completions",
+    openai_reasoning_jsonl: str | None = None,
+    openai_timeout: float = 120.0,
+    openai_max_retries: int = 5,
 ) -> VLMBackend:
     name = name.lower()
     if name in ("qwen", "qwen2", "qwen2.5", "qwen2.5vl"):
@@ -50,5 +56,16 @@ def build_backend(
             temperature=mistral_temperature,
             top_p=mistral_top_p,
             reasoning_effort=mistral_reasoning_effort,
+        )
+    if name == "openai":
+        from .openai import OpenAIBackend
+        return OpenAIBackend(
+            model_id=model_id,
+            reasoning_effort=openai_reasoning_effort,
+            reasoning_summary=openai_reasoning_summary,
+            api_mode=openai_api_mode,
+            reasoning_jsonl=openai_reasoning_jsonl,
+            timeout=openai_timeout,
+            max_retries=openai_max_retries,
         )
     raise ValueError(f"Unknown backend '{name}'.")

@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
 
 def main():
     parser = argparse.ArgumentParser(description="Spatial QA evaluation (modular).")
-    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "gemma4", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits", "mistral"])
+    parser.add_argument("--backend", required=True, choices=["qwen", "internvl", "qwen3vl", "qwen3-vl-thinking", "gemma3", "gemma4", "qwen3.5vl", "qwen3.5vl-thinking", "qwen3vl-logits", "mistral", "openai"])
     parser.add_argument("--model_id", required=True)
     parser.add_argument("--image_json", default=None)
     parser.add_argument("--image_pairs_json", default=None)
@@ -115,13 +115,41 @@ def main():
     parser.add_argument("--mistral_reasoning_effort", choices=["none", "high"], default=None)
     parser.add_argument("--mistral_temperature", type=float, default=None)
     parser.add_argument("--mistral_top_p", type=float, default=None)
+    parser.add_argument(
+        "--openai_reasoning_effort",
+        choices=["none", "low", "medium", "high", "xhigh", "max"],
+        default=None,
+    )
+    parser.add_argument(
+        "--openai_reasoning_summary",
+        choices=["auto", "concise", "detailed"],
+        default=None,
+        help="Request a summary (Responses API only); save it outside CSV.",
+    )
+    parser.add_argument(
+        "--openai_api_mode",
+        choices=["chat_completions", "responses"],
+        default="chat_completions",
+    )
+    parser.add_argument(
+        "--openai_reasoning_jsonl",
+        default=None,
+        help="Optional reasoning sidecar JSONL path.",
+    )
+    parser.add_argument("--openai_timeout", type=float, default=120.0)
+    parser.add_argument("--openai_max_retries", type=int, default=5)
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="Append to a compatible CSV and skip completed samples.",
+    )
 
     args = parser.parse_args()
 
     if args.cuda_visible_devices is not None:
         os.environ["CUDA_VISIBLE_DEVICES"] = str(args.cuda_visible_devices)
 
-    dtype = None if args.backend == "mistral" else get_dtype()
+    dtype = None if args.backend in ("mistral", "openai") else get_dtype()
 
     backend = build_backend(
         args.backend,
@@ -132,6 +160,12 @@ def main():
         mistral_temperature=args.mistral_temperature,
         mistral_top_p=args.mistral_top_p,
         mistral_reasoning_effort=args.mistral_reasoning_effort,
+        openai_reasoning_effort=args.openai_reasoning_effort,
+        openai_reasoning_summary=args.openai_reasoning_summary,
+        openai_api_mode=args.openai_api_mode,
+        openai_reasoning_jsonl=args.openai_reasoning_jsonl,
+        openai_timeout=args.openai_timeout,
+        openai_max_retries=args.openai_max_retries,
     )
 
     if args.pov4_mode:
@@ -179,6 +213,7 @@ def main():
             image_pairs=image_pairs,
             output_csv=args.out_csv,
             asker=asker,
+            resume=args.resume,
         )
     else:
         if not args.image_json:
@@ -202,6 +237,7 @@ def main():
             image_paths=image_paths,
             output_csv=args.out_csv,
             asker=asker,
+            resume=args.resume,
         )
 
     print(f"Saved: {args.out_csv}")

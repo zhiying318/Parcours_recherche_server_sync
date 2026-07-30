@@ -1,0 +1,1513 @@
+image_path_1,image_path_2,cam_view_1,cam_view_2,second_object,mcq_prompt,correct_relation,correct_letter,opposite_relation,opposite_letter,model_answer,pred_letter
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_front/0.png,cam_back,cam_front,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_left/0.png,cam_back,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is in front of them.",behind,A,front,D,D,D
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_right/0.png,cam_back,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_left/0.png,cam_front,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_right/0.png,cam_front,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/basketball__behind__cam_right/0.png,cam_left,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is in front of them.
+D. From the person's perspective, the basketball is on their left.",behind,A,front,C,A,A
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_front/0.png,cam_back,cam_front,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their left.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_left/0.png,cam_back,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their left.",behind,C,front,B,A,A
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_right/0.png,cam_back,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their left.",behind,C,front,B,D,D
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_left/0.png,cam_front,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their left.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_right/0.png,cam_front,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their left.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car/behind/bench__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/bench__behind__cam_right/0.png,cam_left,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is on their right.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",behind,D,front,A,D,D
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_front/0.png,cam_back,cam_front,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is on their right.",behind,B,front,C,B,B
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_left/0.png,cam_back,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is on their right.",behind,B,front,C,B,B
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_right/0.png,cam_back,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is on their right.",behind,B,front,C,B,B
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_left/0.png,cam_front,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their right.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is behind them.",behind,D,front,C,D,D
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_right/0.png,cam_front,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their right.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is behind them.",behind,D,front,C,D,D
+./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/bicycle__behind__cam_right/0.png,cam_left,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_front/0.png,cam_back,cam_front,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is in front of them.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_left/0.png,cam_back,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is in front of them.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_right/0.png,cam_back,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is in front of them.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_left/0.png,cam_front,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is on their right.
+D. From the person's perspective, the car is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_right/0.png,cam_front,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is on their right.
+D. From the person's perspective, the car is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/car__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/car__behind__cam_right/0.png,cam_left,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their left.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their right.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_front/0.png,cam_back,cam_front,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is on their left.",behind,A,front,B,A,A
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_left/0.png,cam_back,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is on their left.",behind,A,front,B,B,B
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_right/0.png,cam_back,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is on their left.",behind,A,front,B,D,D
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_left/0.png,cam_front,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is behind them.",behind,D,front,C,D,D
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_right/0.png,cam_front,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is behind them.",behind,D,front,C,D,D
+./COMFORT/data/comfort_human_car/behind/chair__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/chair__behind__cam_right/0.png,cam_left,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their left.",behind,A,front,C,A,A
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_front/0.png,cam_back,cam_front,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their right.
+D. From the person's perspective, the dog is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_left/0.png,cam_back,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their right.
+D. From the person's perspective, the dog is on their left.",behind,B,front,A,C,C
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_right/0.png,cam_back,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their right.
+D. From the person's perspective, the dog is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_left/0.png,cam_front,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is behind them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",behind,A,front,C,A,A
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_right/0.png,cam_front,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is behind them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",behind,A,front,C,A,A
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_right/0.png,cam_left,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",behind,B,front,C,C,C
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_front/0.png,cam_back,cam_front,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their left.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is behind them.",behind,D,front,B,D,D
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_left/0.png,cam_back,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their left.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is behind them.",behind,D,front,B,D,D
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_right/0.png,cam_back,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their left.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is behind them.",behind,D,front,B,D,D
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_left/0.png,cam_front,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is behind them.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_right/0.png,cam_front,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is behind them.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is on their left.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/duck__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/duck__behind__cam_right/0.png,cam_left,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",behind,C,front,A,C,C
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_front/0.png,cam_back,cam_front,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is in front of them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",behind,A,front,B,B,B
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_left/0.png,cam_back,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is in front of them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",behind,A,front,B,B,B
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_right/0.png,cam_back,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is in front of them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",behind,A,front,B,A,A
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_left/0.png,cam_front,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is on their right.
+D. From the person's perspective, the laptop is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_right/0.png,cam_front,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is on their right.
+D. From the person's perspective, the laptop is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/laptop__behind__cam_right/0.png,cam_left,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their right.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is behind them.
+D. From the person's perspective, the laptop is in front of them.",behind,C,front,D,D,D
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_front/0.png,cam_back,cam_front,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_left/0.png,cam_back,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",behind,B,front,A,A,A
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_back/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_right/0.png,cam_back,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",behind,B,front,A,C,C
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_left/0.png,cam_front,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is on their right.
+C. From the person's perspective, the sofa is behind them.
+D. From the person's perspective, the sofa is on their left.",behind,C,front,A,C,C
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_front/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_right/0.png,cam_front,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is on their right.
+C. From the person's perspective, the sofa is behind them.
+D. From the person's perspective, the sofa is on their left.",behind,C,front,A,C,C
+./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/sofa__behind__cam_right/0.png,cam_left,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is on their right.
+C. From the person's perspective, the sofa is in front of them.
+D. From the person's perspective, the sofa is behind them.",behind,D,front,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_front/0.png,cam_back,cam_front,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their left.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_left/0.png,cam_back,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their left.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_right/0.png,cam_back,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their left.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_left/0.png,cam_front,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is on their right.",front,A,behind,C,A,A
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_right/0.png,cam_front,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is on their right.",front,A,behind,C,A,A
+./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/basketball__infrontof__cam_right/0.png,cam_left,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is in front of them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_front/0.png,cam_back,cam_front,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is on their left.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_left/0.png,cam_back,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is on their left.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is in front of them.",front,D,behind,C,B,B
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_right/0.png,cam_back,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is on their left.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_left/0.png,cam_front,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",front,B,behind,A,B,B
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_right/0.png,cam_front,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",front,B,behind,A,B,B
+./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/bench__infrontof__cam_right/0.png,cam_left,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their right.
+D. From the person's perspective, the bench is on their left.",front,B,behind,A,B,B
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_front/0.png,cam_back,cam_front,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",front,D,behind,A,D,D
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_left/0.png,cam_back,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",front,D,behind,A,D,D
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_right/0.png,cam_back,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",front,D,behind,A,D,D
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_left/0.png,cam_front,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is in front of them.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is on their left.
+D. From the person's perspective, the bicycle is on their right.",front,A,behind,B,A,A
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_right/0.png,cam_front,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is in front of them.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is on their left.
+D. From the person's perspective, the bicycle is on their right.",front,A,behind,B,A,A
+./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/bicycle__infrontof__cam_right/0.png,cam_left,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their right.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_front/0.png,cam_back,cam_front,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is in front of them.",front,D,behind,C,A,A
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_left/0.png,cam_back,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_right/0.png,cam_back,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_left/0.png,cam_front,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_right/0.png,cam_front,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/car__infrontof__cam_right/0.png,cam_left,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is on their right.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is in front of them.",front,D,behind,A,D,D
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_front/0.png,cam_back,cam_front,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_left/0.png,cam_back,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_right/0.png,cam_back,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_left/0.png,cam_front,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",front,A,behind,D,A,A
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_right/0.png,cam_front,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",front,A,behind,D,A,A
+./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/chair__infrontof__cam_right/0.png,cam_left,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their left.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is behind them.
+D. From the person's perspective, the chair is in front of them.",front,D,behind,C,D,D
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_front/0.png,cam_back,cam_front,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",front,C,behind,B,C,C
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_left/0.png,cam_back,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",front,C,behind,B,C,C
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_right/0.png,cam_back,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",front,C,behind,B,C,C
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_left/0.png,cam_front,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their left.",front,C,behind,B,C,C
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_right/0.png,cam_front,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their left.",front,C,behind,B,C,C
+./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/dog__infrontof__cam_right/0.png,cam_left,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is on their left.
+D. From the person's perspective, the dog is behind them.",front,A,behind,D,A,A
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_front/0.png,cam_back,cam_front,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is on their left.",front,C,behind,A,C,C
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_left/0.png,cam_back,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is on their left.",front,C,behind,A,C,C
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_right/0.png,cam_back,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is on their left.",front,C,behind,A,C,C
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_left/0.png,cam_front,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",front,A,behind,C,A,A
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_right/0.png,cam_front,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",front,A,behind,C,C,C
+./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/duck__infrontof__cam_right/0.png,cam_left,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is on their left.
+D. From the person's perspective, the duck is on their right.",front,B,behind,A,A,A
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_front/0.png,cam_back,cam_front,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their right.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",front,D,behind,B,D,D
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_left/0.png,cam_back,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their right.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",front,D,behind,B,D,D
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_right/0.png,cam_back,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their right.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",front,D,behind,B,D,D
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_left/0.png,cam_front,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is on their right.
+D. From the person's perspective, the laptop is behind them.",front,A,behind,D,A,A
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_right/0.png,cam_front,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is on their right.
+D. From the person's perspective, the laptop is behind them.",front,A,behind,D,A,A
+./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/laptop__infrontof__cam_right/0.png,cam_left,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their left.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is in front of them.
+D. From the person's perspective, the laptop is behind them.",front,C,behind,D,C,C
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_front/0.png,cam_back,cam_front,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",front,D,behind,B,B,B
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_left/0.png,cam_back,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",front,D,behind,B,D,D
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_back/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_right/0.png,cam_back,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",front,D,behind,B,D,D
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_left/0.png,cam_front,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is in front of them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_front/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_right/0.png,cam_front,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is in front of them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",front,B,behind,D,B,B
+./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_left/0.png,./COMFORT/data/comfort_human_car/infrontof/sofa__infrontof__cam_right/0.png,cam_left,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",front,A,behind,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_front/0.png,cam_back,cam_front,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",left,C,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_left/0.png,cam_back,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",left,C,right,B,B,B
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_right/0.png,cam_back,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is behind them.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",left,C,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_left/0.png,cam_front,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is on their right.",left,C,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_right/0.png,cam_front,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is on their right.",left,C,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/basketball__totheleft__cam_right/0.png,cam_left,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is behind them.
+D. From the person's perspective, the basketball is on their right.",left,B,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_front/0.png,cam_back,cam_front,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",left,C,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_left/0.png,cam_back,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",left,C,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_right/0.png,cam_back,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",left,C,right,A,D,D
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_left/0.png,cam_front,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is on their right.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",left,C,right,B,B,B
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_right/0.png,cam_front,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is on their right.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is behind them.",left,C,right,B,D,D
+./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/bench__totheleft__cam_right/0.png,cam_left,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is on their left.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",left,B,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_front/0.png,cam_back,cam_front,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is in front of them.",left,A,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_left/0.png,cam_back,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is in front of them.",left,A,right,B,D,D
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_right/0.png,cam_back,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is in front of them.",left,A,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_left/0.png,cam_front,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is behind them.",left,A,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_right/0.png,cam_front,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is behind them.",left,A,right,B,D,D
+./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/bicycle__totheleft__cam_right/0.png,cam_left,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their right.
+C. From the person's perspective, the bicycle is in front of them.
+D. From the person's perspective, the bicycle is on their left.",left,D,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_front/0.png,cam_back,cam_front,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their left.",left,D,right,A,D,D
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_left/0.png,cam_back,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their left.",left,D,right,A,D,D
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_right/0.png,cam_back,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their left.",left,D,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_left/0.png,cam_front,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is on their right.
+D. From the person's perspective, the car is on their left.",left,D,right,C,D,D
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_right/0.png,cam_front,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is on their right.
+D. From the person's perspective, the car is on their left.",left,D,right,C,A,A
+./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/car__totheleft__cam_right/0.png,cam_left,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is on their left.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is in front of them.",left,B,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_front/0.png,cam_back,cam_front,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their right.",left,B,right,D,B,B
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_left/0.png,cam_back,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their right.",left,B,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_right/0.png,cam_back,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their right.",left,B,right,D,A,A
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_left/0.png,cam_front,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is on their right.",left,C,right,D,B,B
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_right/0.png,cam_front,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is on their right.",left,C,right,D,A,A
+./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/chair__totheleft__cam_right/0.png,cam_left,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is behind them.",left,B,right,C,D,D
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_front/0.png,cam_back,cam_front,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is behind them.",left,A,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_left/0.png,cam_back,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is behind them.",left,A,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_right/0.png,cam_back,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is behind them.",left,A,right,B,D,D
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_left/0.png,cam_front,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their left.
+D. From the person's perspective, the dog is in front of them.",left,C,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_right/0.png,cam_front,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their left.
+D. From the person's perspective, the dog is in front of them.",left,C,right,A,B,B
+./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/dog__totheleft__cam_right/0.png,cam_left,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is behind them.",left,B,right,A,A,A
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_front/0.png,cam_back,cam_front,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is on their left.
+D. From the person's perspective, the duck is behind them.",left,C,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_left/0.png,cam_back,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is on their left.
+D. From the person's perspective, the duck is behind them.",left,C,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png,cam_back,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is on their left.
+D. From the person's perspective, the duck is behind them.",left,C,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_left/0.png,cam_front,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their right.
+B. From the person's perspective, the duck is on their left.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is behind them.",left,B,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png,cam_front,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their right.
+B. From the person's perspective, the duck is on their left.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is behind them.",left,B,right,A,C,C
+./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png,cam_left,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is on their right.
+C. From the person's perspective, the duck is in front of them.
+D. From the person's perspective, the duck is on their left.",left,D,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_front/0.png,cam_back,cam_front,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is behind them.
+D. From the person's perspective, the laptop is on their left.",left,D,right,B,D,D
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_left/0.png,cam_back,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is behind them.
+D. From the person's perspective, the laptop is on their left.",left,D,right,B,A,A
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_right/0.png,cam_back,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is behind them.
+D. From the person's perspective, the laptop is on their left.",left,D,right,B,C,C
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_left/0.png,cam_front,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",left,C,right,D,A,A
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_right/0.png,cam_front,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",left,C,right,D,B,B
+./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/laptop__totheleft__cam_right/0.png,cam_left,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is on their right.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is in front of them.
+D. From the person's perspective, the laptop is on their left.",left,D,right,A,B,B
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_front/0.png,cam_back,cam_front,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is on their left.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",left,B,right,C,B,B
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_left/0.png,cam_back,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is on their left.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",left,B,right,C,B,B
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_back/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_right/0.png,cam_back,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is on their left.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",left,B,right,C,D,D
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_left/0.png,cam_front,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",left,C,right,D,C,C
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_front/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_right/0.png,cam_front,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is in front of them.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their left.
+D. From the person's perspective, the sofa is on their right.",left,C,right,D,B,B
+./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_left/0.png,./COMFORT/data/comfort_human_car/totheleft/sofa__totheleft__cam_right/0.png,cam_left,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their right.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is in front of them.
+D. From the person's perspective, the sofa is on their left.",left,D,right,A,B,B
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_front/0.png,cam_back,cam_front,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is behind them.",right,C,left,B,C,C
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_left/0.png,cam_back,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is behind them.",right,C,left,B,C,C
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_right/0.png,cam_back,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is behind them.",right,C,left,B,A,A
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_left/0.png,cam_front,cam_left,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",right,A,left,C,A,A
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_right/0.png,cam_front,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",right,A,left,C,A,A
+./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/basketball__totheright__cam_right/0.png,cam_left,cam_right,basketball,"Here are two images of the same scene from different camera angles.
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their left.
+C. From the person's perspective, the basketball is on their right.
+D. From the person's perspective, the basketball is behind them.",right,C,left,B,A,A
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_front/0.png,cam_back,cam_front,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their left.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",right,D,left,A,B,B
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_left/0.png,cam_back,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their left.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",right,D,left,A,D,D
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_right/0.png,cam_back,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their left.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their right.",right,D,left,A,D,D
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_left/0.png,cam_front,cam_left,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",right,D,left,C,A,A
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_right/0.png,cam_front,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",right,D,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/bench__totheright__cam_right/0.png,cam_left,cam_right,bench,"Here are two images of the same scene from different camera angles.
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is behind them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",right,D,left,C,A,A
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_front/0.png,cam_back,cam_front,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is on their left.",right,C,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_left/0.png,cam_back,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is on their left.",right,C,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_right/0.png,cam_back,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is on their left.",right,C,left,D,C,C
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_left/0.png,cam_front,cam_left,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is in front of them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is on their right.",right,D,left,B,C,C
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_right/0.png,cam_front,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is in front of them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is on their right.",right,D,left,B,A,A
+./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/bicycle__totheright__cam_right/0.png,cam_left,cam_right,bicycle,"Here are two images of the same scene from different camera angles.
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is on their left.",right,C,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_front/0.png,cam_back,cam_front,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is in front of them.
+D. From the person's perspective, the car is on their left.",right,A,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_left/0.png,cam_back,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is in front of them.
+D. From the person's perspective, the car is on their left.",right,A,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_right/0.png,cam_back,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is in front of them.
+D. From the person's perspective, the car is on their left.",right,A,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_left/0.png,cam_front,cam_left,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their left.",right,A,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_right/0.png,cam_front,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their left.",right,A,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/car__totheright__cam_right/0.png,cam_left,cam_right,car,"Here are two images of the same scene from different camera angles.
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their left.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is in front of them.
+D. From the person's perspective, the car is on their right.",right,D,left,A,B,B
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_front/0.png,cam_back,cam_front,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their left.",right,B,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_left/0.png,cam_back,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their left.",right,B,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_right/0.png,cam_back,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is in front of them.
+D. From the person's perspective, the chair is on their left.",right,B,left,D,C,C
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_left/0.png,cam_front,cam_left,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",right,A,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_right/0.png,cam_front,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is on their right.
+B. From the person's perspective, the chair is in front of them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",right,A,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/chair__totheright__cam_right/0.png,cam_left,cam_right,chair,"Here are two images of the same scene from different camera angles.
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is behind them.",right,B,left,C,A,A
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_front/0.png,cam_back,cam_front,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is behind them.
+D. From the person's perspective, the dog is on their right.",right,D,left,B,D,D
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_left/0.png,cam_back,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is behind them.
+D. From the person's perspective, the dog is on their right.",right,D,left,B,A,A
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_right/0.png,cam_back,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is behind them.
+D. From the person's perspective, the dog is on their right.",right,D,left,B,A,A
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_left/0.png,cam_front,cam_left,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is behind them.
+D. From the person's perspective, the dog is on their left.",right,B,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_right/0.png,cam_front,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their right.
+C. From the person's perspective, the dog is behind them.
+D. From the person's perspective, the dog is on their left.",right,B,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/dog__totheright__cam_right/0.png,cam_left,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is behind them.",right,A,left,B,C,C
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_front/0.png,cam_back,cam_front,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their right.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",right,A,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_left/0.png,cam_back,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their right.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",right,A,left,D,A,A
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_right/0.png,cam_back,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their right.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their left.",right,A,left,D,B,B
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_left/0.png,cam_front,cam_left,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their left.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their right.",right,D,left,A,D,D
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_right/0.png,cam_front,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is on their left.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their right.",right,D,left,A,B,B
+./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/duck__totheright__cam_right/0.png,cam_left,cam_right,duck,"Here are two images of the same scene from different camera angles.
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is behind them.
+B. From the person's perspective, the duck is in front of them.
+C. From the person's perspective, the duck is on their left.
+D. From the person's perspective, the duck is on their right.",right,D,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_front/0.png,cam_back,cam_front,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",right,B,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_left/0.png,cam_back,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",right,B,left,C,D,D
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_right/0.png,cam_back,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their right.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is in front of them.",right,B,left,C,D,D
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_left/0.png,cam_front,cam_left,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",right,D,left,C,B,B
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_right/0.png,cam_front,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is in front of them.
+B. From the person's perspective, the laptop is behind them.
+C. From the person's perspective, the laptop is on their left.
+D. From the person's perspective, the laptop is on their right.",right,D,left,C,C,C
+./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/laptop__totheright__cam_right/0.png,cam_left,cam_right,laptop,"Here are two images of the same scene from different camera angles.
+Where is the laptop in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the laptop is behind them.
+B. From the person's perspective, the laptop is on their left.
+C. From the person's perspective, the laptop is on their right.
+D. From the person's perspective, the laptop is in front of them.",right,C,left,B,D,D
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_front/0.png,cam_back,cam_front,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",right,C,left,A,C,C
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_left/0.png,cam_back,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",right,C,left,A,D,D
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_back/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_right/0.png,cam_back,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is behind them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is in front of them.",right,C,left,A,D,D
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_left/0.png,cam_front,cam_left,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is in front of them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",right,C,left,A,B,B
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_front/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_right/0.png,cam_front,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is on their left.
+B. From the person's perspective, the sofa is in front of them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is behind them.",right,C,left,A,B,B
+./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_left/0.png,./COMFORT/data/comfort_human_car/totheright/sofa__totheright__cam_right/0.png,cam_left,cam_right,sofa,"Here are two images of the same scene from different camera angles.
+Where is the sofa in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the sofa is behind them.
+B. From the person's perspective, the sofa is in front of them.
+C. From the person's perspective, the sofa is on their right.
+D. From the person's perspective, the sofa is on their left.",right,C,left,D,B,B

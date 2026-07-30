@@ -8,3 +8,18 @@ COMFORT/
 WhatsUp_dataset/
 Miniconda3-latest-Linux-x86_64.sh
 IMA205_challenge/
+
+# Python-generated caches and test artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+.ipynb_checkpoints/
+
+# Generated smoke-test results (keep smoke-test source code and scripts)
+smoke*.csv
+smoke*.jsonl

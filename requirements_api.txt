@@ -1,0 +1,2 @@
+# Lightweight environment for remote OpenAI-compatible API evaluation.
+openai>=1.0,<3
