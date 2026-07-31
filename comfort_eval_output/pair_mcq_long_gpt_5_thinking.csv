@@ -1504,3 +1504,10 @@ A. From the person's perspective, the bench is in front of them.
 B. From the person's perspective, the bench is behind them.
 C. From the person's perspective, the bench is on their left.
 D. From the person's perspective, the bench is on their right.",right,D,left,C,A,A
+./COMFORT/data/comfort_human_car/behind/dog__behind__cam_left/0.png,./COMFORT/data/comfort_human_car/behind/dog__behind__cam_right/0.png,cam_left,cam_right,dog,"Here are two images of the same scene from different camera angles.
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their left.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their right.",behind,B,front,C,B,B

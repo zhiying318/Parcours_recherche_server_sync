@@ -15,22 +15,22 @@ from .prompts.MCQ_pov_four import MCQPovFourAsker
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3vl \
   --model_id Qwen/Qwen3-VL-8B-Instruct \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_long_qwen3vl.csv \
   --ask_mode mcq \
   --mcq_seed 123 \
   --cuda_visible_devices 0
 
-python -m spatial_eval.cli   --backend internvl   --model_id OpenGVLab/InternVL3_5-8B-HF  --image_json valide_image_paths.json \
+python -m spatial_eval.cli   --backend internvl   --model_id OpenGVLab/InternVL3_5-8B-HF  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
     --out_csv eval_output/mcq_long_internvl.csv   --ask_mode mcq   --mcq_seed 123   --cuda_visible_devices 1
 
-python -m spatial_eval.cli   --backend qwen   --model_id Qwen/Qwen2.5-VL-7B-Instruct   --image_json valide_image_paths.json \
+python -m spatial_eval.cli   --backend qwen   --model_id Qwen/Qwen2.5-VL-7B-Instruct   --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
     --out_csv eval_output/mcq_long_qwen2.5vl.csv   --ask_mode mcq   --mcq_seed 123   --cuda_visible_devices 1
 
 CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --backend qwen3-vl-thinking \
   --model_id Qwen/Qwen3-VL-8B-Thinking \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_short_qwen3vl_thinking.csv \
   --ask_mode mcq \
   --max_new_tokens_mcq 2048
@@ -38,21 +38,21 @@ CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend gemma3 \
   --model_id google/gemma-3-12b-it \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_short_gemma3.csv \
   --ask_mode mcq 
 
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend gemma4 \
   --model_id google/gemma-4-E4B-it \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_short_gemma4.csv \
   --ask_mode mcq 
 
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3.5vl \
   --model_id Qwen/Qwen3.5-9B \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_middle_qwen3.5.csv \
   --ask_mode mcq 
 
@@ -60,7 +60,7 @@ CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
 CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
   --backend qwen3vl-logits \
   --model_id Qwen/Qwen3-VL-8B-Instruct \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_long_qwen3vl_logits.csv \
   --ask_mode mcq 
 
@@ -68,7 +68,7 @@ CUDA_VISIBLE_DEVICES=0 python -m spatial_eval.cli \
 CUDA_VISIBLE_DEVICES=1 python -m spatial_eval.cli \
   --backend qwen3-vl-thinking \
   --model_id Qwen/Qwen3.5-9B \
-  --image_json valide_image_paths.json \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json \
   --out_csv eval_output/mcq_middle_qwen3_5vl_thinking.csv \
   --ask_mode mcq \
   --answer_length middle \

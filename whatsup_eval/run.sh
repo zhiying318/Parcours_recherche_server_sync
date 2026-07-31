@@ -5,14 +5,10 @@ set -euo pipefail
 # Main evaluation: single validated image + long 4-choice MCQ.
 # Ground truth is computed from the edited WhatsUp filename.
 #
-# Step 0:
-#   cd /home/zzou/whatsup_eval
-#   python generate_image_paths.py
-#
-# Step 1:
+# Run the existing validated image list:
 #   ./run.sh
 
-IMAGES_JSON="$(dirname "$0")/image_paths.json"
+IMAGES_JSON="$(dirname "$0")/whatsup_image_validation/valide_image_paths.json"
 RESULTS_DIR="$(dirname "$0")/results"
 
 mkdir -p "$RESULTS_DIR"

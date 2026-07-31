@@ -35,7 +35,7 @@
   - `FLUX2_v0` — FLUX2-Klein-9B 生成
   - `kontext_v0` — Kontext（FLUX2变体）生成
 - 每个子目录有 `meta_v0.csv`（src_path, dst_path, prompt, expected_direction, second_object, view_type）
-- **验证集**：`valide_image_paths.json`（563张通过Qwen3-VL四项检验的有效图片）
+- **验证集**：`whatsup_eval/whatsup_image_validation/valide_image_paths.json`（563张通过Qwen3-VL两轮检验的有效图片）
 
 ### COMFORT/data/comfort_human_car（合成3D数据集）
 - 用 COMFORT 框架（Blender渲染）生成，人物模型 Sophia + 9种物体 × 4方向 × 4摄像角度 = 144张
@@ -50,7 +50,7 @@
 ### 入口
 ```
 python -m spatial_eval.cli --backend <model> --model_id <hf_id> \
-  --image_json valide_image_paths.json --out_csv eval_output/xxx.csv \
+  --image_json whatsup_eval/whatsup_image_validation/valide_image_paths.json --out_csv eval_output/xxx.csv \
   --ask_mode mcq --answer_length short/middle/long
 ```
 
@@ -103,7 +103,8 @@ python -m spatial_eval.cli --backend <model> --model_id <hf_id> \
 | `ComfyUI_HF_QwenImageEdit.ipynb` | 用Qwen-Image-Edit-2509生成椅子/桌子图片（主要） |
 | `ComfyUI_HF_QwenImageEdit_create_second_view.ipynb` | 扶手椅/桌子变体 |
 | `ComfyUI_HF_QwenImageEdit_regenerate_nonvalid.ipynb` | 重新生成无效图片（含VLM验证循环） |
-| `validation_by_mLLM.ipynb` | 用Qwen3-VL验证生成图片质量（4项检验） |
+| `whatsup_eval/whatsup_image_validation/validation_by_mLLM.ipynb` | 用Qwen3-VL进行两轮图片质量验证（历史notebook） |
+| `whatsup_eval/whatsup_image_validation/get_valid_image_paths.py` | 可复现的Qwen3-VL验证与有效清单生成脚本 |
 | `Version0_Dataset_FLUX2.ipynb` | FLUX2-Klein-9B生成 → FLUX2_v0 |
 | `Version0_Dataset_QwenImageEdit.ipynb` | Kontext变体生成 → kontext_v0 |
 | `FLUX2_create_second_view.ipynb` | FLUX2-Klein-4B生成（实验用） |
