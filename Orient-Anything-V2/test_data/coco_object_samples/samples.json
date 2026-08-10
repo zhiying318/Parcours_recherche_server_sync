@@ -1,0 +1,218 @@
+[
+  {
+    "sample_index": 1,
+    "split": "val2017",
+    "category": "bicycle",
+    "coco_image_id": 370208,
+    "coco_annotation_id": 125303,
+    "source_url": "http://images.cocodataset.org/val2017/000000370208.jpg",
+    "coco_license_id": 1,
+    "coco_license_name": "Attribution-NonCommercial-ShareAlike License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "original_image": "originals/sample_01_bicycle_coco_000000370208.jpg",
+    "object_crop": "object_crops/sample_01_bicycle_ann_125303.jpg",
+    "coco_bbox_xywh": [
+      62.9,
+      107.26,
+      380.65,
+      228.22
+    ],
+    "crop_box_xyxy": [
+      17,
+      80,
+      489,
+      363
+    ],
+    "manual_view_hint": "side",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 2,
+    "split": "val2017",
+    "category": "car",
+    "coco_image_id": 263594,
+    "coco_annotation_id": 137053,
+    "source_url": "http://images.cocodataset.org/val2017/000000263594.jpg",
+    "coco_license_id": 3,
+    "coco_license_name": "Attribution-NonCommercial-NoDerivs License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "original_image": "originals/sample_02_car_coco_000000263594.jpg",
+    "object_crop": "object_crops/sample_02_car_ann_137053.jpg",
+    "coco_bbox_xywh": [
+      33.89,
+      142.15,
+      425.78,
+      148.34
+    ],
+    "crop_box_xyxy": [
+      0,
+      124,
+      500,
+      308
+    ],
+    "manual_view_hint": "side",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 3,
+    "split": "val2017",
+    "category": "motorcycle",
+    "coco_image_id": 144300,
+    "coco_annotation_id": 151726,
+    "source_url": "http://images.cocodataset.org/val2017/000000144300.jpg",
+    "coco_license_id": 1,
+    "coco_license_name": "Attribution-NonCommercial-ShareAlike License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "original_image": "originals/sample_03_motorcycle_coco_000000144300.jpg",
+    "object_crop": "object_crops/sample_03_motorcycle_ann_151726.jpg",
+    "coco_bbox_xywh": [
+      45.2,
+      69.72,
+      536.64,
+      319.29
+    ],
+    "crop_box_xyxy": [
+      0,
+      31,
+      640,
+      427
+    ],
+    "manual_view_hint": "side",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 4,
+    "split": "val2017",
+    "category": "airplane",
+    "coco_image_id": 137950,
+    "coco_annotation_id": 157562,
+    "source_url": "http://images.cocodataset.org/val2017/000000137950.jpg",
+    "coco_license_id": 2,
+    "coco_license_name": "Attribution-NonCommercial License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc/2.0/",
+    "original_image": "originals/sample_04_airplane_coco_000000137950.jpg",
+    "object_crop": "object_crops/sample_04_airplane_ann_157562.jpg",
+    "coco_bbox_xywh": [
+      4.64,
+      32.18,
+      531.05,
+      141.12
+    ],
+    "crop_box_xyxy": [
+      0,
+      15,
+      599,
+      190
+    ],
+    "manual_view_hint": "front",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 5,
+    "split": "val2017",
+    "category": "bus",
+    "coco_image_id": 311909,
+    "coco_annotation_id": 166445,
+    "source_url": "http://images.cocodataset.org/val2017/000000311909.jpg",
+    "coco_license_id": 1,
+    "coco_license_name": "Attribution-NonCommercial-ShareAlike License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "original_image": "originals/sample_05_bus_coco_000000311909.jpg",
+    "object_crop": "object_crops/sample_05_bus_ann_166445.jpg",
+    "coco_bbox_xywh": [
+      0.0,
+      46.81,
+      639.78,
+      401.26
+    ],
+    "crop_box_xyxy": [
+      0,
+      0,
+      640,
+      496
+    ],
+    "manual_view_hint": "three_quarter",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 6,
+    "split": "val2017",
+    "category": "train",
+    "coco_image_id": 287874,
+    "coco_annotation_id": 170385,
+    "source_url": "http://images.cocodataset.org/val2017/000000287874.jpg",
+    "coco_license_id": 3,
+    "coco_license_name": "Attribution-NonCommercial-NoDerivs License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "original_image": "originals/sample_06_train_coco_000000287874.jpg",
+    "object_crop": "object_crops/sample_06_train_ann_170385.jpg",
+    "coco_bbox_xywh": [
+      200.91,
+      126.79,
+      202.86,
+      187.25
+    ],
+    "crop_box_xyxy": [
+      177,
+      104,
+      428,
+      337
+    ],
+    "manual_view_hint": "front",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 7,
+    "split": "val2017",
+    "category": "truck",
+    "coco_image_id": 220732,
+    "coco_annotation_id": 395730,
+    "source_url": "http://images.cocodataset.org/val2017/000000220732.jpg",
+    "coco_license_id": 2,
+    "coco_license_name": "Attribution-NonCommercial License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc/2.0/",
+    "original_image": "originals/sample_07_truck_coco_000000220732.jpg",
+    "object_crop": "object_crops/sample_07_truck_ann_395730.jpg",
+    "coco_bbox_xywh": [
+      18.38,
+      170.27,
+      357.84,
+      107.03
+    ],
+    "crop_box_xyxy": [
+      0,
+      157,
+      419,
+      290
+    ],
+    "manual_view_hint": "side",
+    "manual_view_hint_is_ground_truth": false
+  },
+  {
+    "sample_index": 8,
+    "split": "val2017",
+    "category": "boat",
+    "coco_image_id": 365098,
+    "coco_annotation_id": 177900,
+    "source_url": "http://images.cocodataset.org/val2017/000000365098.jpg",
+    "coco_license_id": 3,
+    "coco_license_name": "Attribution-NonCommercial-NoDerivs License",
+    "coco_license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/",
+    "original_image": "originals/sample_08_boat_coco_000000365098.jpg",
+    "object_crop": "object_crops/sample_08_boat_ann_177900.jpg",
+    "coco_bbox_xywh": [
+      40.3,
+      92.12,
+      599.7,
+      298.42
+    ],
+    "crop_box_xyxy": [
+      0,
+      56,
+      640,
+      426
+    ],
+    "manual_view_hint": "side",
+    "manual_view_hint_is_ground_truth": false
+  }
+]

@@ -1,0 +1,36 @@
+# NOT USED on the SJTU bare-metal A800 workflow described in the local docs.
+# Retained only as a standard Kubernetes reference template.
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: orient-anything-v2-coco-smoke
+spec:
+  backoffLimit: 0
+  template:
+    metadata:
+      labels:
+        app: orient-anything-v2-coco-smoke
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: inference
+          image: <REGISTRY>/<PROJECT_IMAGE>:<TAG>
+          imagePullPolicy: IfNotPresent
+          workingDir: /workspace/zhiying.zou/Parcours_recherche_server_sync/Orient-Anything-V2
+          command: ["bash", "run_coco_batch.sh"]
+          resources:
+            requests:
+              cpu: "4"
+              memory: 24Gi
+              nvidia.com/gpu: "1"
+            limits:
+              cpu: "8"
+              memory: 48Gi
+              nvidia.com/gpu: "1"
+          volumeMounts:
+            - name: project-storage
+              mountPath: /workspace/zhiying.zou/Parcours_recherche_server_sync
+      volumes:
+        - name: project-storage
+          persistentVolumeClaim:
+            claimName: <PROJECT_PVC_NAME>
