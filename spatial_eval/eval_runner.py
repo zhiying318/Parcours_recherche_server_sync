@@ -70,11 +70,13 @@ def run_eval(
             writer.writerow(SINGLE_HEADER)
             f.flush()
 
-        for source_path in image_paths:
+        total = len(image_paths)
+        for index, source_path in enumerate(image_paths, start=1):
             output_path = f"./{source_path}" if "COMFORT" in source_path else source_path
             if (output_path,) in completed:
                 continue
             try:
+                print(f"[{index}/{total}] evaluating {output_path}", flush=True)
                 if "COMFORT" in source_path:
                     second_object, correct_relation = parse_relation_for_COMFORT(source_path)
                     correct_relation = {
@@ -103,6 +105,7 @@ def run_eval(
                     payload.get("pred_letter", ""),
                 ])
                 f.flush()
+                print(f"[{index}/{total}] completed", flush=True)
             except Exception as exc:
                 failures += 1
                 _record_error(output_csv, {"image_path": output_path}, exc)

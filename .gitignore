@@ -19,7 +19,21 @@ __pycache__/
 .coverage
 coverage.xml
 .ipynb_checkpoints/
+*.log
 
 # Generated smoke-test results (keep smoke-test source code and scripts)
 smoke*.csv
 smoke*.jsonl
+
+# Local worktrees
+.worktrees/
+
+# Model weights, caches, downloads, and generated geometry outputs
+checkpoints/
+geometry_teacher_outputs/
+geometry_teacher/deploy/.downloads/
+third_party/vggt/
+
+# Nested project runtime artifacts
+Orient-Anything-V2/checkpoints/
+Orient-Anything-V2/outputs/

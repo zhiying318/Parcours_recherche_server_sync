@@ -112,6 +112,11 @@ def main():
     parser.add_argument("--max_new_tokens_mcq", type=int, default=8)
     parser.add_argument("--mcq_seed", type=int, default=0)
     parser.add_argument("--mcq_prompt_note", default="", help="Optional extra sentence inserted into single-image MCQ prompts. insert (with_aligned_prompts)")
+    parser.add_argument(
+        "--mcq_prompt_info_json",
+        default=None,
+        help="Optional JSON object mapping each image path to per-image information inserted into single-image MCQ prompts.",
+    )
     parser.add_argument("--mistral_reasoning_effort", choices=["none", "high"], default=None)
     parser.add_argument("--mistral_temperature", type=float, default=None)
     parser.add_argument("--mistral_top_p", type=float, default=None)
@@ -226,11 +231,18 @@ def main():
                 max_new_tokens_yn=args.max_new_tokens_yn,
             )
         else:
+            prompt_info_by_image = None
+            if args.mcq_prompt_info_json:
+                with open(args.mcq_prompt_info_json, "r", encoding="utf-8") as f:
+                    prompt_info_by_image = json.load(f)
+                if not isinstance(prompt_info_by_image, dict):
+                    raise ValueError("--mcq_prompt_info_json must contain a JSON object")
             asker = MCQAsker(
                 seed=args.mcq_seed,
                 max_new_tokens_mcq=args.max_new_tokens_mcq,
                 answer_length=args.answer_length,
                 prompt_note=args.mcq_prompt_note,
+                prompt_info_by_image=prompt_info_by_image,
             )
         run_eval(
             backend=backend,

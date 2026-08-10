@@ -15,7 +15,7 @@ class Qwen35VLBackend(VLMBackend):
     model_id: str
     device_map: str = "auto"
     dtype: str | torch.dtype = "auto"
-    attn_implementation: str = "eager"
+    attn_implementation: str = "flash_attention_2"
     enable_thinking: bool = False
 
     # Qwen3.5 official recommended non-thinking / instruct decoding params
@@ -34,6 +34,17 @@ class Qwen35VLBackend(VLMBackend):
             attn_implementation=self.attn_implementation,
         )
         self.model.eval()
+        device_map = getattr(self.model, "hf_device_map", None)
+        if device_map and any(str(device) in {"cpu", "disk"} for device in device_map.values()):
+            raise RuntimeError(
+                "Qwen3.5 was partially offloaded to CPU/disk. Use an empty GPU "
+                "with enough memory or set --device_map cuda:0."
+            )
+        print(
+            f"Qwen3.5 loaded: attention={self.attn_implementation}, "
+            f"device={self.model.device}, device_map={device_map}",
+            flush=True,
+        )
 
         # # 方便后面取 tokenizer
         # if hasattr(self.processor, "tokenizer"):

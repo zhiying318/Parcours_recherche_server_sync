@@ -1,6 +1,6 @@
 # spatial_eval/prompts/mcq.py
 from dataclasses import dataclass
-from typing import Dict, Any, List, Tuple
+from typing import Dict, Any, List, Tuple, Optional
 import random
 import re
 from ..backends.base import VLMBackend
@@ -47,6 +47,7 @@ class MCQAsker:
     seed: int = 0
     max_new_tokens_mcq: int = 512
     prompt_note: str = ""
+    prompt_info_by_image: Optional[Dict[str, str]] = None
 
     relations_middle = {
         "front": "in the front of",
@@ -102,6 +103,14 @@ class MCQAsker:
         ]
         if self.prompt_note:
             prompt_lines.append(self.prompt_note)
+        if self.prompt_info_by_image is not None:
+            lookup_key = img_path[2:] if img_path.startswith("./") else img_path
+            if lookup_key not in self.prompt_info_by_image:
+                raise KeyError(f"No per-image prompt information for {lookup_key!r}")
+            prompt_info = self.prompt_info_by_image[lookup_key]
+            if not isinstance(prompt_info, str) or not prompt_info.strip():
+                raise ValueError(f"Invalid per-image prompt information for {lookup_key!r}")
+            prompt_lines.append(prompt_info.strip())
         prompt_lines.extend([
             "Choose ONE option and respond with ONLY the letter.",
             option_lines,
