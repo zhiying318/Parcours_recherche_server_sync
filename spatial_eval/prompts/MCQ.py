@@ -16,29 +16,51 @@ def _normalize_choice(x: str) -> str:
     return s[:1]  # fallback
 
 def _normalize_choice_thinking(x: str) -> str:
+    """Extract only a terminal answer from a completed thinking response.
+
+    Thinking can contain many option letters and ordinary English articles such
+    as ``a``.  Searching the upper-cased response for the first standalone A-D
+    therefore produces false answers.  A response without ``</think>`` was cut
+    off before its answer section and is deliberately recorded as incomplete.
+    """
     s = (x or "").strip()
     s = s.replace("<|im_end|>", "").replace("<|endoftext|>", "").strip()
+    if "</think>" not in s:
+        return ""
 
-    if "</think>" in s:
-        s = s.split("</think>")[-1].strip()
-    else:
-        lines = [line.strip() for line in s.splitlines() if line.strip()]
-        if lines:
-            s = lines[-1]
+    answer = s.rsplit("</think>", 1)[-1].strip()
+    if not answer:
+        return ""
 
-    m = re.search(r"\b([ABCD])\b", s.upper())
-    if m:
-        return m.group(1)
+    tagged = re.findall(
+        r"<answer>\s*([A-D])\s*</answer>", answer, flags=re.IGNORECASE
+    )
+    if tagged:
+        return tagged[-1].upper()
 
-    m = re.match(r"^([ABCD])[\.\)\:\-]?", s.upper())
-    if m:
-        return m.group(1)
+    lines = [line.strip() for line in answer.splitlines() if line.strip()]
+    for line in reversed(lines):
+        exact = re.fullmatch(
+            r"(?:\*\*|`)?\s*([A-D])\s*[\.\)\:\-]?\s*(?:\*\*|`)?",
+            line,
+            flags=re.IGNORECASE,
+        )
+        if exact:
+            return exact.group(1).upper()
 
-    matches = re.findall(r"\b([ABCD])\b", (x or "").strip().upper())
-    if matches:
-        return matches[-1]
+        option_line = re.match(r"^([A-D])[\.\)\:\-]\s+\S", line)
+        if option_line:
+            return option_line.group(1)
 
-    return _normalize_choice(s)
+    explicit_patterns = (
+        r"(?:final\s+answer|answer|option|choice)\s*(?:is|:|=)?\s*"
+        r"(?:\*\*|`)?([A-D])\b",
+        r"\b([A-D])\s+is\s+(?:the\s+)?correct(?:\s+answer|\s+option)?\b",
+    )
+    explicit = []
+    for pattern in explicit_patterns:
+        explicit.extend(re.findall(pattern, answer, flags=re.IGNORECASE))
+    return explicit[-1].upper() if explicit else ""
 
 
 @dataclass
@@ -48,6 +70,7 @@ class MCQAsker:
     max_new_tokens_mcq: int = 512
     prompt_note: str = ""
     prompt_info_by_image: Optional[Dict[str, str]] = None
+    prompt_info_before_question: bool = False
 
     relations_middle = {
         "front": "in the front of",
@@ -98,11 +121,9 @@ class MCQAsker:
         opposite_letter = letters[keys.index(opposite_direction)]
 
         option_lines = "\n".join([f"{k}. {v}" for k, v in choices.items()])
-        prompt_lines = [
-            f"Where is the {second_object} in the perspective of the person?",
-        ]
-        if self.prompt_note:
-            prompt_lines.append(self.prompt_note)
+        question = f"Where is the {second_object} in the perspective of the person?"
+        prompt_lines = []
+        prompt_info = None
         if self.prompt_info_by_image is not None:
             lookup_key = img_path[2:] if img_path.startswith("./") else img_path
             if lookup_key not in self.prompt_info_by_image:
@@ -110,7 +131,15 @@ class MCQAsker:
             prompt_info = self.prompt_info_by_image[lookup_key]
             if not isinstance(prompt_info, str) or not prompt_info.strip():
                 raise ValueError(f"Invalid per-image prompt information for {lookup_key!r}")
-            prompt_lines.append(prompt_info.strip())
+            prompt_info = prompt_info.strip()
+
+        if self.prompt_info_before_question and prompt_info is not None:
+            prompt_lines.append(prompt_info)
+        prompt_lines.append(question)
+        if self.prompt_note:
+            prompt_lines.append(self.prompt_note)
+        if not self.prompt_info_before_question and prompt_info is not None:
+            prompt_lines.append(prompt_info)
         prompt_lines.extend([
             "Choose ONE option and respond with ONLY the letter.",
             option_lines,

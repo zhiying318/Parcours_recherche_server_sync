@@ -2,6 +2,7 @@
 """Build matched single-image prompt-ablation data from Blender geometry GT."""
 
 import json
+import re
 from pathlib import Path
 
 
@@ -17,6 +18,7 @@ EXPERIMENTS = (
     "test04_person_object_camera_xyz",
     "test05_person_forward_axis",
     "test06_camera_coordinate_system_person_forward_axis",
+    "test07_camera_geometry_before_question",
 )
 
 SIDE_TEXT = {
@@ -36,10 +38,54 @@ def _write_json(path, payload):
     path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
+def _generate_tests06_07_from_test05():
+    """Rebuild tests 06–07 from saved camera-frame test05 data when Blender GT is offline."""
+    source_dir = SUITE_ROOT / "test05_person_forward_axis/data"
+    image_paths = json.loads((source_dir / "image_paths.json").read_text(encoding="utf-8"))
+    test05_prompts = json.loads((source_dir / "prompt_info.json").read_text(encoding="utf-8"))
+    test06_prompt_map = {}
+    test07_prompt_map = {}
+    pattern = re.compile(
+        r"The coordinates of the (?P<object>.+?) from the camera's perspective are (?P<object_xyz>\[[^]]+\]). "
+        r"The coordinates of the person from the camera's perspective are (?P<person_xyz>\[[^]]+\]). "
+        r"In the camera coordinate system, the person's forward direction is (?P<forward>\[[^]]+\])."
+    )
+    for image_path in image_paths:
+        match = pattern.search(test05_prompts[image_path])
+        if match is None:
+            raise ValueError(f"Could not extract camera geometry from test05 prompt for {image_path}")
+        values = match.groupdict()
+        test06_prompt_map[image_path] = (
+            "Consider that the picture was taken from the origin [0.000, 0.000, 0.000] "
+            "of a camera coordinate system, where +X points to the image's right, "
+            "+Y points downward, and +Z points forward into the scene. "
+            f"The person in the image is looking in the direction of {values['forward']} (unit vector)."
+        )
+        test07_prompt_map[image_path] = (
+            "Consider that the picture was taken from the origin [0.000, 0.000, 0.000] "
+            "of a camera coordinate system, where +X points to the image's right, "
+            "+Y points downward, and +Z points forward into the scene. "
+            f"The person in the image is located at {values['person_xyz']} and is looking in the direction "
+            f"of {values['forward']} (unit vector). "
+            f"The {values['object']} is located at {values['object_xyz']}."
+        )
+    generated = {
+        "test06_camera_coordinate_system_person_forward_axis": test06_prompt_map,
+        "test07_camera_geometry_before_question": test07_prompt_map,
+    }
+    for experiment, prompt_map in generated.items():
+        target = SUITE_ROOT / experiment
+        _write_json(target / "data/image_paths.json", image_paths)
+        _write_json(target / "data/prompt_info.json", prompt_map)
+        (target / "results_preciseprompt").mkdir(parents=True, exist_ok=True)
+    print(f"Generated {len(image_paths)} samples for tests 06–07 from saved test05 camera-frame data.")
+
+
 def main():
     sample_dirs = sorted(path.parent for path in DATASET_ROOT.glob("*/*/scene_gt.json"))
     if not sample_dirs:
-        raise FileNotFoundError(f"No geometry-GT samples found below {DATASET_ROOT}")
+        _generate_tests06_07_from_test05()
+        return
 
     image_paths = []
     prompt_maps = {name: {} for name in EXPERIMENTS if name != "test00_baseline"}
@@ -85,8 +131,19 @@ def main():
             f"In the camera coordinate system, the person's forward direction is {_vec(axes['forward_axis'])}."
         )
         prompt_maps["test06_camera_coordinate_system_person_forward_axis"][relative_image] = (
-            f"{convention} "
-            f"In the camera coordinate system, the person's forward direction is {_vec(axes['forward_axis'])}."
+            "Consider that the picture was taken from the origin [0.000, 0.000, 0.000] "
+            "of a camera coordinate system, where +X points to the image's right, "
+            "+Y points downward, and +Z points forward into the scene. "
+            f"The person in the image is looking in the direction of {_vec(axes['forward_axis'])} "
+            "(unit vector)."
+        )
+        prompt_maps["test07_camera_geometry_before_question"][relative_image] = (
+            "Consider that the picture was taken from the origin [0.000, 0.000, 0.000] "
+            "of a camera coordinate system, where +X points to the image's right, "
+            "+Y points downward, and +Z points forward into the scene. "
+            f"The person in the image is located at {_vec(human)} and is looking in the direction "
+            f"of {_vec(axes['forward_axis'])} (unit vector). "
+            f"The {scene['object_name']} is located at {_vec(obj)}."
         )
 
     if len(image_paths) != 144:

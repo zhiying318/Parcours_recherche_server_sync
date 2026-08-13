@@ -117,6 +117,11 @@ def main():
         default=None,
         help="Optional JSON object mapping each image path to per-image information inserted into single-image MCQ prompts.",
     )
+    parser.add_argument(
+        "--mcq_prompt_info_before_question",
+        action="store_true",
+        help="Place per-image MCQ information before the question instead of after it.",
+    )
     parser.add_argument("--mistral_reasoning_effort", choices=["none", "high"], default=None)
     parser.add_argument("--mistral_temperature", type=float, default=None)
     parser.add_argument("--mistral_top_p", type=float, default=None)
@@ -243,6 +248,7 @@ def main():
                 answer_length=args.answer_length,
                 prompt_note=args.mcq_prompt_note,
                 prompt_info_by_image=prompt_info_by_image,
+                prompt_info_before_question=args.mcq_prompt_info_before_question,
             )
         run_eval(
             backend=backend,

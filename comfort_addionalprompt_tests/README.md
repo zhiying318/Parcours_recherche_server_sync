@@ -16,7 +16,8 @@ All experiments use the same 144 `0.png` renders from
 | `test03_object_camera_xyz` | object's visible-center coordinates in the OpenCV camera frame |
 | `test04_person_object_camera_xyz` | person and object visible-center camera coordinates |
 | `test05_person_forward_axis` | all previous information plus the person's forward axis in the camera frame |
-| `test06_camera_coordinate_system_person_forward_axis` | camera-coordinate convention plus the person's forward axis only |
+| `test06_camera_coordinate_system_person_forward_axis` | camera-origin convention plus the person's forward axis only, placed before the question |
+| `test07_camera_geometry_before_question` | camera-origin person/object coordinates and person forward axis, placed before the question |
 
 Each test contains all information from the preceding test and adds one new
 piece of information. No world coordinate system is used.
@@ -71,9 +72,31 @@ test02: test01 + In the camera coordinate system, +X points to the image's right
 test03: test02 + The coordinates of the {object} from the camera's perspective are {...}.
 test04: test03 + The coordinates of the person from the camera's perspective are {...}.
 test05: test04 + In the camera coordinate system, the person's forward direction is {...}.
-test06: In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. In the camera coordinate system, the person's forward direction is {...}.
+test06: Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is looking in the direction of {...} (unit vector).
+test07: Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at {...} and is looking in the direction of {...} (unit vector). The {object} is located at {...}.
 ```
 
 Unlike tests 01–05, test06 is not cumulative. It deliberately excludes the
 camera-side description and the object/person coordinates, isolating whether
 the camera-coordinate convention plus the person's orientation is sufficient.
+Tests 06–07 place their per-image geometry before the question. Test07 is also
+non-cumulative; its positions and direction are expressed in the camera frame,
+not in Blender's person-centered world frame.
+
+## Thinking-answer parsing
+
+Thinking responses are scored only from the answer section after `</think>`.
+The parser accepts a standalone terminal letter, an explicit statement such as
+`The final answer is D`, a full option line beginning with `D.`, or an
+`<answer>D</answer>` tag. It does not uppercase and search the prose because an
+English article such as `a` would then be mistaken for option A.
+
+If generation reaches its token limit before `</think>`, `pred_letter` is left
+empty and the row is counted as an incomplete generation, not guessed from a
+partial chain of thought. Existing result files can be rescored without model
+inference:
+
+```bash
+python comfort_addionalprompt_tests/reparse_thinking_results.py \
+  path/to/mcq_long_qwen3_5vl_thinking.csv
+```

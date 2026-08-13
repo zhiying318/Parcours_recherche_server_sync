@@ -26,7 +26,7 @@ esac
 case "$EXPERIMENT" in
   test00_baseline|test01_camera_side|test02_camera_coordinate_system|\
   test03_object_camera_xyz|test04_person_object_camera_xyz|test05_person_forward_axis|\
-  test06_camera_coordinate_system_person_forward_axis) ;;
+  test06_camera_coordinate_system_person_forward_axis|test07_camera_geometry_before_question) ;;
   *) echo "Unknown experiment: $EXPERIMENT" >&2; exit 2 ;;
 esac
 
@@ -34,6 +34,14 @@ IMAGE="${COMFORT_ADD_PROMPT_IMAGE:-${ORIANY_IMAGE:-docker.v2.aispeech.com/sjtu/s
 GPU_SPEC="${COMFORT_ADD_PROMPT_GPU:-all}"
 PROJECT_HOST="$(realpath "$(dirname "${BASH_SOURCE[0]}")/..")"
 PROJECT_CONTAINER="/workspace/project"
+DATASET_HOST="${PROJECT_HOST}/COMFORT/data"
+if [[ ! -d "$DATASET_HOST/comfort_human_car_geometry_gt" ]]; then
+  DATASET_HOST="${PROJECT_HOST}/.worktrees/geometry-teacher/COMFORT/data"
+fi
+if [[ ! -d "$DATASET_HOST/comfort_human_car_geometry_gt" ]]; then
+  echo "Geometry-GT dataset not found in the main checkout or geometry-teacher worktree." >&2
+  exit 1
+fi
 HOST_HF_CACHE="${COMFORT_HF_CACHE:-${HOME}/.cache/huggingface}"
 HOST_PYTHON_PACKAGES="${COMFORT_PYTHON_PACKAGES:-${HOME}/.cache/comfort-additionalprompt/python}"
 HF_ENDPOINT_VALUE="${HF_ENDPOINT:-https://hf-mirror.com}"
@@ -67,6 +75,7 @@ exec docker run --rm --init \
   --env "PYTHONPATH=/cache/python/lib/python3.11/site-packages" \
   --env "PATH=/cache/python/bin:/opt/conda/bin:/usr/local/bin:/usr/bin:/bin" \
   --volume "${PROJECT_HOST}:${PROJECT_CONTAINER}" \
+  --volume "${DATASET_HOST}:${PROJECT_CONTAINER}/COMFORT/data:ro" \
   --volume "${HOST_HF_CACHE}:/cache/huggingface" \
   --volume "${HOST_PYTHON_PACKAGES}:/cache/python" \
   --workdir "${PROJECT_CONTAINER}" \

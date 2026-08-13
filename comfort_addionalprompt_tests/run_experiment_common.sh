@@ -21,6 +21,21 @@ fi
 
 TOTAL_SAMPLES="$(python -c 'import json,sys; print(len(json.load(open(sys.argv[1], encoding="utf-8"))))' "$IMAGES_JSON")"
 
+python - "$IMAGES_JSON" <<'PY'
+import json
+import sys
+from pathlib import Path
+
+image_paths = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8"))
+missing = [path for path in image_paths if not Path(path).is_file()]
+if missing:
+    examples = "\n".join(f"  - {path}" for path in missing[:5])
+    raise FileNotFoundError(
+        f"{len(missing)}/{len(image_paths)} evaluation images are missing. Examples:\n{examples}"
+    )
+print(f"Validated {len(image_paths)} evaluation images.")
+PY
+
 completed_samples() {
   local output_csv="$1"
   if [[ ! -s "$output_csv" ]]; then
@@ -47,6 +62,9 @@ PROMPT_ARGS=()
 if [[ -f "$PROMPT_JSON" ]]; then
   PROMPT_ARGS=(--mcq_prompt_info_json "$PROMPT_JSON")
 fi
+if [[ "${PROMPT_INFO_BEFORE_QUESTION:-0}" == "1" ]]; then
+  PROMPT_ARGS+=(--mcq_prompt_info_before_question)
+fi
 
 COMMON_ARGS=(
   --image_json "$IMAGES_JSON"
@@ -56,4 +74,3 @@ COMMON_ARGS=(
   --mcq_seed 123
   --resume
 )
-
