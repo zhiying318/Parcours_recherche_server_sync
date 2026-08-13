@@ -9245,7 +9245,7 @@ D. From the person's perspective, the chair is behind them.",behind,D,front,B,"T
     *   If it is the Right arm, and Person faces West...
     *   Right arm is North (Up).
     *   This matches the foot (Left foot is Down).
-    *   Wait.",D
+    *   Wait.",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/chair__behind__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person.
 Choose ONE option and respond with ONLY the letter.
@@ -11617,7 +11617,7 @@ D. From the person's perspective, the dog is on their right.",behind,A,front,B,"
     *   The dog is standing *in front* of the person.
     *   Wait, looking at the legs... The person's legs are visible. The dog is standing *in front* of the legs.
     *   Actually, looking really closely... The dog is standing *in front* of the person.
-    *   Let",B
+    *   Let",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/dog__behind__cam_front/0.png,dog,"Where is the dog in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person.
 Choose ONE option and respond with ONLY the letter.
@@ -26322,7 +26322,7 @@ D. From the person's perspective, the laptop is in front of them.",front,D,behin
     *   D. In front of them
 
     *   If the person is facing left, and the laptop is to the left...
-    *   Then the laptop is in front",D
+    *   Then the laptop is in front",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/laptop__infrontof__cam_right/0.png,laptop,"Where is the laptop in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person.
 Choose ONE option and respond with ONLY the letter.
@@ -29974,7 +29974,7 @@ D. From the person's perspective, the basketball is in front of them.",left,C,ri
     *   Let's look at the ball.
     *   The ball is on the ground.
     *   The person is standing.
-    *   The ball",A
+    *   The ball",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/basketball__totheleft__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person.
 Choose ONE option and respond with ONLY the letter.
@@ -42195,7 +42195,7 @@ D. From the person's perspective, the basketball is on their left.",right,A,left
     *   Why?
     *   Because the ball is lower in the image.
     *   If the person is facing Right, and the ball is in front of her feet...
-    *   Then the ball must be to the Right of her feet.",B
+    *   Then the ball must be to the Right of her feet.",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/bench__totheright__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person.
 Choose ONE option and respond with ONLY the letter.
@@ -44103,7 +44103,7 @@ D. From the person's perspective, the bench is behind them.",right,C,left,B,"The
     *   Then the bench is Behind the person.
     *   So D.
 
-    *   Let's try to find a",A
+    *   Let's try to find a",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/bicycle__totheright__cam_back/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person.
 Choose ONE option and respond with ONLY the letter.

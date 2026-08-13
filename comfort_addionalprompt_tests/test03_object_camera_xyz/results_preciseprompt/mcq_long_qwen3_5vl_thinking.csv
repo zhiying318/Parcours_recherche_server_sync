@@ -4652,7 +4652,7 @@ The person in the image is shown from the side, with their left side visible. Th
 
 If the person is facing forward (+Z), their right side is towards the right of the image (+X direction). The bicycle is positioned to the right of the person in the image (higher X coordinate). Therefore, from the person's perspective, the bicycle is on their right.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bicycle__behind__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the bicycle from the camera's perspective are [-2.423, -0.532, 9.774].
 Choose ONE option and respond with ONLY the letter.
@@ -6111,7 +6111,7 @@ D. From the person's perspective, the bicycle is on their right.",behind,C,front
     *   In the image, the foot closer to the camera is the one...
     *   Let's assume the person is walking towards the left.
     *   Then Left foot is forward.
-    *   This matches ""Facing Left"".",A
+    *   This matches ""Facing Left"".",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_back/0.png,car,"Where is the car in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the car from the camera's perspective are [-0.469, 0.062, 7.134].
 Choose ONE option and respond with ONLY the letter.
@@ -7495,7 +7495,7 @@ D. From the person's perspective, the car is behind them.",behind,D,front,A,"The
     *   So Camera -> Person -> Car.
     *   This implies Person is closer to camera.
     *   But visually, the car is closer.
-    *   Is it possible that the white object is NOT the car?",D
+    *   Is it possible that the white object is NOT the car?",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_front/0.png,car,"Where is the car in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the car from the camera's perspective are [0.602, -0.840, 11.841].
 Choose ONE option and respond with ONLY the letter.
@@ -17225,7 +17225,7 @@ D. From the person's perspective, the laptop is on their left.",behind,B,front,A
 
 The image shows a person standing with their back to the camera, facing into the scene (away from the camera). The laptop is on the ground. Visually, the laptop is lower in the frame than the person's feet, which indicates that the laptop is closer to the camera than the person is. Since the person is facing away from the camera (and thus away from the laptop), the laptop is located behind them.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/laptop__behind__cam_front/0.png,laptop,"Where is the laptop in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the laptop from the camera's perspective are [0.318, -0.747, 12.658].
 Choose ONE option and respond with ONLY the letter.
@@ -19922,7 +19922,7 @@ D. From the person's perspective, the sofa is behind them.",behind,D,front,C,"Th
 
 The image shows a sofa in the foreground and a person further back, facing away from the camera. The camera is positioned behind the person. Since the sofa is closer to the camera than the person, and the person is facing away from the camera (and thus away from the sofa), the sofa is located behind the person.
 
-D",A
+D",D
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/sofa__behind__cam_front/0.png,sofa,"Where is the sofa in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the sofa from the camera's perspective are [-0.328, -0.995, 10.624].
 Choose ONE option and respond with ONLY the letter.
@@ -27103,7 +27103,7 @@ D. From the person's perspective, the chair is in front of them.",front,D,behind
 
 The image shows a person standing to the right of a chair. The person is facing somewhat into the scene (forward, +Z direction), as indicated by their profile and the fact that the camera (located to the left of the person) sees their left side. The chair is positioned to the left of the person in the image (negative X direction). From the person's perspective (facing forward/+Z), the left side corresponds to the negative X direction. Therefore, the chair is on their left.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/chair__infrontof__cam_right/0.png,chair,"Where is the chair in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the chair from the camera's perspective are [2.235, -0.705, 9.748].
 Choose ONE option and respond with ONLY the letter.
@@ -31311,7 +31311,7 @@ The image shows a person standing and facing towards the right side of the image
 
 The basketball is located at coordinates `[0.011, -0.699, 12.392]`. The Z-coordinate of 12.392 indicates it is far forward into the scene. Since the person is facing right (+X) and their left side is oriented towards the scene depth (+Z), the basketball, being far into the scene (+Z), is to the person's left.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bench__totheleft__cam_back/0.png,bench,"Where is the bench in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the bench from the camera's perspective are [-2.331, -1.011, 9.282].
 Choose ONE option and respond with ONLY the letter.
@@ -32642,7 +32642,7 @@ The image shows a bench in the foreground and a person standing behind it. The p
 
 The phrase ""From the person's perspective"" asks for the location of the bench relative to the person. Since the person is standing behind the bench, the bench is located in front of them. Even though the person's exact facing direction is slightly ambiguous (they seem to be facing somewhat left or forward), the primary spatial relationship is that the person is behind the bench, which means the bench is in front of them.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bench__totheleft__cam_right/0.png,bench,"Where is the bench in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the bench from the camera's perspective are [-0.415, -1.367, 11.842].
 Choose ONE option and respond with ONLY the letter.
@@ -33913,7 +33913,7 @@ D. From the person's perspective, the bicycle is behind them.",left,A,right,B,"T
 
 The image shows a person standing to the left of a red bicycle. The person is facing the bicycle. From the person's perspective, the bicycle is directly in front of them.
 
-C",A
+C",C
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bicycle__totheleft__cam_right/0.png,bicycle,"Where is the bicycle in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the bicycle from the camera's perspective are [0.021, -0.897, 11.942].
 Choose ONE option and respond with ONLY the letter.
@@ -34897,7 +34897,7 @@ In the person's local coordinate system (facing +X, Up is -Y):
 The bicycle is at Z = 11.942, which is in the +Z direction.
 Therefore, the bicycle is on the person's **right**.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/car__totheleft__cam_back/0.png,car,"Where is the car in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the car from the camera's perspective are [-2.120, -0.434, 9.671].
 Choose ONE option and respond with ONLY the letter.
@@ -36068,7 +36068,7 @@ D. From the person's perspective, the chair is on their left.",left,D,right,B,"T
 
 The chair is located on the left side of the image. The person is facing away from the camera (into the scene). When you face away from a camera, your left side corresponds to the left side of the image. Therefore, the chair is on the person's left.
 
-D",A
+D",D
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/chair__totheleft__cam_front/0.png,chair,"Where is the chair in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the chair from the camera's perspective are [2.149, -0.728, 9.455].
 Choose ONE option and respond with ONLY the letter.
@@ -40322,7 +40322,7 @@ D. From the person's perspective, the duck is on their right.",left,A,right,D,"T
     *   So x_p < 0.027.
     *   And Camera is to the Left of the Person.
     *   So Camera X < x_p < 0.027.
-    *",C
+    *",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png,duck,"Where is the duck in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the duck from the camera's perspective are [0.112, -0.644, 12.486].
 Choose ONE option and respond with ONLY the letter.
@@ -40976,7 +40976,7 @@ D. From the person's perspective, the duck is on their left.",left,D,right,A,"Th
 
 The person in the image is facing towards the right side of the image (positive X direction). The duck (the yellow object) is located near the person's feet, slightly to the right of their body in the image plane. Since the person is facing right, ""to the right"" in the image corresponds to ""in front"" of the person. The coordinates provided [0.112, -0.644, 12.486] place the duck at a positive X value relative to the center (where the person is), confirming it is in the forward direction relative to the person's orientation.
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/laptop__totheleft__cam_back/0.png,laptop,"Where is the laptop in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the laptop from the camera's perspective are [-2.537, -0.223, 9.453].
 Choose ONE option and respond with ONLY the letter.
@@ -43117,7 +43117,7 @@ B. From the person's perspective, the sofa is in front of them. (Correct, the pe
 C. From the person's perspective, the sofa is on their left. (Incorrect, it's centrally located in front).
 D. From the person's perspective, the sofa is on their right. (Incorrect).
 
-B",A
+B",B
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/sofa__totheleft__cam_right/0.png,sofa,"Where is the sofa in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the sofa from the camera's perspective are [0.195, -1.297, 11.519].
 Choose ONE option and respond with ONLY the letter.
@@ -44676,7 +44676,7 @@ D. From the person's perspective, the basketball is in front of them.",right,B,l
     *   Since Z=12.4 is large, it's to the side.
     *   So B.
 
-    *   Wait",B
+    *   Wait",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/basketball__totheright__cam_right/0.png,basketball,"Where is the basketball in the perspective of the person?
 The viewpoint from which this image was captured is located to the right of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the basketball from the camera's perspective are [-0.007, 0.239, 7.515].
 Choose ONE option and respond with ONLY the letter.
@@ -48039,7 +48039,7 @@ D. From the person's perspective, the car is on their left.",right,C,left,D,"The
 
 The image shows a person standing with their back to the camera, facing into the scene (forward, +Z direction). The car is located to the right side of the image (+X direction). Since the person is facing away from the camera, their right side corresponds to the right side of the image. Therefore, the car is positioned to the person's right.
 
-C",A
+C",C
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/car__totheright__cam_front/0.png,car,"Where is the car in the perspective of the person?
 The viewpoint from which this image was captured is located in front of the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the car from the camera's perspective are [-2.746, -0.363, 9.087].
 Choose ONE option and respond with ONLY the letter.
@@ -51168,7 +51168,7 @@ D. From the person's perspective, the chair is on their right.",right,D,left,A,"
     *   In image, Hair is on Left.
     *   So Person faces Right.
 
-    *   Okay, I",C
+    *   Okay, I",
 ./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/dog__totheright__cam_back/0.png,dog,"Where is the dog in the perspective of the person?
 The viewpoint from which this image was captured is located behind the depicted person. In the camera coordinate system, +X points to the image's right, +Y points downward, and +Z points forward into the scene. The coordinates of the dog from the camera's perspective are [2.346, -0.484, 10.445].
 Choose ONE option and respond with ONLY the letter.

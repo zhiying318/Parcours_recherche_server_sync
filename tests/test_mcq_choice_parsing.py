@@ -1,5 +1,9 @@
 import unittest
 
+from comfort_addionalprompt_tests.reparse_thinking_results import (
+    _separate_record_ending,
+    _split_csv_records,
+)
 from spatial_eval.prompts.MCQ import _normalize_choice_thinking
 
 
@@ -26,6 +30,15 @@ class ThinkingChoiceParsingTests(unittest.TestCase):
     def test_truncated_thinking_is_incomplete(self):
         response = "The reasoning is unfinished, so perhaps option A"
         self.assertEqual(_normalize_choice_thinking(response), "")
+
+    def test_raw_record_split_preserves_multiline_bytes(self):
+        data = b'first,last\r\n"line one\nline two",A\r\nplain,B\r\n'
+        records = _split_csv_records(data)
+        self.assertEqual(b"".join(records), data)
+        self.assertEqual(len(records), 3)
+        body, ending = _separate_record_ending(records[1])
+        self.assertEqual(body, b'"line one\nline two",A')
+        self.assertEqual(ending, b"\r\n")
 
 
 if __name__ == "__main__":
