@@ -15,12 +15,12 @@ if needs_run "Qwen3.5-VL" "$output_csv"; then
     "${COMMON_ARGS[@]}" "${PROMPT_ARGS[@]}"
 fi
 
-output_csv="$RESULTS_DIR/mcq_long_qwen3_5vl_thinking.csv"
+output_csv="$RESULTS_DIR/mcq_long_qwen3_5vl_thinking_qwen35_4b.csv"
 if needs_run "Qwen3.5-VL thinking" "$output_csv"; then
   echo "[Qwen3.5-VL thinking] GPU=${QWEN_GPU}: starting evaluation" >&2
   CUDA_VISIBLE_DEVICES="$QWEN_GPU" python -u -m spatial_eval.cli \
     --backend qwen3.5vl-thinking \
-    --model_id Qwen/Qwen3.5-9B \
+    --model_id Qwen/Qwen3.5-4B \
     --out_csv "$output_csv" \
     --max_new_tokens_mcq 20480 \
     "${COMMON_ARGS[@]}" "${PROMPT_ARGS[@]}"

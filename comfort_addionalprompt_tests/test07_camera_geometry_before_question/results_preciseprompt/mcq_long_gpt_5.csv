@@ -1,0 +1,183 @@
+image_path,second_object,mcq_prompt,correct_relation,correct_letter,opposite_relation,opposite_letter,model_answer,pred_letter
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/basketball__behind__cam_back/0.png,basketball,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.034, -1.425, 9.616] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The basketball is located at [0.000, 0.240, 7.514].
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is in front of them.",behind,B,front,D,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/basketball__behind__cam_front/0.png,basketball,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The basketball is located at [0.111, -0.685, 12.446].
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is in front of them.
+B. From the person's perspective, the basketball is on their right.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is behind them.",behind,D,front,A,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/basketball__behind__cam_left/0.png,basketball,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The basketball is located at [2.373, -0.240, 9.678].
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is in front of them.
+C. From the person's perspective, the basketball is on their left.
+D. From the person's perspective, the basketball is behind them.",behind,D,front,B,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/basketball__behind__cam_right/0.png,basketball,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The basketball is located at [-2.389, -0.240, 9.674].
+Where is the basketball in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the basketball is on their right.
+B. From the person's perspective, the basketball is behind them.
+C. From the person's perspective, the basketball is in front of them.
+D. From the person's perspective, the basketball is on their left.",behind,B,front,C,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bench__behind__cam_back/0.png,bench,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.034, -1.662, 9.523] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The bench is located at [0.086, -0.574, 7.065].
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is on their right.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bench__behind__cam_front/0.png,bench,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The bench is located at [0.592, -1.401, 12.193].
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is in front of them.
+B. From the person's perspective, the bench is on their right.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is on their left.",behind,C,front,A,C,C
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bench__behind__cam_left/0.png,bench,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The bench is located at [2.178, -0.818, 9.113].
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is on their right.
+B. From the person's perspective, the bench is on their left.
+C. From the person's perspective, the bench is behind them.
+D. From the person's perspective, the bench is in front of them.",behind,C,front,D,C,C
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bench__behind__cam_right/0.png,bench,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The bench is located at [-2.696, -0.961, 9.326].
+Where is the bench in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bench is behind them.
+B. From the person's perspective, the bench is in front of them.
+C. From the person's perspective, the bench is on their left.
+D. From the person's perspective, the bench is on their right.",behind,A,front,B,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bicycle__behind__cam_back/0.png,bicycle,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.017, -1.535, 9.592] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The bicycle is located at [0.026, -0.046, 7.208].
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is behind them.
+B. From the person's perspective, the bicycle is on their left.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bicycle__behind__cam_front/0.png,bicycle,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The bicycle is located at [0.251, -0.806, 11.914].
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is behind them.
+C. From the person's perspective, the bicycle is on their right.
+D. From the person's perspective, the bicycle is in front of them.",behind,B,front,D,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bicycle__behind__cam_left/0.png,bicycle,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The bicycle is located at [2.329, -0.513, 9.682].
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their left.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is behind them.
+D. From the person's perspective, the bicycle is on their right.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bicycle__behind__cam_right/0.png,bicycle,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The bicycle is located at [-2.423, -0.532, 9.774].
+Where is the bicycle in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the bicycle is on their right.
+B. From the person's perspective, the bicycle is in front of them.
+C. From the person's perspective, the bicycle is on their left.
+D. From the person's perspective, the bicycle is behind them.",behind,D,front,B,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_back/0.png,car,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.017, -1.523, 9.593] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The car is located at [-0.469, 0.062, 7.134].
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their right.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is in front of them.",behind,B,front,D,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_front/0.png,car,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The car is located at [0.602, -0.840, 11.841].
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is on their left.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is behind them.
+D. From the person's perspective, the car is on their right.",behind,C,front,B,C,C
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_left/0.png,car,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The car is located at [2.141, -0.264, 8.241].
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is behind them.
+B. From the person's perspective, the car is in front of them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is on their right.",behind,A,front,B,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/car__behind__cam_right/0.png,car,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The car is located at [-2.172, -0.387, 8.999].
+Where is the car in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the car is in front of them.
+B. From the person's perspective, the car is behind them.
+C. From the person's perspective, the car is on their left.
+D. From the person's perspective, the car is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/chair__behind__cam_back/0.png,chair,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.034, -1.516, 9.596] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The chair is located at [-0.249, -0.259, 7.443].
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their right.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/chair__behind__cam_front/0.png,chair,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The chair is located at [0.305, -1.129, 12.280].
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is behind them.",behind,D,front,A,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/chair__behind__cam_left/0.png,chair,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The chair is located at [2.280, -0.924, 9.301].
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is in front of them.
+B. From the person's perspective, the chair is behind them.
+C. From the person's perspective, the chair is on their left.
+D. From the person's perspective, the chair is on their right.",behind,B,front,A,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/chair__behind__cam_right/0.png,chair,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The chair is located at [-2.286, -0.795, 9.902].
+Where is the chair in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the chair is behind them.
+B. From the person's perspective, the chair is on their left.
+C. From the person's perspective, the chair is on their right.
+D. From the person's perspective, the chair is in front of them.",behind,A,front,D,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/dog__behind__cam_back/0.png,dog,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.033, -1.483, 9.603] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The dog is located at [0.000, -0.044, 8.196].
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is on their left.
+D. From the person's perspective, the dog is in front of them.",behind,B,front,D,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/dog__behind__cam_front/0.png,dog,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The dog is located at [0.083, -0.465, 11.576].
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is behind them.
+B. From the person's perspective, the dog is in front of them.
+C. From the person's perspective, the dog is on their right.
+D. From the person's perspective, the dog is on their left.",behind,A,front,B,A,A
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/dog__behind__cam_left/0.png,dog,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.050, -1.279, 9.725] and is looking in the direction of [-1.000, 0.000, -0.000] (unit vector). The dog is located at [1.722, -0.351, 9.876].
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is in front of them.
+B. From the person's perspective, the dog is on their left.
+C. From the person's perspective, the dog is on their right.
+D. From the person's perspective, the dog is behind them.",behind,D,front,A,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/dog__behind__cam_right/0.png,dog,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.068, -1.273, 9.632] and is looking in the direction of [1.000, 0.000, -0.000] (unit vector). The dog is located at [-1.740, -0.351, 9.881].
+Where is the dog in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the dog is on their right.
+B. From the person's perspective, the dog is behind them.
+C. From the person's perspective, the dog is in front of them.
+D. From the person's perspective, the dog is on their left.",behind,B,front,C,B,B
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/duck__behind__cam_back/0.png,duck,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [0.034, -1.427, 9.616] and is looking in the direction of [0.000, -0.196, 0.981] (unit vector). The duck is located at [0.013, 0.296, 7.535].
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their left.
+C. From the person's perspective, the duck is on their right.
+D. From the person's perspective, the duck is behind them.",behind,D,front,A,D,D
+./COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/duck__behind__cam_front/0.png,duck,"Consider that the picture was taken from the origin [0.000, 0.000, 0.000] of a camera coordinate system, where +X points to the image's right, +Y points downward, and +Z points forward into the scene. The person in the image is located at [-0.037, -1.441, 9.773] and is looking in the direction of [0.000, 0.196, -0.981] (unit vector). The duck is located at [0.089, -0.583, 12.414].
+Where is the duck in the perspective of the person?
+Choose ONE option and respond with ONLY the letter.
+A. From the person's perspective, the duck is in front of them.
+B. From the person's perspective, the duck is on their left.
+C. From the person's perspective, the duck is behind them.
+D. From the person's perspective, the duck is on their right.",behind,C,front,A,C,C
