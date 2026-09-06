@@ -13,7 +13,7 @@ from typing import Dict, Any, List
 import random
 import re
 from ..backends.base import VLMBackend
-from .MCQ import _normalize_choice, _normalize_choice_thinking
+from .MCQ import _normalize_choice_for_backend
 
 
 @dataclass
@@ -52,10 +52,7 @@ class MCQPovAsker:
 
         raw = backend.ask_multi([external_img, img_A, img_B], prompt, self.max_new_tokens)
 
-        if getattr(backend, "enable_thinking", False):
-            pred_letter = _normalize_choice_thinking(raw)
-        else:
-            pred_letter = _normalize_choice(raw)
+        pred_letter = _normalize_choice_for_backend(backend, raw)
 
         return {
             "mcq_prompt": prompt,

@@ -28,7 +28,53 @@ Generate/refresh all JSON data from the Blender GT:
 python comfort_addionalprompt_tests/generate_data.py
 ```
 
-Run one model family directly from the repository root:
+## Docker execution
+
+The non-API model evaluations should use the environment inside the Docker
+container. The host Python/conda environment is not required. The Docker image,
+model cache, and Python packages are configured by
+`run_docker_gpu_COMFORT.sh`.
+
+`HF_ENDPOINT` is injected into the container automatically and defaults to
+`https://huggingface.co`. Set it explicitly only when using another mirror.
+
+Run `test07` independently for each model family:
+
+```bash
+QWEN_GPU=2 \
+bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh \
+qwen35 test07_camera_geometry_before_question
+
+GEMMA_GPU=3 \
+bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh \
+gemma test07_camera_geometry_before_question
+
+INTERNVL_GPU=0 \
+bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh \
+internvl test07_camera_geometry_before_question
+```
+
+The Qwen, Gemma, and InternVL runners each execute their non-thinking and
+thinking evaluations separately. Results are written under the test directory
+in `results_preciseprompt/`. Existing compatible CSVs are resumed.
+
+The commands above expose all GPUs to Docker and select the model GPU with
+`CUDA_VISIBLE_DEVICES`. To expose only one physical GPU to the container, use
+container GPU `0`, for example:
+
+```bash
+COMFORT_ADD_PROMPT_GPU=2 INTERNVL_GPU=0 \
+bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh \
+internvl test07_camera_geometry_before_question
+```
+
+The API-based GPT-5 runner is separate and is not launched through this Docker
+script.
+
+## Direct host execution
+
+Run one model family directly from the repository root only when the host
+environment contains the required model dependencies:
 
 ```bash
 QWEN_GPU=0 bash comfort_addionalprompt_tests/test01_camera_side/run_qwen35.sh
@@ -39,16 +85,8 @@ The model-specific runners are `run_experiment_qwen35.sh` and
 `run_experiment_gemma.sh`. Both use the same shared setup, prompt inputs,
 randomization, output directory, and resume logic.
 
-To run inside Docker, select the model family explicitly:
-
-```bash
-QWEN_GPU=0 bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh qwen35 test01_camera_side
-GEMMA_GPU=1 bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh gemma test01_camera_side
-```
-
-The Qwen runner evaluates non-thinking and then thinking. The Gemma runner does
-the same independently. Existing compatible CSVs are resumed, and a completed
-model is skipped before loading. `PYTHONHASHSEED=0` keeps the existing
+The Qwen, Gemma, and InternVL runners evaluate non-thinking and then thinking.
+Existing compatible CSVs are resumed, and `PYTHONHASHSEED=0` keeps the
 hash-based option order identical across model processes.
 
 The complete single-image MCQ prompt has this fixed structure (the option

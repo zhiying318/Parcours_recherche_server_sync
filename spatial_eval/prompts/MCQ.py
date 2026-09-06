@@ -63,6 +63,20 @@ def _normalize_choice_thinking(x: str) -> str:
     return explicit[-1].upper() if explicit else ""
 
 
+def _normalize_choice_for_backend(backend: VLMBackend, x: str) -> str:
+    """Use tagged-thinking parsing only for backends that return tagged text.
+
+    OpenAI reasoning is returned separately from the final answer, so its
+    ``model_answer`` is parsed as an ordinary final choice even in thinking
+    mode. Local thinking VLMs continue to use the ``</think>`` parser.
+    """
+    if getattr(backend, "enable_thinking", False) and not getattr(
+        backend, "final_answer_only", False
+    ):
+        return _normalize_choice_thinking(x)
+    return _normalize_choice(x)
+
+
 @dataclass
 class MCQAsker:
     answer_length: str # no default value, put behind those with default value to avoid dataclass error: TypeError: non-default argument 'answer_length' follows default argument
@@ -147,11 +161,7 @@ class MCQAsker:
         prompt = "\n".join(prompt_lines)
 
         raw = backend.ask(img_path, prompt, self.max_new_tokens_mcq)
-        # pred_letter = _normalize_choice(raw) # change to below: altomatic switch between thinking or not-thinking model
-        if getattr(backend, "enable_thinking", False):
-            pred_letter = _normalize_choice_thinking(raw)
-        else:
-            pred_letter = _normalize_choice(raw)
+        pred_letter = _normalize_choice_for_backend(backend, raw)
 
         return {
             "mcq_prompt": prompt,

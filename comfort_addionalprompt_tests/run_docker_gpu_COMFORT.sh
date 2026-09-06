@@ -5,6 +5,7 @@ set -euo pipefail
 # Usage:
 #   bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh qwen35 test01_camera_side
 #   bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh gemma  test01_camera_side
+#   bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh internvl test01_camera_side
 
 if [[ "$#" -eq 1 ]]; then
   MODEL_FAMILY="qwen35"
@@ -13,13 +14,13 @@ elif [[ "$#" -eq 2 ]]; then
   MODEL_FAMILY="$1"
   EXPERIMENT="$2"
 else
-  echo "Usage: $0 [qwen35|gemma] TEST_DIRECTORY_NAME" >&2
+  echo "Usage: $0 [qwen35|gemma|internvl] TEST_DIRECTORY_NAME" >&2
   echo "Example: $0 gemma test01_camera_side" >&2
   exit 2
 fi
 
 case "$MODEL_FAMILY" in
-  qwen35|gemma) ;;
+  qwen35|gemma|internvl) ;;
   *) echo "Unknown model family: $MODEL_FAMILY" >&2; exit 2 ;;
 esac
 
@@ -44,7 +45,10 @@ if [[ ! -d "$DATASET_HOST/comfort_human_car_geometry_gt" ]]; then
 fi
 HOST_HF_CACHE="${COMFORT_HF_CACHE:-${HOME}/.cache/huggingface}"
 HOST_PYTHON_PACKAGES="${COMFORT_PYTHON_PACKAGES:-${HOME}/.cache/comfort-additionalprompt/python}"
-HF_ENDPOINT_VALUE="${HF_ENDPOINT:-https://hf-mirror.com}"
+HF_ENDPOINT_VALUE="${HF_ENDPOINT:-https://huggingface.co}"
+HF_HUB_DOWNLOAD_TIMEOUT_VALUE="${HF_HUB_DOWNLOAD_TIMEOUT:-600}"
+HF_HUB_ETAG_TIMEOUT_VALUE="${HF_HUB_ETAG_TIMEOUT:-60}"
+HF_HUB_DISABLE_XET_VALUE="${HF_HUB_DISABLE_XET:-0}"
 FLASH_ATTN_WHEEL_URL="${FLASH_ATTN_WHEEL_URL:-https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl}"
 
 mkdir -p "$HOST_HF_CACHE"
@@ -68,8 +72,10 @@ exec docker run --rm --init \
   --user "$(id -u):$(id -g)" --env HOME=/tmp/comfort-additionalprompt-home \
   --env "HF_HOME=/cache/huggingface" \
   --env "HF_ENDPOINT=${HF_ENDPOINT_VALUE}" \
+  --env "HF_HUB_DOWNLOAD_TIMEOUT=${HF_HUB_DOWNLOAD_TIMEOUT_VALUE}" \
+  --env "HF_HUB_ETAG_TIMEOUT=${HF_HUB_ETAG_TIMEOUT_VALUE}" \
   --env "HF_HUB_DISABLE_TELEMETRY=1" \
-  --env "HF_HUB_DISABLE_XET=1" \
+  --env "HF_HUB_DISABLE_XET=${HF_HUB_DISABLE_XET_VALUE}" \
   --env HF_TOKEN \
   --env "PYTHONUSERBASE=/cache/python" \
   --env "PYTHONPATH=/cache/python/lib/python3.11/site-packages" \
@@ -91,6 +97,8 @@ exec docker run --rm --init \
      else \
        QWEN_GPU=\"${QWEN_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_qwen35.sh; \
      fi; \
-   else \
+   elif [[ \"${MODEL_FAMILY}\" == \"gemma\" ]]; then \
      GEMMA_GPU=\"${GEMMA_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_gemma.sh; \
+   else \
+     INTERNVL_GPU=\"${INTERNVL_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_internvl.sh; \
    fi"

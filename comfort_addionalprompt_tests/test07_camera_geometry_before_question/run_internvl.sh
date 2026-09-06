@@ -5,6 +5,10 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd -- "$SCRIPT_DIR/../.." && pwd)"
 RESULTS_DIR="$SCRIPT_DIR/results_preciseprompt"
 GPU="${INTERNVL_GPU:-0}"
+MODEL_PYTHON=(python)
+if [[ -n "${INTERNVL_CONDA_ENV:-}" ]]; then
+  MODEL_PYTHON=(conda run --no-capture-output -n "$INTERNVL_CONDA_ENV" python)
+fi
 
 mkdir -p "$RESULTS_DIR"
 cd "$PROJECT_ROOT"
@@ -25,12 +29,12 @@ COMMON_ARGS=(
 )
 
 echo "InternVL3.5: non-thinking"
-CUDA_VISIBLE_DEVICES="$GPU" python -u -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES="$GPU" "${MODEL_PYTHON[@]}" -u -m spatial_eval.cli \
   "${COMMON_ARGS[@]}" \
   --out_csv "$RESULTS_DIR/mcq_long_internvl.csv"
 
 echo "InternVL3.5: thinking"
-CUDA_VISIBLE_DEVICES="$GPU" python -u -m spatial_eval.cli \
+CUDA_VISIBLE_DEVICES="$GPU" "${MODEL_PYTHON[@]}" -u -m spatial_eval.cli \
   "${COMMON_ARGS[@]}" \
   --enable_thinking \
   --out_csv "$RESULTS_DIR/mcq_long_internvl_thinking.csv"

@@ -9,7 +9,7 @@ from dataclasses import dataclass
 from typing import Dict, Any
 import random
 from ..backends.base import VLMBackend
-from .MCQ import _normalize_choice, _normalize_choice_thinking
+from .MCQ import _normalize_choice_for_backend
 
 
 @dataclass
@@ -49,10 +49,7 @@ class MCQPovFourAsker:
         all_imgs = [external_img] + ordered_imgs
         raw = backend.ask_multi(all_imgs, prompt, self.max_new_tokens)
 
-        if getattr(backend, "enable_thinking", False):
-            pred_letter = _normalize_choice_thinking(raw)
-        else:
-            pred_letter = _normalize_choice(raw)
+        pred_letter = _normalize_choice_for_backend(backend, raw)
 
         return {
             "mcq_prompt":      prompt,

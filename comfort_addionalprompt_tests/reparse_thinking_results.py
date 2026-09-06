@@ -4,13 +4,30 @@
 import argparse
 import csv
 import io
+import re
 import sys
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from spatial_eval.prompts.MCQ import _normalize_choice_thinking
+from spatial_eval.prompts.MCQ import _normalize_choice, _normalize_choice_thinking
+
+
+def _normalize_saved_answer(raw: str) -> str:
+    """Parse tagged local thinking or an untagged OpenAI final choice."""
+    if "</think>" in (raw or ""):
+        return _normalize_choice_thinking(raw)
+
+    # GPT-5 Responses stores only the final answer in model_answer. Keep this
+    # deliberately narrow so an incomplete local thinking trace is not guessed.
+    if re.fullmatch(
+        r"\s*(?:[A-D]|(?:final\s+)?answer\s*(?:is|:|=)?\s*[A-D])\s*[.!)]?\s*",
+        raw or "",
+        flags=re.IGNORECASE,
+    ):
+        return _normalize_choice(raw)
+    return ""
 
 
 def reparse(path: Path) -> None:
@@ -32,7 +49,7 @@ def reparse(path: Path) -> None:
     incomplete = 0
     output = [raw_records[0]]
     for row, record in zip(rows, raw_records[1:]):
-        prediction = _normalize_choice_thinking(row["model_answer"])
+        prediction = _normalize_saved_answer(row["model_answer"])
         changed += prediction != row["pred_letter"]
         incomplete += prediction == ""
         body, ending = _separate_record_ending(record)

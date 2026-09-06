@@ -72,6 +72,9 @@ class OpenAIBackend(VLMBackend):
     reasoning_jsonl: str | None = None
     timeout: float = 120.0
     max_retries: int = 5
+    # Responses/Chat Completions return the final answer separately from
+    # reasoning; there are no local <think> tags to parse in model_answer.
+    final_answer_only: bool = True
 
     def __post_init__(self):
         api_key = (os.environ.get(self.api_key_env) or "").strip()

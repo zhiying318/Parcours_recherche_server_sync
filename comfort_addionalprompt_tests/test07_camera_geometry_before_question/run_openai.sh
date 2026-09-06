@@ -41,7 +41,6 @@ python -m spatial_eval.cli \
   "${COMMON_ARGS[@]}" \
   --out_csv "$RESULTS_DIR/mcq_long_gpt_5_thinking.csv" \
   --openai_api_mode responses \
-  --OPENAI_RUN_MODE thinking \
   --openai_reasoning_effort "${OPENAI_REASONING_EFFORT:-high}" \
   --openai_reasoning_summary "${OPENAI_REASONING_SUMMARY:-auto}" \
   --openai_timeout "${OPENAI_TIMEOUT:-120}" \

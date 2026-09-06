@@ -37,3 +37,7 @@ third_party/vggt/
 # Nested project runtime artifacts
 Orient-Anything-V2/checkpoints/
 Orient-Anything-V2/outputs/
+
+# Self-distillation generated outputs and experiment artifacts
+self_distillation/output/
+wandb/
