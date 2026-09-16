@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build clean/noisy geometry-privileged records from successful test07 runs."""
+"""Build randomized train/test geometry-privileged records from test07 runs."""
 
 from __future__ import annotations
 
@@ -27,6 +27,8 @@ OPTION_TEXT = {
     "right": "on their right",
 }
 RELATIONS = tuple(OPTION_TEXT)
+SOURCE_LETTER_ONLY_INSTRUCTION = "Choose ONE option and respond with ONLY the letter."
+OPEN_RESPONSE_INSTRUCTION = ""  # "Choose ONE option." Remove this phrase for both teacher and student here, then add this phrase only to teacher in 'collator.py' (MAYBE NOT...NOT IMPLEMENTED IN collator.py)
 
 
 def dot(left, right):
@@ -82,14 +84,12 @@ def classify_geometry(geometry):
     return relation, relative, forward_projection, right_projection
 
 
-def split_object_names(object_names, seed, train_fraction, val_fraction):
-    shuffled = sorted(object_names)
+def split_train_test(items, seed, train_fraction):
+    shuffled = sorted(items)
     random.Random(seed).shuffle(shuffled)
     train_end = int(len(shuffled) * train_fraction)
-    val_end = train_end + int(len(shuffled) * val_fraction)
     return {"train": set(shuffled[:train_end]),
-            "val": set(shuffled[train_end:val_end]),
-            "test": set(shuffled[val_end:])}
+            "test": set(shuffled[train_end:])}
 
 
 def clean_geometry(scene):
@@ -112,7 +112,7 @@ def round_geometry(geometry, digits=3):
         for name, vector in geometry.items()
     }
 
-
+# add noise to clean data "comfort_addionalprompt_tests/test07_camera_geometry_before_question/results_preciseprompt/mcq_long_qwen3_5vl_thinking.csv"
 def perturb_geometry(geometry, position_sigma, angle_sigma_degrees, rng):
     noisy_right, noisy_forward = perturb_axes(
         geometry["person_right"], geometry["person_forward"], angle_sigma_degrees, rng)
@@ -126,7 +126,7 @@ def perturb_geometry(geometry, position_sigma, angle_sigma_degrees, rng):
     }
     # The teacher receives coordinates at millimetre precision, so all derived
     # labels and reasoning must use the same quantized values.
-    return round_geometry(noisy_geometry)
+    return round_geometry(noisy_geometry) # keep 3 digits
 
 
 def sample_label_preserving_geometry(
@@ -177,7 +177,7 @@ def make_shuffled_problem(object_name, relation, augmentation_index, sample_seed
     answer_letter = chr(ord("A") + correct_index)
     question = (
         f"Where is the {object_name} in the perspective of the person?\n"
-        "Choose ONE option and respond with ONLY the letter."
+        + SOURCE_LETTER_ONLY_INSTRUCTION
     )
     choices = "\n".join(
         f"{chr(ord('A') + index)}. From the person's perspective, the {object_name} "
@@ -241,20 +241,27 @@ def make_record(row, scene_path, scene, clean_teacher_geometry, split,
 
 
 def generate_records(source_root, prompt_info_path, results_csv, seed,
-                     train_augmentations, position_sigma, angle_sigma_degrees,
-                     train_fraction, val_fraction):
+                     augmentations, position_sigma, angle_sigma_degrees,
+                     train_fraction):
     prompt_info = json.loads(prompt_info_path.read_text(encoding="utf-8"))
-    rows = read_successful_rows(results_csv)
-    object_splits = split_object_names(
-        sorted({row["second_object"] for row in rows}), seed,
-        train_fraction, val_fraction)
+    with results_csv.open(encoding="utf-8-sig", newline="") as source:
+        rows = list(csv.DictReader(source))
+    if not 0 < train_fraction < 1:
+        raise ValueError("train_fraction must be between 0 and 1")
+    # image_splits = split_train_test(
+    #     {row["image_path"].removeprefix("./") for row in rows},
+    #     seed, train_fraction)
+    object_splits = split_train_test(
+        {row["second_object"] for row in rows},
+        seed,
+        train_fraction)
     scenes = {}
     for scene_path in sorted(source_root.glob("*/*/scene_gt.json")):
         image_path = (scene_path.parent / "0.png").relative_to(REPO_ROOT).as_posix()
         scenes[image_path] = (scene_path,
                               json.loads(scene_path.read_text(encoding="utf-8")))
 
-    records = {"train": [], "val": [], "test": []}
+    records = {"train": [], "test": []}
     sample_number = 0
     for row in rows:
         image_path = row["image_path"].removeprefix("./")
@@ -262,15 +269,28 @@ def generate_records(source_root, prompt_info_path, results_csv, seed,
         if not row["mcq_prompt"].startswith(clean_teacher_geometry + "\n"):
             raise ValueError(f"test07 prefix mismatch: {image_path}")
         scene_path, scene = scenes[image_path]
+        # split = next(name for name, images in image_splits.items()
+        #              if image_path in images)
         split = next(name for name, objects in object_splits.items()
-                     if row["second_object"] in objects)
-        augmentation_count = train_augmentations if split == "train" else 0
+             if row["second_object"] in objects)
+        if split == "train" and row["pred_letter"].strip() != row["correct_letter"].strip():
+            continue
+        augmentation_count = augmentations
         for augmentation_index in range(augmentation_count + 1):
             records[split].append(make_record(
                 row, scene_path, scene, clean_teacher_geometry, split,
                 augmentation_index, seed + sample_number, position_sigma,
                 angle_sigma_degrees))
             sample_number += 1
+    for split_records in records.values():
+        for record in split_records:
+            if SOURCE_LETTER_ONLY_INSTRUCTION not in record["problem"]:
+                raise ValueError("Expected letter-only instruction in source prompt")
+            record["problem"] = record["problem"].replace(
+                SOURCE_LETTER_ONLY_INSTRUCTION, OPEN_RESPONSE_INSTRUCTION)
+            record["messages"][0]["content"][1]["text"] = record["problem"]
+    object_splits = {name: {r["object_name"] for r in rr}
+                     for name, rr in records.items()}
     return records, object_splits
 
 
@@ -287,11 +307,11 @@ def parse_args():
     parser.add_argument("--results-csv", type=Path, default=DEFAULT_RESULTS_CSV)
     parser.add_argument("--output-root", type=Path, default=DEFAULT_OUTPUT_ROOT)
     parser.add_argument("--seed", type=int, default=20260827)
-    parser.add_argument("--train-augmentations", type=int, default=8)
+    parser.add_argument("--augmentations", "--train-augmentations",
+                        dest="augmentations", type=int, default=8)
     parser.add_argument("--position-sigma", type=float, default=0.05)
     parser.add_argument("--angle-sigma-degrees", type=float, default=2.0)
-    parser.add_argument("--train-fraction", type=float, default=0.70)
-    parser.add_argument("--val-fraction", type=float, default=0.15)
+    parser.add_argument("--train-fraction", type=float, default=0.80)
     return parser.parse_args()
 
 
@@ -299,18 +319,22 @@ def main():
     args = parse_args()
     records, object_splits = generate_records(
         args.source_root, args.prompt_info, args.results_csv, args.seed,
-        args.train_augmentations, args.position_sigma, args.angle_sigma_degrees,
-        args.train_fraction, args.val_fraction)
+        args.augmentations, args.position_sigma, args.angle_sigma_degrees,
+        args.train_fraction)
     args.output_root.mkdir(parents=True, exist_ok=True)
+    (args.output_root / "val.jsonl").unlink(missing_ok=True)
     for split, split_records in records.items():
         write_jsonl(args.output_root / f"{split}.jsonl", split_records)
     manifest = {
         "source_results": args.results_csv.relative_to(REPO_ROOT).as_posix(),
-        "source_rows": 144,
-        "correct_source_rows": sum(not r["is_noisy"]
-                                   for values in records.values() for r in values),
+        "source_rows": len(list(csv.DictReader(args.results_csv.open(encoding="utf-8-sig", newline="")))),
+        "split_unit": "object",
+        "train_fraction": args.train_fraction,
+        "test_fraction": round(1.0 - args.train_fraction, 10),
+        "response_instruction": OPEN_RESPONSE_INSTRUCTION,
+        "correct_source_rows": len(read_successful_rows(args.results_csv)),
         "seed": args.seed,
-        "train_augmentations": args.train_augmentations,
+        "augmentations_per_image": args.augmentations,
         "position_sigma": args.position_sigma,
         "angle_sigma_degrees": args.angle_sigma_degrees,
         "object_splits": {split: sorted(names)
@@ -318,6 +342,8 @@ def main():
         "record_counts": {split: len(values) for split, values in records.items()},
         "train_clean_count": sum(not r["is_noisy"] for r in records["train"]),
         "train_noisy_count": sum(r["is_noisy"] for r in records["train"]),
+        "test_clean_count": sum(not r["is_noisy"] for r in records["test"]),
+        "test_noisy_count": sum(r["is_noisy"] for r in records["test"]),
     }
     (args.output_root / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

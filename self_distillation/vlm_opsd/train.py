@@ -15,7 +15,7 @@ from transformers import (
     TrainingArguments,
 )
 
-from self_distillation.vlm_opsd.arguments import parse_bool
+from self_distillation.vlm_opsd.arguments import parse_bool, parse_vocabulary_clip
 from self_distillation.vlm_opsd.collator import VLMOPSDCollator
 from self_distillation.vlm_opsd.trainer import VLMOPSDTrainer
 
@@ -47,6 +47,7 @@ def parse_args(argv=None) -> argparse.Namespace:
     )
     parser.add_argument("--max-steps", type=int, default=None, help="Positive values override --num-train-epochs; defaults to 100 when neither is supplied.")
     parser.add_argument("--num-train-epochs", type=float, default=None)
+    parser.add_argument("--save-strategy", choices=["steps", "epoch"], default="steps")
     parser.add_argument("--save-steps", type=int, default=25)
     parser.add_argument("--save-total-limit", type=int, default=2)
     parser.add_argument("--wandb-project", default="opsd-vlm-nonthink-20260905")
@@ -64,7 +65,8 @@ def parse_args(argv=None) -> argparse.Namespace:
     parser.add_argument("--temperature", type=float, default=1.0)
     parser.add_argument("--top-p", type=float, default=0.95)
     parser.add_argument("--top-k", type=int, default=20)
-    parser.add_argument("--vocabulary-entry-clip", type=float, default=0.05)
+    parser.add_argument("--vocabulary-entry-clip", type=parse_vocabulary_clip, default=0.05,
+                        help="Positive per-vocabulary-entry upper cap, or 'none' for full forward KL.")
     parser.add_argument("--student_thinking", "--student-thinking", type=parse_bool, default=False)
     parser.add_argument("--teacher_thinking", "--teacher-thinking", type=parse_bool, default=False)
     parser.add_argument(
@@ -143,6 +145,7 @@ def main() -> None:
         tf32=True,
         logging_steps=1,
         save_steps=args.save_steps,
+        save_strategy=args.save_strategy,
         # Validation is intentionally disabled during training for this run.
         eval_strategy="no",
         save_total_limit=args.save_total_limit,

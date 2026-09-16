@@ -97,23 +97,26 @@ class GeometryDataTest(unittest.TestCase):
                 f"{OPTION_TEXT[relation]}.", problem,
             )
 
-    def test_only_correct_source_rows_and_train_only_augmentation(self):
+    def test_random_train_test_split_and_augmentation(self):
         args = (DEFAULT_SOURCE_ROOT, DEFAULT_PROMPT_INFO, DEFAULT_RESULTS_CSV,
-                20260827, 2, 0.1, 3.0, 0.70, 0.15)
+                20260827, 2, 0.1, 3.0, 0.80)
         first, first_splits = generate_records(*args)
         second, second_splits = generate_records(*args)
         self.assertEqual(first, second)
         self.assertEqual(first_splits, second_splits)
-        self.assertTrue(first_splits["train"].isdisjoint(first_splits["val"]))
-        self.assertTrue(first_splits["train"].isdisjoint(first_splits["test"]))
-        self.assertTrue(first_splits["val"].isdisjoint(first_splits["test"]))
-        self.assertEqual(len(first["train"]), 74 * 3)
-        self.assertEqual(len(first["val"]), 15)
-        self.assertEqual(len(first["test"]), 24)
+        self.assertEqual(set(first), {"train", "test"})
+        train_images = {record["image_path"] for record in first["train"]}
+        test_images = {record["image_path"] for record in first["test"]}
+        self.assertTrue(train_images.isdisjoint(test_images))
+        self.assertEqual(len(first["train"]), 90 * 3)
+        self.assertEqual(len(first["test"]), 29 * 3)
         self.assertTrue(any(record["is_noisy"] for record in first["train"]))
-        self.assertFalse(any(record["is_noisy"] for record in first["val"]))
-        self.assertFalse(any(record["is_noisy"] for record in first["test"]))
-        for record in first["train"] + first["val"] + first["test"]:
+        self.assertTrue(any(record["is_noisy"] for record in first["test"]))
+        for record in first["train"] + first["test"]:
+            self.assertIn("Choose ONE option.", record["problem"])
+            self.assertNotIn("respond with ONLY the letter", record["problem"])
+            self.assertEqual(
+                record["problem"], record["messages"][0]["content"][1]["text"])
             clean_relation = classify_geometry(record["clean_geometry"])[0]
             self.assertEqual(record["relation"], clean_relation)
             expected_minimum_attempts = 1 if record["is_noisy"] else 0

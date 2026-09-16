@@ -1,13 +1,13 @@
 # Geometry-verified self-distillation data
 
 `generate_geometry_data.py` joins the test07 prompt metadata, Qwen3.5-9B thinking
-CSV, and COMFORT `scene_gt.json` files. Only the 113 rows whose predicted letter
-equals the ground-truth letter are eligible for distillation.
+CSV, and COMFORT `scene_gt.json` files. Training keeps only rows whose predicted
+letter equals the ground-truth letter; testing keeps all source rows.
 
-The split unit is `object_name`, not an image. This keeps every view, relation,
-and noisy copy of one object category in exactly one split. Only the training
-split is augmented; `--train-augmentations N` means N additional noisy records
-for every clean training record. Person and object camera positions receive independent
+All source images are deterministically shuffled by `--seed` and split 80/20
+into train and test. Every clean image and all of its noisy copies stay in the
+same split. `--augmentations N` means N additional noisy records for every clean
+record in both splits. Person and object camera positions receive independent
 Gaussian noise on each coordinate. The noisy geometry is rounded to three decimal
 places before classification and teacher prompting. A Gaussian
 yaw perturbation is applied around
@@ -26,9 +26,7 @@ contains only `teacher_geometry`. No stored clean or noisy CoT is used.
 
 Clean records retain the CSV's original A-D order. The eight noisy copies use a
 deterministic balanced shuffle, placing the correct relation twice at each letter
-position while updating the MCQ's correct letter. With the defaults, the
-training set contains 74 clean records and 592 noisy records (666 total). The
-clean validation and test sets contain 15 and 24 records respectively.
+position while updating the MCQ's correct letter. No validation split is generated.
 The Trainer's seeded random sampler mixes clean and noisy records during every
 training epoch; they are not run as two consecutive training phases.
 

@@ -3,14 +3,25 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 
+# After understanding the reference solution, please try to solve this problem using your own approach below:
 
 TEACHER_CONTEXT = """\
 Here is a reference solution.
 === Reference Solution Begin ===
 {teacher_geometry}
 === Reference Solution End ===
-After understanding the reference solution, please try to solve this problem using your own approach below:
+
+After understanding the reference solution, determine the spatial relation required by the question.
+Reason carefully but concisely:
+- Identify only the geometric facts relevant to the queried relation.
+- Perform only the reasoning necessary to verify the answer.
+- Do not restate coordinates or other irrelevant details.
+- Avoid alternative derivations, repeated verification, or unnecessary explanation.
+- Keep the reasoning brief and focused.
+Then provide the final spatial relation.
+
 Answer:
 """
 
@@ -42,6 +53,10 @@ class VLMOPSDCollator:
             }
         ]
 
+    @staticmethod
+    def _remove_options(problem: str) -> str:
+        return re.split(r"\n\s*[A-D]\.\s", problem, maxsplit=1)[0].rstrip()
+
     def _encode(self, conversations: list[list[dict]], thinking: bool):
         return self.processor.apply_chat_template(
             conversations,
@@ -56,13 +71,13 @@ class VLMOPSDCollator:
     def __call__(self, features: list[dict]):
         image_paths = [str(self.repo_root / feature["image_path"]) for feature in features]
         student_conversations = [
-            self._conversation(image_path, feature["problem"])
+            self._conversation(image_path, self._remove_options(feature["problem"]),)
             for image_path, feature in zip(image_paths, features)
         ]
         teacher_conversations = [
             self._conversation(
                 image_path,
-                feature["problem"]
+                self._remove_options(feature["problem"])
                 + "\n\n"
                 + TEACHER_CONTEXT.format(
                     teacher_geometry=feature["teacher_geometry"]

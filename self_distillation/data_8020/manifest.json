@@ -1,33 +1,45 @@
 {
   "source_results": "comfort_addionalprompt_tests/test07_camera_geometry_before_question/results_preciseprompt/mcq_long_qwen3_5vl_thinking.csv",
   "source_rows": 144,
+  "split_unit": "image",
+  "train_fraction": 0.8,
+  "test_fraction": 0.2,
+  "response_instruction": "",
   "correct_source_rows": 113,
   "seed": 20260827,
-  "train_augmentations": 8,
+  "augmentations_per_image": 8,
   "position_sigma": 0.05,
   "angle_sigma_degrees": 2.0,
   "object_splits": {
     "train": [
       "basketball",
       "bench",
+      "bicycle",
       "car",
+      "chair",
       "dog",
       "duck",
-      "laptop"
-    ],
-    "val": [
-      "chair"
+      "laptop",
+      "sofa"
     ],
     "test": [
+      "basketball",
+      "bench",
       "bicycle",
+      "car",
+      "chair",
+      "dog",
+      "duck",
+      "laptop",
       "sofa"
     ]
   },
   "record_counts": {
-    "train": 666,
-    "val": 15,
-    "test": 24
+    "train": 810,
+    "test": 261
   },
-  "train_clean_count": 74,
-  "train_noisy_count": 592
+  "train_clean_count": 90,
+  "train_noisy_count": 720,
+  "test_clean_count": 29,
+  "test_noisy_count": 232
 }

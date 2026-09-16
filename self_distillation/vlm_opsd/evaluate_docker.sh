@@ -6,8 +6,8 @@
 #   --output-jsonl self_distillation/output/test_checkpoint-50.jsonl
 set -euo pipefail
 
-if [[ "$#" -lt 2 ]]; then
-  echo "Usage: $0 GPU_IDS --adapter ADAPTER [evaluation arguments...]" >&2
+if [[ "$#" -lt 1 ]]; then
+  echo "Usage: $0 GPU_ID [--adapter ADAPTER] [evaluation arguments...]" >&2
   echo "Example: $0 4 --adapter self_distillation/output/qwen3_5_9b_opsd_continue/checkpoint-50" >&2
   exit 2
 fi

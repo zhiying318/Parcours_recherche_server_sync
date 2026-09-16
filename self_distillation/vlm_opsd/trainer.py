@@ -223,7 +223,7 @@ class VLMOPSDTrainer(Trainer):
         unwrapped.eval()
         try:
             with torch.no_grad():
-                generated = unwrapped.generate(
+                generated = unwrapped.generate( #student generate answer online: use sampling=True
                     **student_prefix,
                     generation_config=self.generation_config,
                 )
