@@ -71,6 +71,25 @@ internvl test07_camera_geometry_before_question
 The API-based GPT-5 runner is separate and is not launched through this Docker
 script.
 
+InternVL and Gemma4 downloads use the existing HTTP(S) proxy and disable Xet by default
+(`HF_HUB_DISABLE_XET=1`). Before evaluation, `recover_hf_weights.py` downloads
+missing weight shards in 32 MiB HTTP ranges with four workers, bounded retries,
+and SHA256 verification. Completed ranges survive restarts; complete cached
+shards are reused. This avoids long weight-download connections that stall or
+close prematurely through the server proxy. No host Python environment is used.
+The downloader supports both sharded checkpoints and a single `model.safetensors`,
+and uses the existing Hugging Face credentials for authenticated requests.
+For test07 on physical GPU 4:
+
+```bash
+COMFORT_ADD_PROMPT_GPU=4 INTERNVL_GPU=0 \
+bash comfort_addionalprompt_tests/run_docker_gpu_COMFORT.sh \
+internvl test07_camera_geometry_before_question
+```
+
+For Gemma4 on physical GPU 1, use `COMFORT_ADD_PROMPT_GPU=1 GEMMA_GPU=0`
+with the same command and replace `internvl` with `gemma`.
+
 ## Direct host execution
 
 Run one model family directly from the repository root only when the host

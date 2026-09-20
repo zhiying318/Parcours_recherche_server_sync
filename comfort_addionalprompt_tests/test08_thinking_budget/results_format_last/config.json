@@ -1,0 +1,24 @@
+{
+  "source_csv": "/workspace/project/comfort_addionalprompt_tests/test07_camera_geometry_before_question/results_preciseprompt/mcq_long_qwen3_5vl_thinking.csv",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "variants": [
+    "shortest",
+    "approx",
+    "cap",
+    "explicit_end"
+  ],
+  "budget": 1024,
+  "max_new_tokens": 4096,
+  "seed": 123,
+  "limit": 0,
+  "device_map": "cuda:0",
+  "attn_implementation": "flash_attention_2",
+  "source_sha256": "2fbfb5899f012139b5d6a665f73543699bad4fcedb874e89bdd6d514cdb2274a",
+  "prompts": {
+    "shortest": "Keep your thinking as short as possible while maintaining a correct answer.",
+    "approx": "Keep your thinking to approximately {budget} tokens.",
+    "cap": "Use at most {budget} tokens for your thinking.",
+    "explicit_end": "Use at most {budget} tokens for your thinking. End the thinking section with </think> within this token limit."
+  },
+  "prompt_layout": "length_before_original_format_and_options_v2"
+}

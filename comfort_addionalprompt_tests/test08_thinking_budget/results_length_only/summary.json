@@ -1,0 +1,14 @@
+[
+  {
+    "variant": "baseline",
+    "n": 144,
+    "accuracy": 0.14583333333333334,
+    "complete_rate": 0.14583333333333334,
+    "within_budget_rate": 0.0,
+    "cap_rate": 0.8541666666666666,
+    "mean_thinking_tokens": 3889.5416666666665,
+    "p50": 4096,
+    "p90": 4096,
+    "usable_rate": 0.0
+  }
+]

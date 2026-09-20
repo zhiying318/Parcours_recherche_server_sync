@@ -48,7 +48,13 @@ HOST_PYTHON_PACKAGES="${COMFORT_PYTHON_PACKAGES:-${HOME}/.cache/comfort-addition
 HF_ENDPOINT_VALUE="${HF_ENDPOINT:-https://huggingface.co}"
 HF_HUB_DOWNLOAD_TIMEOUT_VALUE="${HF_HUB_DOWNLOAD_TIMEOUT:-600}"
 HF_HUB_ETAG_TIMEOUT_VALUE="${HF_HUB_ETAG_TIMEOUT:-60}"
-HF_HUB_DISABLE_XET_VALUE="${HF_HUB_DISABLE_XET:-0}"
+# Xet transfers stall through this server's HTTP proxy. Use the
+# standard HTTP download path by default; an explicit environment value wins.
+HF_HUB_DISABLE_XET_DEFAULT=0
+if [[ "$MODEL_FAMILY" == "internvl" || "$MODEL_FAMILY" == "gemma" ]]; then
+  HF_HUB_DISABLE_XET_DEFAULT=1
+fi
+HF_HUB_DISABLE_XET_VALUE="${HF_HUB_DISABLE_XET:-$HF_HUB_DISABLE_XET_DEFAULT}"
 FLASH_ATTN_WHEEL_URL="${FLASH_ATTN_WHEEL_URL:-https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1%2Bcu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl}"
 
 mkdir -p "$HOST_HF_CACHE"
@@ -98,7 +104,9 @@ exec docker run --rm --init \
        QWEN_GPU=\"${QWEN_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_qwen35.sh; \
      fi; \
    elif [[ \"${MODEL_FAMILY}\" == \"gemma\" ]]; then \
+     python -u comfort_addionalprompt_tests/recover_hf_weights.py --model-id google/gemma-4-E4B-it && \
      GEMMA_GPU=\"${GEMMA_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_gemma.sh; \
    else \
+     python -u comfort_addionalprompt_tests/recover_hf_weights.py && \
      INTERNVL_GPU=\"${INTERNVL_GPU:-0}\" bash comfort_addionalprompt_tests/${EXPERIMENT}/run_internvl.sh; \
    fi"

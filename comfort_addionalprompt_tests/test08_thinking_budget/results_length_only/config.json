@@ -1,0 +1,27 @@
+{
+  "source_csv": "/workspace/project/comfort_addionalprompt_tests/test07_camera_geometry_before_question/results_preciseprompt/mcq_long_qwen3_5vl_thinking.csv",
+  "model_id": "Qwen/Qwen3.5-9B",
+  "variants": [
+    "baseline",
+    "approx",
+    "cap",
+    "scoped",
+    "ceiling",
+    "explicit_end"
+  ],
+  "budget": 1024,
+  "max_new_tokens": 4096,
+  "seed": 123,
+  "limit": 0,
+  "device_map": "cuda:0",
+  "attn_implementation": "flash_attention_2",
+  "source_sha256": "2fbfb5899f012139b5d6a665f73543699bad4fcedb874e89bdd6d514cdb2274a",
+  "prompts": {
+    "baseline": "",
+    "approx": "Keep your thinking to approximately {budget} tokens.",
+    "cap": "Use at most {budget} tokens for your thinking.",
+    "scoped": "Use at most {budget} tokens for your thinking. This limit applies only to the thinking section, excluding the final answer.",
+    "ceiling": "Use at most {budget} tokens for your thinking. This limit applies only to the thinking section, excluding the final answer. It is an upper limit, not a required length; shorter thinking is allowed. Do not add text merely to reach the token limit.",
+    "explicit_end": "Use at most {budget} tokens for your thinking. This limit applies only to the thinking section, excluding the final answer. It is an upper limit, not a required length; shorter thinking is allowed. Do not add text merely to reach the token limit. End the thinking section with </think> no later than this limit, then provide the final answer in the originally requested format."
+  }
+}

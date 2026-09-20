@@ -1,0 +1,186 @@
+{
+  "captured_at": "2026-09-10T00:48:12.853142+08:00",
+  "results": [
+    {
+      "file": "mcq_long_gemma4.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 36,
+      "accuracy": 0.25,
+      "valid_predictions": 144,
+      "audited_correct": 36,
+      "audited_accuracy": 0.25,
+      "completion": {
+        "non_thinking": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_gemma4_thinking.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 0,
+      "accuracy": 0.0,
+      "valid_predictions": 0,
+      "audited_correct": 89,
+      "audited_accuracy": 0.6180555555555556,
+      "completion": {
+        "apparent_final_answer_boundary_removed": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_gpt_5.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 99,
+      "accuracy": 0.6875,
+      "valid_predictions": 144,
+      "audited_correct": 99,
+      "audited_accuracy": 0.6875,
+      "completion": {
+        "non_thinking": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_gpt_5_thinking.csv",
+      "rows": 126,
+      "expected": 144,
+      "missing": 18,
+      "correct": 92,
+      "accuracy": 0.7301587301587301,
+      "valid_predictions": 126,
+      "audited_correct": 92,
+      "audited_accuracy": 0.7301587301587301,
+      "completion": {
+        "api_final_answer_chain_not_observable": 126
+      },
+      "relations": {
+        "behind": 33,
+        "front": 36,
+        "left": 31,
+        "right": 26
+      }
+    },
+    {
+      "file": "mcq_long_internvl.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 34,
+      "accuracy": 0.2361111111111111,
+      "valid_predictions": 144,
+      "audited_correct": 34,
+      "audited_accuracy": 0.2361111111111111,
+      "completion": {
+        "non_thinking": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_internvl_thinking.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 54,
+      "accuracy": 0.375,
+      "valid_predictions": 142,
+      "audited_correct": 54,
+      "audited_accuracy": 0.375,
+      "completion": {
+        "chain_closed_with_answer": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_qwen3_5vl.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 37,
+      "accuracy": 0.2569444444444444,
+      "valid_predictions": 144,
+      "audited_correct": 37,
+      "audited_accuracy": 0.2569444444444444,
+      "completion": {
+        "non_thinking": 144
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_qwen3_5vl_thinking.csv",
+      "rows": 144,
+      "expected": 144,
+      "missing": 0,
+      "correct": 113,
+      "accuracy": 0.7847222222222222,
+      "valid_predictions": 137,
+      "audited_correct": 113,
+      "audited_accuracy": 0.7847222222222222,
+      "completion": {
+        "chain_closed_with_answer": 137,
+        "no_end_marker_suspected_truncation": 6,
+        "chain_closed_without_final_choice": 1
+      },
+      "relations": {
+        "behind": 36,
+        "front": 36,
+        "left": 36,
+        "right": 36
+      }
+    },
+    {
+      "file": "mcq_long_qwen3_5vl_thinking_qwen35_4b.csv",
+      "rows": 52,
+      "expected": 144,
+      "missing": 92,
+      "correct": 46,
+      "accuracy": 0.8846153846153846,
+      "valid_predictions": 47,
+      "audited_correct": 46,
+      "audited_accuracy": 0.8846153846153846,
+      "completion": {
+        "no_end_marker_suspected_truncation": 5,
+        "chain_closed_with_answer": 47
+      },
+      "relations": {
+        "behind": 36,
+        "front": 16
+      }
+    }
+  ]
+}
