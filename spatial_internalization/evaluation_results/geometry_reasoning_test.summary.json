@@ -1,0 +1,65 @@
+{
+  "count": 16,
+  "labelled_count": 16,
+  "accuracy": 1.0,
+  "invalid_answer_rate": 0.0,
+  "truncation_rate": 0.0,
+  "mean_output_chars": 755.8125,
+  "per_relation": {
+    "front": {
+      "correct": 4,
+      "total": 4
+    },
+    "behind": {
+      "correct": 4,
+      "total": 4
+    },
+    "left": {
+      "correct": 4,
+      "total": 4
+    },
+    "right": {
+      "correct": 4,
+      "total": 4
+    }
+  },
+  "confusion_matrix_by_letter": {
+    "A": {
+      "A": 3,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "B": {
+      "A": 0,
+      "B": 3,
+      "C": 0,
+      "D": 0
+    },
+    "C": {
+      "A": 0,
+      "B": 0,
+      "C": 5,
+      "D": 0
+    },
+    "D": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 5
+    }
+  },
+  "geometry_parse_count": 16,
+  "geometry_parse_failure_count": 0,
+  "geometry_metrics": {
+    "person_position_l2": 0.00310945445379039,
+    "object_position_l2": 0.02834117375870869,
+    "relative_displacement_l2": 0.028241604286820293,
+    "forward_axis_angle_degrees": 0.13607706396923425,
+    "right_axis_angle_degrees": 0.13835903371780933,
+    "forward_projection_error": 0.0013576875000000058,
+    "right_projection_error": 0.002501312499999996
+  },
+  "geometry_relation_accuracy": 1.0,
+  "geometry_final_answer_consistency": 1.0
+}
