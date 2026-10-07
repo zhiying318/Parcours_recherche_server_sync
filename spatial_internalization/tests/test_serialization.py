@@ -3,7 +3,7 @@ from pathlib import Path
 
 import torch
 
-from spatial_internalization.sft_collator import CapabilitySFTCollator
+from spatial_internalization.core.sft_collator import CapabilitySFTCollator
 
 
 class FakeTokenizer:

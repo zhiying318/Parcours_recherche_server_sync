@@ -3,7 +3,7 @@ from collections import Counter
 from pathlib import Path
 from unittest.mock import patch
 
-from spatial_internalization.data_pipeline import build_datasets, object_fold_split
+from spatial_internalization.stage1_fixed_template.dataset_pipeline import build_datasets, object_fold_split
 
 
 def samples():
@@ -51,15 +51,14 @@ class ObjectFoldTests(unittest.TestCase):
         self.assertEqual(tested, validated)
 
     def test_augmentation_and_shared_variant_splits(self):
-        with patch("spatial_internalization.data_pipeline.discover_source_samples", return_value=samples()):
+        with patch("spatial_internalization.stage1_fixed_template.dataset_pipeline.discover_source_samples", return_value=samples()):
             datasets, metadata = build_datasets(Path("/repo"), Path("/repo/source"), object_fold=0)
         for split, expected in (("train", 1008), ("validation", 16), ("test", 16)):
-            a, b = [datasets[v][split] for v in ("answer_only", "geometry_reasoning")]
-            self.assertEqual(len(a), expected)
-            self.assertEqual([r["id"] for r in a], [r["id"] for r in b])
-            self.assertEqual({r["object_name"] for r in a}, set(metadata["manifest"]["objects_by_split"][split]))
-            self.assertEqual(sum(r["is_noisy"] for r in a), 896 if split == "train" else 0)
-            self.assertTrue(all(r["relation"] == r["audit"]["clean_source_geometry"]["computed_relation"] for r in a))
+            records = datasets["fixed_template_reasoning"][split]
+            self.assertEqual(len(records), expected)
+            self.assertEqual({r["object_name"] for r in records}, set(metadata["manifest"]["objects_by_split"][split]))
+            self.assertEqual(sum(r["is_noisy"] for r in records), 896 if split == "train" else 0)
+            self.assertTrue(all(r["relation"] == r["audit"]["clean_source_geometry"]["computed_relation"] for r in records))
 
     def test_invalid_fold(self):
         for fold in (-1, 9):

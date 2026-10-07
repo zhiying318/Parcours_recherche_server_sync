@@ -1,0 +1,126 @@
+{
+  "experiment": "spatial_internalization",
+  "source_root": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car",
+  "source_contract": "COMFORT scene_gt.json contract v1.0; visible-center medians from depth/masks",
+  "source_relation_field": "relation",
+  "source_relation_normalization": {
+    "front": "front",
+    "back": "behind",
+    "behind": "behind",
+    "left": "left",
+    "right": "right",
+    "infrontof": "front",
+    "totheleft": "left",
+    "totheright": "right"
+  },
+  "seed": 20260919,
+  "split_unit": "object (all relations, camera views and augmentations kept together)",
+  "split_ratios": {
+    "train": 0.7777777777777778,
+    "validation": 0.1111111111111111,
+    "test": 0.1111111111111111
+  },
+  "group_counts": {
+    "train": 28,
+    "validation": 4,
+    "test": 4
+  },
+  "source_sample_count": 144,
+  "valid_sample_count": 144,
+  "excluded_sample_count": 0,
+  "augmentation_count_train": 8,
+  "noise": {
+    "position_sigma": 0.05,
+    "angle_sigma_degrees": 2,
+    "label_preserving_rejection": true
+  },
+  "record_counts": {
+    "fixed_template_reasoning": {
+      "train": 1008,
+      "validation": 16,
+      "test": 16
+    }
+  },
+  "answer_format": "final line is one of A/B/C/D; option text matches baseline long MCQ",
+  "reasoning_format": "plain assistant target; no explicit <think> wrapper because Qwen3.5 enable_thinking=False is used consistently",
+  "fold": 1,
+  "num_folds": 9,
+  "object_order": [
+    "basketball",
+    "duck",
+    "chair",
+    "car",
+    "bicycle",
+    "laptop",
+    "sofa",
+    "dog",
+    "bench"
+  ],
+  "object_assignments": {
+    "basketball": "train",
+    "duck": "test",
+    "chair": "validation",
+    "car": "train",
+    "bicycle": "train",
+    "laptop": "train",
+    "sofa": "train",
+    "dog": "train",
+    "bench": "train"
+  },
+  "objects_by_split": {
+    "train": [
+      "basketball",
+      "car",
+      "bicycle",
+      "laptop",
+      "sofa",
+      "dog",
+      "bench"
+    ],
+    "validation": [
+      "chair"
+    ],
+    "test": [
+      "duck"
+    ]
+  },
+  "output_root": "/aistor/hpc_stor03/sjtu_home/zhiying.zou/Parcours_recherche_server_sync/spatial_internalization/datasets/stage1_object_cv/fold_1",
+  "group_assignments": {
+    "behind/basketball__behind": "train",
+    "behind/bench__behind": "train",
+    "behind/bicycle__behind": "train",
+    "behind/car__behind": "train",
+    "behind/chair__behind": "validation",
+    "behind/dog__behind": "train",
+    "behind/duck__behind": "test",
+    "behind/laptop__behind": "train",
+    "behind/sofa__behind": "train",
+    "infrontof/basketball__infrontof": "train",
+    "infrontof/bench__infrontof": "train",
+    "infrontof/bicycle__infrontof": "train",
+    "infrontof/car__infrontof": "train",
+    "infrontof/chair__infrontof": "validation",
+    "infrontof/dog__infrontof": "train",
+    "infrontof/duck__infrontof": "test",
+    "infrontof/laptop__infrontof": "train",
+    "infrontof/sofa__infrontof": "train",
+    "totheleft/basketball__totheleft": "train",
+    "totheleft/bench__totheleft": "train",
+    "totheleft/bicycle__totheleft": "train",
+    "totheleft/car__totheleft": "train",
+    "totheleft/chair__totheleft": "validation",
+    "totheleft/dog__totheleft": "train",
+    "totheleft/duck__totheleft": "test",
+    "totheleft/laptop__totheleft": "train",
+    "totheleft/sofa__totheleft": "train",
+    "totheright/basketball__totheright": "train",
+    "totheright/bench__totheright": "train",
+    "totheright/bicycle__totheright": "train",
+    "totheright/car__totheright": "train",
+    "totheright/chair__totheright": "validation",
+    "totheright/dog__totheright": "train",
+    "totheright/duck__totheright": "test",
+    "totheright/laptop__totheright": "train",
+    "totheright/sofa__totheright": "train"
+  }
+}

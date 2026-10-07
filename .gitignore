@@ -41,3 +41,19 @@ Orient-Anything-V2/outputs/
 # Self-distillation generated outputs and experiment artifacts
 self_distillation/output/
 wandb/
+
+# Local image assets inside spatial_internalization datasets
+spatial_internalization/data/**/image/
+spatial_internalization/data/**/images/
+spatial_internalization/data/**/*.[Pp][Nn][Gg]
+spatial_internalization/data/**/*.[Jj][Pp][Gg]
+spatial_internalization/data/**/*.[Jj][Pp][Ee][Gg]
+spatial_internalization/data/**/*.[Gg][Ii][Ff]
+spatial_internalization/data/**/*.[Ww][Ee][Bb][Pp]
+spatial_internalization/datasets/**/image/
+spatial_internalization/datasets/**/images/
+spatial_internalization/datasets/**/*.[Pp][Nn][Gg]
+spatial_internalization/datasets/**/*.[Jj][Pp][Gg]
+spatial_internalization/datasets/**/*.[Jj][Pp][Ee][Gg]
+spatial_internalization/datasets/**/*.[Gg][Ii][Ff]
+spatial_internalization/datasets/**/*.[Ww][Ee][Bb][Pp]

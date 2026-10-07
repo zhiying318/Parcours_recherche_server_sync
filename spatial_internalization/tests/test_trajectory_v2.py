@@ -2,8 +2,8 @@ import json
 from pathlib import Path
 import unittest
 
-from spatial_internalization.offline_qwen import model_metadata, resolve_local_model_path
-from spatial_internalization.trajectory_pipeline import (
+from spatial_internalization.core.offline_qwen import model_metadata, resolve_local_model_path
+from spatial_internalization.stage2_trajectory_guided.trajectory_pipeline import (
     DEFAULT_FIXED_SPLIT_MANIFEST,
     DEFAULT_SOURCE_CSV,
     DEFAULT_SOURCE_ROOT,

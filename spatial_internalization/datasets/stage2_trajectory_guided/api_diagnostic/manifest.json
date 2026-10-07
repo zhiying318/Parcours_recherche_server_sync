@@ -1,0 +1,352 @@
+{
+  "experiment": "spatial_internalization_v2_trajectory_guided",
+  "paper_alignment": {
+    "consolidation": "SpatialCLI Sec. 3.3 / Appendix G.2 adapted to one retained CoT + Blender GT unit",
+    "verbalization": "SpatialCLI Sec. 3.3 / Appendix G.3",
+    "training": "ordinary mean autoregressive NLL/SFT; no distillation"
+  },
+  "source": {
+    "source_csv": "comfort_addionalprompt_tests/test07_camera_geometry_before_question/results_preciseprompt/mcq_long_qwen3_5vl_thinking.csv",
+    "historical_teacher_model": "Qwen3.5-VL thinking; the source CSV does not record a verifiable checkpoint size, so the size is intentionally not inferred",
+    "raw_row_count": 144,
+    "qualified_row_count": 113,
+    "rejected_row_count": 31,
+    "rejected_by_reason": {
+      "answer_incorrect_or_unparsed": 25,
+      "trajectory_not_closed": 6
+    },
+    "trajectory_filter": {
+      "requires_nonempty_model_answer": true,
+      "requires_think_end_marker": true,
+      "requires_predicted_letter_equal_csv_answer": true,
+      "requires_csv_relation_equal_blender_geometry": true,
+      "requires_prompt_geometry_equal_blender_geometry": true
+    }
+  },
+  "historical_teacher_model": "Qwen3.5-VL thinking; the source CSV does not record a verifiable checkpoint size, so the size is intentionally not inferred",
+  "fixed_split_manifest": "spatial_internalization/datasets/stage1_fixed_split/manifest.json",
+  "fixed_split_assignments_used": {
+    "behind/basketball__behind": "train",
+    "behind/duck__behind": "train",
+    "behind/chair__behind": "train",
+    "behind/car__behind": "train",
+    "behind/bicycle__behind": "train",
+    "behind/laptop__behind": "train",
+    "behind/sofa__behind": "train",
+    "behind/dog__behind": "validation",
+    "behind/bench__behind": "test",
+    "infrontof/bicycle__infrontof": "train",
+    "infrontof/duck__infrontof": "train",
+    "infrontof/laptop__infrontof": "train",
+    "infrontof/dog__infrontof": "train",
+    "infrontof/chair__infrontof": "train",
+    "infrontof/sofa__infrontof": "train",
+    "infrontof/car__infrontof": "train",
+    "infrontof/bench__infrontof": "validation",
+    "infrontof/basketball__infrontof": "test",
+    "totheleft/chair__totheleft": "train",
+    "totheleft/sofa__totheleft": "train",
+    "totheleft/bicycle__totheleft": "train",
+    "totheleft/bench__totheleft": "train",
+    "totheleft/car__totheleft": "train",
+    "totheleft/dog__totheleft": "train",
+    "totheleft/laptop__totheleft": "train",
+    "totheleft/basketball__totheleft": "validation",
+    "totheleft/duck__totheleft": "test",
+    "totheright/duck__totheright": "train",
+    "totheright/sofa__totheright": "train",
+    "totheright/basketball__totheright": "train",
+    "totheright/car__totheright": "train",
+    "totheright/laptop__totheright": "train",
+    "totheright/bench__totheright": "train",
+    "totheright/dog__totheright": "train",
+    "totheright/bicycle__totheright": "validation",
+    "totheright/chair__totheright": "test"
+  },
+  "selected_family_count": 1,
+  "complete_family_count": 0,
+  "complete_family_counts_by_split": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "record_counts": {
+    "verbalized_reasoning": {
+      "train": 0,
+      "validation": 0,
+      "test": 0
+    }
+  },
+  "augmentation": {
+    "train_records_per_family": 9,
+    "validation_test_records_per_family": 1,
+    "position_sigma": 0.05,
+    "angle_sigma_degrees": 2.0,
+    "label_preserving_rejection": true,
+    "image_is_unchanged": true,
+    "perturbed_geometry_is_not_clean_gt": true,
+    "noise_seed_rule": "preserved historical Stage 1 fixed-template seed sequence"
+  },
+  "generation": {
+    "provider": "api",
+    "consolidator_model_path": null,
+    "verbalizer_model_path": null,
+    "api_base_url": "https://api-2.xi-ai.cn/v1",
+    "api_model": "Qwen3.5-397B-A17B",
+    "api_key_env": "OPENAI_API_KEY",
+    "api_timeout": 30.0,
+    "api_request_retries": 0,
+    "api_context_length": null,
+    "sdk_request_path": "/chat/completions",
+    "shared_model_instance_in_all_stage": false,
+    "consolidator_enable_thinking": false,
+    "verbalizer_enable_thinking": false,
+    "consolidator_max_new_tokens": 2048,
+    "verbalizer_max_new_tokens": 2048,
+    "context_length": null,
+    "device_map": "cuda:0",
+    "attn_implementation": "flash_attention_2",
+    "token_and_time_totals": {}
+  },
+  "length_distributions": {
+    "raw_trajectory_chars": {
+      "count": 1,
+      "available_count": 1,
+      "min": 4714,
+      "mean": 4714,
+      "max": 4714
+    },
+    "raw_trajectory_tokens": {
+      "count": 1,
+      "available_count": 0,
+      "min": null,
+      "mean": null,
+      "max": null
+    },
+    "clean_evidence_chars": {
+      "count": 113,
+      "available_count": 113,
+      "min": 3126,
+      "mean": 4144.1061946902655,
+      "max": 5557
+    },
+    "clean_evidence_tokens": {
+      "count": 113,
+      "available_count": 0,
+      "min": null,
+      "mean": null,
+      "max": null
+    },
+    "verbalized_target_chars": {
+      "count": 0,
+      "min_chars": 0,
+      "mean_chars": 0,
+      "max_chars": 0
+    },
+    "verbalized_clean_target_chars": {
+      "count": 0,
+      "min_chars": 0,
+      "mean_chars": 0,
+      "max_chars": 0
+    },
+    "verbalized_augmented_target_chars": {
+      "count": 0,
+      "min_chars": 0,
+      "mean_chars": 0,
+      "max_chars": 0
+    },
+    "verbalized_target_tokens": {
+      "count": 0,
+      "available_count": 0,
+      "min": null,
+      "mean": null,
+      "max": null
+    },
+    "verbalized_clean_target_tokens": {
+      "count": 0,
+      "available_count": 0,
+      "min": null,
+      "mean": null,
+      "max": null
+    },
+    "verbalized_augmented_target_tokens": {
+      "count": 0,
+      "available_count": 0,
+      "min": null,
+      "mean": null,
+      "max": null
+    }
+  },
+  "rejected_source_rows": [
+    {
+      "source_row": 7,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/bench__behind__cam_right/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 29,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/behind/laptop__behind__cam_front/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 36,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/basketball__infrontof__cam_back/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 40,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/bench__infrontof__cam_back/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 48,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/car__infrontof__cam_back/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 56,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/infrontof/dog__infrontof__cam_back/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 77,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bench__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 78,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bench__totheleft__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 81,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/bicycle__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 85,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/car__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 87,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/car__totheleft__cam_right/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 93,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/dog__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 99,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/duck__totheleft__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 101,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/laptop__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 103,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/laptop__totheleft__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 104,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/sofa__totheleft__cam_back/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 105,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/sofa__totheleft__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 106,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheleft/sofa__totheleft__cam_left/0.png",
+      "reason": "trajectory_not_closed"
+    },
+    {
+      "source_row": 109,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/basketball__totheright__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 110,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/basketball__totheright__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 115,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/bench__totheright__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 118,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/bicycle__totheright__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 125,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/chair__totheright__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 133,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/duck__totheright__cam_front/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 134,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/duck__totheright__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 135,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/duck__totheright__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 138,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/laptop__totheright__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 139,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/laptop__totheright__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 140,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/sofa__totheright__cam_back/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 142,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/sofa__totheright__cam_left/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    },
+    {
+      "source_row": 143,
+      "image_path": "COMFORT/data/comfort_human_car_geometry_gt/comfort_human_car/totheright/sofa__totheright__cam_right/0.png",
+      "reason": "answer_incorrect_or_unparsed"
+    }
+  ],
+  "consolidation_failures": [],
+  "family_failures": [
+    {
+      "parent_trajectory_id": "test07_qwen35_thinking::d3ecae0151a38a53",
+      "split": "test",
+      "reason": "verbalization failed after 1 attempts: OpenAI SDK request failed (HTTP 503): Error code: 503 - {'error': {'message': ' (request id: 2026092806134774180632796e93ae3YciMsozj)', 'type': 'shell_api_error'}}",
+      "family_size_required": 1
+    }
+  ],
+  "pilot": {
+    "limit_families": 0,
+    "family_ids": [
+      "test07_qwen35_thinking::d3ecae0151a38a53"
+    ]
+  }
+}

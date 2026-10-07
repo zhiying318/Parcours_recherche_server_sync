@@ -1,7 +1,7 @@
 import unittest
 
-from spatial_internalization.geometry import GeometryError, extract_canonical_evidence, quantize_and_verify_evidence
-from spatial_internalization.data_pipeline import scene_group_id, stratified_group_split
+from spatial_internalization.core.geometry import GeometryError, extract_canonical_evidence, quantize_and_verify_evidence
+from spatial_internalization.stage1_fixed_template.dataset_pipeline import scene_group_id, stratified_group_split
 
 
 def scene(person, obj, forward, right, relation="front"):
@@ -68,4 +68,3 @@ class GeometryTests(unittest.TestCase):
         self.assertEqual(set(split.values()), {"train", "validation", "test"})
         self.assertEqual(sum(value == "validation" for value in split.values()), 4)
         self.assertEqual(sum(value == "test" for value in split.values()), 4)
-

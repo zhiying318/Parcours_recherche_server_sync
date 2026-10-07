@@ -4,7 +4,7 @@ from types import SimpleNamespace
 import tempfile
 import unittest
 
-from spatial_internalization.api_qwen import OpenAICompatibleQwenGenerator
+from spatial_internalization.stage2_trajectory_guided.qwen_api import OpenAICompatibleQwenGenerator
 
 
 class _FakeCompletions:

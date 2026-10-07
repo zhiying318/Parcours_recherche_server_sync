@@ -1,7 +1,7 @@
 import unittest
 
-from spatial_internalization.geometry import QuantizedEvidence
-from spatial_internalization.verbalizer import verbalize_evidence_template
+from spatial_internalization.core.geometry import QuantizedEvidence
+from spatial_internalization.stage1_fixed_template.fixed_template_verbalizer import verbalize_evidence_template
 
 
 class VerbalizerTests(unittest.TestCase):
